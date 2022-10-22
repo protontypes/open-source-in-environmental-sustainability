@@ -1,4 +1,16 @@
 jupyter-book
 matplotlib
 numpy
-ghp-import
+ghp-importnumpy
+plotly
+pandas
+dateparser
+pycountry
+pygithub
+requests
+bs4
+termcolor
+markdown
+python-dotenv
+pyyaml
+handcalcs
