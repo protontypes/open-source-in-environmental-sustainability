@@ -1,4 +1,15 @@
 Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 730, in _async_poll_for_reply
+    msg = await ensure_async(self.kc.shell_channel.get_msg(timeout=new_timeout))
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 96, in ensure_async
+    result = await obj
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_client/channels.py", line 230, in get_msg
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
     executenb(
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
@@ -11,33 +22,18 @@ Traceback (most recent call last):
     return future.result()
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
     await self.async_execute_cell(
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
-    await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
-    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
-nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
-------------------
-from IPython.display import display, HTML
-
-import dateparser
-import datetime
-import handcalcs.render
-import numpy as np
-import pandas as pd
-import plotly.io as pio
-import plotly.graph_objects as go
-import plotly.express as px
-import pycountry
-from pycountry_convert import country_alpha2_to_continent_code, country_alpha3_to_country_alpha2
-------------------
-
-[0;31m---------------------------------------------------------------------------[0m
-[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Cell [0;32mIn [3], line 12[0m
-[1;32m     10[0m [38;5;28;01mimport[39;00m [38;5;21;01mplotly[39;00m[38;5;21;01m.[39;00m[38;5;21;01mexpress[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpx[39;00m
-[1;32m     11[0m [38;5;28;01mimport[39;00m [38;5;21;01mpycountry[39;00m
-[0;32m---> 12[0m [38;5;28;01mfrom[39;00m [38;5;21;01mpycountry_convert[39;00m [38;5;28;01mimport[39;00m country_alpha2_to_continent_code, country_alpha3_to_country_alpha2
-
-[0;31mModuleNotFoundError[0m: No module named 'pycountry_convert'
-ModuleNotFoundError: No module named 'pycountry_convert'
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 949, in async_execute_cell
+    exec_reply = await self.task_poll_for_reply
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 754, in _async_poll_for_reply
+    await self._async_handle_timeout(timeout, cell)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 801, in _async_handle_timeout
+    raise CellTimeoutError.error_from_timeout_and_cell(
+nbclient.exceptions.CellTimeoutError: A cell timed out while it was being executed, after 30 seconds.
+The message was: Cell execution timed out.
+Here is a preview of the cell contents:
+-------------------
+df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
+df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alpha2)
+df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
+-------------------
 
