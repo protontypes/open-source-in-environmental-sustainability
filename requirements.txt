@@ -1,7 +1,8 @@
 jupyter-book
 matplotlib
 numpy
-ghp-importnumpy
+ghp-import
+numpy
 plotly
 pandas
 dateparser
