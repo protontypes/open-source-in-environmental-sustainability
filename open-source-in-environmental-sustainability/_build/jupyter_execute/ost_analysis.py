@@ -1,26 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Open Source in Environmental Sustainability  
-# 
-# This Jupyter Notebook will guide you through the processing of the dataset on open source ecosystem in sustainable technology created by [OpenSustain.tech](https://opensustain.tech/). For more information on how this dataset was created, please refer to the final report KK: ADD LINK. To make the study transparent and reproducible all plots and scores within the study are created by this document. The notebook is intended to help interested readers draw their own conclusions from the data set. Not all plots generated here have to be part of the report. To rerun this document within your browser you can use the Binder integration (click on the Binder logo below).  
-# 
-# 
-# [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/protontypes/AwesomeCure.git/HEAD)
-
-# ## Data Acquisition
-# 
-# The creation of the raw data sets already requires several steps in the preprocessing of the data. All projects are selected based on the [contribution guide](https://opensustain.tech/contributing/) of OpenSustain.tech. The Contribution Guide restricts the listed projects to those that hold an opensource license, such as MIT or GNU GPLv3. Since git repositories are by far the most widely used tool for collaboration in open source projects, the vast majority entries are within a git repository. 
-# 
-# The project dataset is entirely machine-generated based on data from OpenSustain.tech and data from the GitHub API. Other platforms are not yet supported. The data mining script `awesomecure.ipynb` can be found in the same repo.
-# 
-# In order to bring the database together, different methods were used over a period of 2 years to identify as many projects as possible within the topic area, such as:
-# 
-# * Proactive investigation on GitHub, Gitlab, Zenodo and BitBucket.
-# * Crowdsourcing by 30+ contributors and many anonymous tips.
-# * Search scientific publications based on domain specific key words and the term git. 
-# * Tracking social media activities of organizations with projects in this area. 
-
 # In[1]:
 
 
@@ -343,16 +323,9 @@ df_active.iloc[300]
 df_active = pd.read_csv(df_active_path)
 
 
-# In[14]:
-
-
-new_cols = ['total_score', 'activity', 'community', 'size']
-[col in df_active for col in new_cols]
-
-
 # # Start Plotting
 
-# In[15]:
+# In[14]:
 
 
 license_his = (
@@ -369,13 +342,7 @@ fig.update_traces(textposition='inside', textinfo='percent+label', marker=dict(l
 fig.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[16]:
+# In[15]:
 
 
 fig = px.histogram(
@@ -392,7 +359,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[17]:
+# In[16]:
 
 
 fig = px.histogram(
@@ -409,7 +376,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[18]:
+# In[17]:
 
 
 rubric_his = (
@@ -427,7 +394,7 @@ fig.show()
 
 
 
-# In[19]:
+# In[18]:
 
 
 fig = px.pie(df_active.groupby('rubric')['contributors'].sum().reset_index(), values="contributors", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -437,7 +404,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[20]:
+# In[19]:
 
 
 fig = px.pie(df_active.groupby('rubric')['stargazers_count'].sum().reset_index(), values="stargazers_count", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -447,7 +414,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[21]:
+# In[20]:
 
 
 fig = px.pie(df_active.groupby('rubric')['development_distribution_score'].median().reset_index(), values="development_distribution_score", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -457,7 +424,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[22]:
+# In[21]:
 
 
 fig = px.pie(df_active.groupby('rubric')['stars_last_year'].sum().reset_index(), values="stars_last_year", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -467,7 +434,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[23]:
+# In[22]:
 
 
 license_dominating_language = (
@@ -486,7 +453,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[24]:
+# In[23]:
 
 
 # df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
@@ -511,7 +478,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[25]:
+# In[24]:
 
 
 # df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
@@ -536,7 +503,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[26]:
+# In[25]:
 
 
 fig = px.histogram(
@@ -553,7 +520,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[27]:
+# In[26]:
 
 
 most_listed_projects = df_active["git_namespace"].value_counts(ascending=False).to_frame().rename_axis("Namespace").reset_index().rename(columns={"git_namespace": "counts"})
@@ -569,7 +536,7 @@ autosize=False,
 fig.show()
 
 
-# In[28]:
+# In[27]:
 
 
 oldest_projects = df_active.nlargest(40, "project_age_in_years")
@@ -599,7 +566,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[29]:
+# In[28]:
 
 
 contributors = df_active.nlargest(40, "contributors")
@@ -627,7 +594,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[30]:
+# In[29]:
 
 
 top_stargazers = df_active.nlargest(40, "stargazers_count")
@@ -655,7 +622,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[31]:
+# In[30]:
 
 
 df_top_100_stargazers = df_active[(df_active["stargazers_count"]) > 100].copy()
@@ -681,7 +648,7 @@ fig.update_layout(
 )
 
 
-# In[32]:
+# In[31]:
 
 
 df_top_40_growth = df_active.nlargest(40, "total_commits_last_year")
@@ -706,7 +673,7 @@ fig.update_layout(
 )
 
 
-# In[33]:
+# In[32]:
 
 
 df_total_score = df_active.nlargest(40, "total_score")
@@ -733,7 +700,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[34]:
+# In[33]:
 
 
 df_activity_score = df_active.nlargest(40, "activity")
@@ -761,7 +728,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[35]:
+# In[34]:
 
 
 df_size_score = df_active.nlargest(40, "size")
@@ -789,7 +756,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[36]:
+# In[35]:
 
 
 fig = px.scatter(
@@ -814,7 +781,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[37]:
+# In[36]:
 
 
 rubric_his = (
@@ -836,7 +803,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[38]:
+# In[37]:
 
 
 fig = px.scatter(
@@ -862,7 +829,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[39]:
+# In[38]:
 
 
 personal_stargazers = df_personal_projects.nlargest(40, "stargazers_count")
@@ -890,7 +857,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[40]:
+# In[39]:
 
 
 df_active["dependents_count"] = df_active["dependents_repos"].apply(count_strings)
@@ -922,14 +889,14 @@ fig.update_layout(
 
 # ## Process the organizations
 
-# In[41]:
+# In[40]:
 
 
 df_organizations = pd.read_csv("./csv/github_organizations.csv")
 df_organizations.head()
 
 
-# In[42]:
+# In[41]:
 
 
 df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
@@ -937,7 +904,7 @@ df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alp
 df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
 
 
-# In[43]:
+# In[42]:
 
 
 continent_his = df_organizations["continent"].value_counts().to_frame().rename_axis("continent_name")
@@ -951,7 +918,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[44]:
+# In[43]:
 
 
 ## https://octoverse.github.com/
@@ -960,7 +927,7 @@ index_labels=['Oceania','Africa','South America','Europe','Asia','North America'
 df_users_continent_cotoverse = pd.DataFrame(values,index=index_labels).reset_index()
 
 
-# In[45]:
+# In[44]:
 
 
 fig = px.pie(df_users_continent_cotoverse, values=0, names="index", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -970,7 +937,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[46]:
+# In[45]:
 
 
 organization_his = (
@@ -990,7 +957,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[47]:
+# In[46]:
 
 
 df_countries = (
@@ -1018,7 +985,7 @@ fig.update_layout(title="Distribution of Organizational Locations Worldwide",
 fig.show()
 
 
-# In[48]:
+# In[47]:
 
 
 df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
@@ -1026,7 +993,7 @@ df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
 df_public_repos.head()
 
 
-# In[49]:
+# In[48]:
 
 
 df_organizations["organizations_age_in_years"] = df_organizations[
@@ -1034,7 +1001,7 @@ df_organizations["organizations_age_in_years"] = df_organizations[
 ].apply(calc_age)
 
 
-# In[50]:
+# In[49]:
 
 
 fig = px.scatter(
@@ -1063,13 +1030,13 @@ fig.show()
 # ## Not included Projects
 # Within the first version of this study we were not able to integrate a GitLab API interfaces. Also other projects on self-hosted repositories and other colloboaritve website could not be included in the study. Another group that was not included in the study are the inactive projects. Here we try to give an insight into these projects. 
 
-# In[51]:
+# In[50]:
 
 
 df_raw[(df_raw["platform"] == "gitlab")]
 
 
-# In[52]:
+# In[51]:
 
 
 df_inactive = df_raw[(df_raw["project_active"] == False)].copy()
