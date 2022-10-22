@@ -24,13 +24,6 @@
 # In[1]:
 
 
-import sys
-get_ipython().system('{sys.executable} -m pip install handcalcs ipython')
-
-
-# In[2]:
-
-
 from IPython.display import display, HTML
 
 import dateparser
@@ -45,7 +38,7 @@ import pycountry
 from pycountry_convert import country_alpha2_to_continent_code, country_alpha3_to_country_alpha2
 
 
-# In[3]:
+# In[2]:
 
 
 ### KK: add simple docstrings
@@ -91,7 +84,7 @@ def count_strings(comma_seperated_string):
 
 # ### Set Default Plotting Options 
 
-# In[4]:
+# In[3]:
 
 
 # default plotting options
@@ -119,19 +112,7 @@ pio.templates["OpenSustain"] = go.layout.Template(
 pio.templates.default = "plotly+OpenSustain"
 
 
-# In[5]:
-
-
-pd.options.plotting.backend = "plotly"
-print(pio.renderers)
-# pio.renderers.default = "browser" # Fill a complete new browser tab with every new plot
-# pio.renderers.default = "notebook"
-# pio.renderers.default = "plotly_mimetype+notebook"
-
-display(HTML("<style>.container { width:80% !important; }</style>"))
-
-
-# In[6]:
+# In[4]:
 
 
 df_raw = pd.read_csv("./csv/projects.csv")
@@ -140,7 +121,7 @@ df_raw.head(5)
 
 # ## Calculate Age in Years
 
-# In[7]:
+# In[5]:
 
 
 ## KK: I would suggest using a clearer object-naming convention. Below it becomes unclear what's the difference between df and df_raw
@@ -153,7 +134,7 @@ max_age_in_years = 8.0
 # First let us get a routh overview of the project dataset
 # 
 
-# In[8]:
+# In[6]:
 
 
 fig = go.Figure(
@@ -238,7 +219,7 @@ fig.show()
 
 # ## Filter Data 
 
-# In[9]:
+# In[7]:
 
 
 df_active = df_raw.copy()
@@ -252,7 +233,7 @@ df_active = df_active[(df_active["platform"] == "github")]
 
 # ## Score Projects 
 
-# In[10]:
+# In[8]:
 
 
 # Calculate the scores on activity, community and size
@@ -284,7 +265,7 @@ df_active["total_score"] = (
 ) / 3
 
 
-# In[11]:
+# In[9]:
 
 
 # Save the dataset with the scores
@@ -292,13 +273,13 @@ df_active_path = "./csv/project_analysis.csv"
 df_active.to_csv(df_active_path)
 
 
-# In[12]:
+# In[10]:
 
 
 get_ipython().run_cell_magic('render', '', '## The calcluation within this cell shall reader give an understanding on how the DDS is been calculated. \n## Values calculated here are not used in any other cell.\nn_MaxCommitsSingleContributor = 90\nn_total_commits = 100\n\n\nDDS = 1 - n_MaxCommitsSingleContributor / n_total_commits\n')
 
 
-# In[13]:
+# In[11]:
 
 
 ### KK: this is where a clear object naming convention + comments would really help: is syntax df[df_raw[..]] appropriate here? 
@@ -347,7 +328,7 @@ width=800
 fig.show()
 
 
-# In[14]:
+# In[12]:
 
 
 df_active.iloc[300]
@@ -355,14 +336,14 @@ df_active.iloc[300]
 
 # ## Process Active GitHub Projects
 
-# In[15]:
+# In[13]:
 
 
 # Read the scored dataset and configure the plotting backend
 df_active = pd.read_csv(df_active_path)
 
 
-# In[16]:
+# In[14]:
 
 
 new_cols = ['total_score', 'activity', 'community', 'size']
@@ -371,7 +352,7 @@ new_cols = ['total_score', 'activity', 'community', 'size']
 
 # # Start Plotting
 
-# In[17]:
+# In[15]:
 
 
 license_his = (
@@ -394,7 +375,7 @@ fig.show()
 
 
 
-# In[18]:
+# In[16]:
 
 
 fig = px.histogram(
@@ -411,7 +392,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[19]:
+# In[17]:
 
 
 fig = px.histogram(
@@ -428,7 +409,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[20]:
+# In[18]:
 
 
 rubric_his = (
@@ -446,7 +427,7 @@ fig.show()
 
 
 
-# In[21]:
+# In[19]:
 
 
 fig = px.pie(df_active.groupby('rubric')['contributors'].sum().reset_index(), values="contributors", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -456,7 +437,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[22]:
+# In[20]:
 
 
 fig = px.pie(df_active.groupby('rubric')['stargazers_count'].sum().reset_index(), values="stargazers_count", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -466,7 +447,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[23]:
+# In[21]:
 
 
 fig = px.pie(df_active.groupby('rubric')['development_distribution_score'].median().reset_index(), values="development_distribution_score", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -476,7 +457,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[24]:
+# In[22]:
 
 
 fig = px.pie(df_active.groupby('rubric')['stars_last_year'].sum().reset_index(), values="stars_last_year", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -486,7 +467,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[25]:
+# In[23]:
 
 
 license_dominating_language = (
@@ -505,7 +486,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[26]:
+# In[24]:
 
 
 # df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
@@ -530,7 +511,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[27]:
+# In[25]:
 
 
 # df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
@@ -555,7 +536,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[28]:
+# In[26]:
 
 
 fig = px.histogram(
@@ -572,7 +553,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[29]:
+# In[27]:
 
 
 most_listed_projects = df_active["git_namespace"].value_counts(ascending=False).to_frame().rename_axis("Namespace").reset_index().rename(columns={"git_namespace": "counts"})
@@ -588,7 +569,7 @@ autosize=False,
 fig.show()
 
 
-# In[30]:
+# In[28]:
 
 
 oldest_projects = df_active.nlargest(40, "project_age_in_years")
@@ -618,7 +599,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[31]:
+# In[29]:
 
 
 contributors = df_active.nlargest(40, "contributors")
@@ -646,7 +627,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[32]:
+# In[30]:
 
 
 top_stargazers = df_active.nlargest(40, "stargazers_count")
@@ -674,7 +655,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[33]:
+# In[31]:
 
 
 df_top_100_stargazers = df_active[(df_active["stargazers_count"]) > 100].copy()
@@ -700,7 +681,7 @@ fig.update_layout(
 )
 
 
-# In[34]:
+# In[32]:
 
 
 df_top_40_growth = df_active.nlargest(40, "total_commits_last_year")
@@ -725,7 +706,7 @@ fig.update_layout(
 )
 
 
-# In[35]:
+# In[33]:
 
 
 df_total_score = df_active.nlargest(40, "total_score")
@@ -752,7 +733,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[36]:
+# In[34]:
 
 
 df_activity_score = df_active.nlargest(40, "activity")
@@ -780,7 +761,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[37]:
+# In[35]:
 
 
 df_size_score = df_active.nlargest(40, "size")
@@ -808,7 +789,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[38]:
+# In[36]:
 
 
 fig = px.scatter(
@@ -833,7 +814,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[39]:
+# In[37]:
 
 
 rubric_his = (
@@ -855,7 +836,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[40]:
+# In[38]:
 
 
 fig = px.scatter(
@@ -881,7 +862,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[41]:
+# In[39]:
 
 
 personal_stargazers = df_personal_projects.nlargest(40, "stargazers_count")
@@ -909,7 +890,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[42]:
+# In[40]:
 
 
 df_active["dependents_count"] = df_active["dependents_repos"].apply(count_strings)
@@ -941,14 +922,14 @@ fig.update_layout(
 
 # ## Process the organizations
 
-# In[43]:
+# In[41]:
 
 
 df_organizations = pd.read_csv("./csv/github_organizations.csv")
 df_organizations.head()
 
 
-# In[44]:
+# In[42]:
 
 
 df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
@@ -956,7 +937,7 @@ df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alp
 df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
 
 
-# In[45]:
+# In[43]:
 
 
 continent_his = df_organizations["continent"].value_counts().to_frame().rename_axis("continent_name")
@@ -970,7 +951,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[46]:
+# In[44]:
 
 
 ## https://octoverse.github.com/
@@ -979,7 +960,7 @@ index_labels=['Oceania','Africa','South America','Europe','Asia','North America'
 df_users_continent_cotoverse = pd.DataFrame(values,index=index_labels).reset_index()
 
 
-# In[47]:
+# In[45]:
 
 
 fig = px.pie(df_users_continent_cotoverse, values=0, names="index", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -989,7 +970,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[48]:
+# In[46]:
 
 
 organization_his = (
@@ -1009,7 +990,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[49]:
+# In[47]:
 
 
 df_countries = (
@@ -1037,7 +1018,7 @@ fig.update_layout(title="Distribution of Organizational Locations Worldwide",
 fig.show()
 
 
-# In[50]:
+# In[48]:
 
 
 df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
@@ -1045,7 +1026,7 @@ df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
 df_public_repos.head()
 
 
-# In[51]:
+# In[49]:
 
 
 df_organizations["organizations_age_in_years"] = df_organizations[
@@ -1053,7 +1034,7 @@ df_organizations["organizations_age_in_years"] = df_organizations[
 ].apply(calc_age)
 
 
-# In[52]:
+# In[50]:
 
 
 fig = px.scatter(
@@ -1082,13 +1063,13 @@ fig.show()
 # ## Not included Projects
 # Within the first version of this study we were not able to integrate a GitLab API interfaces. Also other projects on self-hosted repositories and other colloboaritve website could not be included in the study. Another group that was not included in the study are the inactive projects. Here we try to give an insight into these projects. 
 
-# In[53]:
+# In[51]:
 
 
 df_raw[(df_raw["platform"] == "gitlab")]
 
 
-# In[54]:
+# In[52]:
 
 
 df_inactive = df_raw[(df_raw["project_active"] == False)].copy()
