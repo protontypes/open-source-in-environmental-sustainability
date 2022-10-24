@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Open Source in Environmental Sustainability
+
 # In[1]:
 
 
@@ -70,7 +72,7 @@ def count_strings(comma_seperated_string):
 # default plotting options
 # Palette https://coolors.co/palette/0e7c7b-17bebb-ffc857-e9724c-c5283d
 height = (800,)  # Added parameter
-color_continuous_scale = px.colors.sequential.Aggrnyl
+color_continuous_scale = px.colors.sequential.Aggrnyl[::-1]
 marker_color = "#0E7C7B"
 color_discrete_sequence = ["#0E7C7B", "#17BEBB", "#FFC857", "#E9724C", "#C5283D"]
 
@@ -541,12 +543,15 @@ fig.show()
 
 oldest_projects = df_active.nlargest(40, "project_age_in_years")
 
+
 fig = px.bar(
+    oldest_projects,
     x=oldest_projects["project_age_in_years"],
     y=oldest_projects["project_name"],
     orientation="h",
     range_x=(9.6, 14),
     hover_name=oldest_projects["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=oldest_projects["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -559,6 +564,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+    )
 )
 
 
@@ -572,11 +580,13 @@ fig.update(layout_showlegend=False)
 contributors = df_active.nlargest(40, "contributors")
 
 fig = px.bar(
+    contributors,
     x=contributors["contributors"],
     y=contributors["project_name"],
     orientation="h",
     title="Projects with most contributors",
     hover_name=contributors["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=contributors["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -589,6 +599,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+    )
 )
 
 fig.update(layout_showlegend=False)
@@ -600,10 +613,12 @@ fig.update(layout_showlegend=False)
 top_stargazers = df_active.nlargest(40, "stargazers_count")
 
 fig = px.bar(
+    top_stargazers,
     x=top_stargazers["stargazers_count"],
     y=top_stargazers["project_name"],
     orientation="h",
     hover_name=top_stargazers["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=top_stargazers["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 
@@ -617,6 +632,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+    )
 )
 
 fig.update(layout_showlegend=False)
@@ -632,10 +650,12 @@ df_top_100_stargazers["star_growth"] = (
 
 df_top_40_star_growth = df_top_100_stargazers.nlargest(40, "star_growth")
 fig = px.bar(
+    df_top_40_star_growth,
     x=df_top_40_star_growth["star_growth"] * 100,
     y=df_top_40_star_growth["project_name"],
     orientation="h",
     hover_name=df_top_40_star_growth["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=df_top_40_star_growth["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -645,6 +665,9 @@ fig.update_layout(
     xaxis_title="Star Growth last Year [%]",
     yaxis_title="Project",
     title="Projects with the highest Star Growth",
+    hoverlabel=dict(
+    bgcolor="white"
+    )
 )
 
 
@@ -654,11 +677,13 @@ fig.update_layout(
 df_top_40_growth = df_active.nlargest(40, "total_commits_last_year")
 df_top_40_growth = df_top_40_growth[df_top_40_growth["project_name"] != "ElexonDataPortal"]
 fig = px.bar(
+    df_top_40_growth,
     x=df_top_40_growth["total_commits_last_year"],
     y=df_top_40_growth["project_name"],
     orientation="h",
     color=df_top_40_growth["development_distribution_score"],
     hover_name=df_top_40_growth["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color_continuous_scale=color_continuous_scale,
 )
 
@@ -670,6 +695,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="Rubric",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 
@@ -679,11 +707,13 @@ fig.update_layout(
 df_total_score = df_active.nlargest(40, "total_score")
 
 fig = px.bar(
+    df_total_score,
     x=df_total_score["total_score"],
     y=df_total_score["project_name"],
     orientation="h",
     range_x=(0.85, 1),
     hover_name=df_total_score["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color = df_total_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -695,7 +725,10 @@ fig.update_layout(
     title="Top Total Score",
     coloraxis_colorbar=dict(
     title="DDS",
-    ),
+    ),   
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 fig.update(layout_showlegend=False)
 
@@ -706,11 +739,13 @@ fig.update(layout_showlegend=False)
 df_activity_score = df_active.nlargest(40, "activity")
 
 fig = px.bar(
+    df_activity_score,
     x=df_activity_score["activity"],
     y=df_activity_score["project_name"],
     orientation="h",
     range_x=(2.9, 3.2),
     hover_name=df_activity_score["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=df_activity_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -723,6 +758,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 fig.update(layout_showlegend=False)
@@ -734,11 +772,13 @@ fig.update(layout_showlegend=False)
 df_size_score = df_active.nlargest(40, "size")
 
 fig = px.bar(
+    df_size_score,
     x=df_size_score["size"],
     y=df_size_score["project_name"],
     orientation="h",
     range_x=(3.75, 4),
     hover_name=df_size_score["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=df_size_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -751,6 +791,9 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 fig.update(layout_showlegend=False)
@@ -766,6 +809,7 @@ fig = px.scatter(
     size="size",
     color="total_score",
     hover_name="git_url",
+    hover_data=["oneliner","rubric","git_namespace"],
     size_max=20,
 )
 
@@ -775,6 +819,9 @@ fig.update_layout(
     xaxis_title="Project Age in Years",
     yaxis_title="Rubric",
     title="Total Score of Projects",
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 
@@ -784,28 +831,6 @@ fig.show()
 # In[36]:
 
 
-rubric_his = (
-    df_active["rubric"].value_counts().to_frame().rename_axis("rubric_name").reset_index()
-)
-
-
-fig = px.treemap(rubric_his, path=["rubric_name"], values="rubric", color="rubric")
-
-fig.update_layout(coloraxis_showscale=False)
-fig.update_layout(
-    autosize=False,
-    paper_bgcolor="lightgray",
-    height=700,  # Added parameter
-    width=2100,
-    uniformtext=dict(minsize=15, mode="show"),
-    margin=dict(t=0, l=0, r=0, b=0),
-)
-fig.show()
-
-
-# In[37]:
-
-
 fig = px.scatter(
     df_organization_projects.query("project_age_in_years<@max_age_in_years"),
     x="project_age_in_years",
@@ -813,8 +838,8 @@ fig = px.scatter(
     size="size",
     color="development_distribution_score",
     hover_name="git_url",
+    hover_data=["oneliner","rubric","git_namespace"],
     size_max=20,
-    color_continuous_scale=color_continuous_scale.reverse(),
 )
 
 fig.update_layout(
@@ -825,20 +850,25 @@ fig.update_layout(
     xaxis_title="Project Age in Years",
     height=1000,  # Added parameter
     title="Development Distribution Score",
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 fig.show()
 
 
-# In[38]:
+# In[37]:
 
 
 personal_stargazers = df_personal_projects.nlargest(40, "stargazers_count")
 
 fig = px.bar(
+    personal_stargazers,
     x=personal_stargazers["stargazers_count"],
     y=personal_stargazers["git_namespace"],
     orientation="h",
     hover_name=personal_stargazers["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=personal_stargazers["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -851,13 +881,16 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 
 fig.update(layout_showlegend=False)
 
 
-# In[39]:
+# In[38]:
 
 
 df_active["dependents_count"] = df_active["dependents_repos"].apply(count_strings)
@@ -868,10 +901,12 @@ print("DDS of most used Python project:",round(most_dependent_projects["developm
 
 
 fig = px.bar(
+    most_dependent_projects,
     x=most_dependent_projects["dependents_count"],
     y=most_dependent_projects["project_name"],
     orientation="h",
     hover_name=most_dependent_projects["git_url"],
+    hover_data=["oneliner","rubric","git_namespace"],
     color=most_dependent_projects["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -884,19 +919,22 @@ fig.update_layout(
     coloraxis_colorbar=dict(
     title="DDS",
     ),
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 
 # ## Process the organizations
 
-# In[40]:
+# In[39]:
 
 
 df_organizations = pd.read_csv("./csv/github_organizations.csv")
 df_organizations.head()
 
 
-# In[41]:
+# In[40]:
 
 
 df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
@@ -904,7 +942,7 @@ df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alp
 df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
 
 
-# In[42]:
+# In[41]:
 
 
 continent_his = df_organizations["continent"].value_counts().to_frame().rename_axis("continent_name")
@@ -918,7 +956,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[43]:
+# In[42]:
 
 
 ## https://octoverse.github.com/
@@ -927,7 +965,7 @@ index_labels=['Oceania','Africa','South America','Europe','Asia','North America'
 df_users_continent_cotoverse = pd.DataFrame(values,index=index_labels).reset_index()
 
 
-# In[44]:
+# In[43]:
 
 
 fig = px.pie(df_users_continent_cotoverse, values=0, names="index", color_discrete_sequence=color_discrete_sequence, hole=0.2)
@@ -937,7 +975,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[45]:
+# In[44]:
 
 
 organization_his = (
@@ -957,7 +995,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[46]:
+# In[45]:
 
 
 df_countries = (
@@ -985,7 +1023,7 @@ fig.update_layout(title="Distribution of Organizational Locations Worldwide",
 fig.show()
 
 
-# In[47]:
+# In[46]:
 
 
 df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
@@ -993,7 +1031,7 @@ df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
 df_public_repos.head()
 
 
-# In[48]:
+# In[47]:
 
 
 df_organizations["organizations_age_in_years"] = df_organizations[
@@ -1001,7 +1039,7 @@ df_organizations["organizations_age_in_years"] = df_organizations[
 ].apply(calc_age)
 
 
-# In[49]:
+# In[48]:
 
 
 fig = px.scatter(
@@ -1011,6 +1049,7 @@ fig = px.scatter(
     size="organization_public_repos",
     color="form_of_organization",
     hover_name="organization_website",
+    hover_data=["organization_name"],
     size_max=20,
     color_continuous_scale=color_continuous_scale,
 )
@@ -1023,6 +1062,9 @@ fig.update_layout(
     xaxis_title="Project Age in Years",
     height=1000,  # Added parameter
     title="Organizations forms within different countries",
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 fig.show()
 
@@ -1030,13 +1072,13 @@ fig.show()
 # ## Not included Projects
 # Within the first version of this study we were not able to integrate a GitLab API interfaces. Also other projects on self-hosted repositories and other colloboaritve website could not be included in the study. Another group that was not included in the study are the inactive projects. Here we try to give an insight into these projects. 
 
-# In[50]:
+# In[49]:
 
 
 df_raw[(df_raw["platform"] == "gitlab")]
 
 
-# In[51]:
+# In[50]:
 
 
 df_inactive = df_raw[(df_raw["project_active"] == False)].copy()
@@ -1064,13 +1106,10 @@ fig.update_layout(
     yaxis_title="Rubric",
     xaxis_title="Project Age in years",
     title="Development Distribution Score within inactive Projects",
+    hoverlabel=dict(
+    bgcolor="white"
+)
 )
 
 fig.show()
-
-
-# In[ ]:
-
-
-
 
