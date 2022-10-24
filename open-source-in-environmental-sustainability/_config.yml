@@ -33,6 +33,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  base_url: https://protontypes.github.io/open-source-in-environmental-sustainability
   use_issues_button: true
   use_repository_button: true
 
@@ -40,3 +41,12 @@ sphinx:
   config:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+
+sphinx:
+  extra_extensions:
+  - sphinxext.opengraph
+  config:
+    ogp_site_url: "https://protontypes.github.io/open-source-in-environmental-sustainability"
+    ogp_image: "https://protontypes.github.io/open-source-in-environmental-sustainability/_static/logo.png"
+    ogp_description_length: 200
