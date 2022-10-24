@@ -16,3 +16,4 @@ python-dotenv
 pyyaml
 handcalcs
 pycountry-convert
+sphinxext-opengraph
