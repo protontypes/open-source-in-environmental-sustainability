@@ -34,6 +34,8 @@ Here is a preview of the cell contents:
 -------------------
 df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
 df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alpha2)
-df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
+df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(
+    alpha2_to_continent
+)
 -------------------
 
