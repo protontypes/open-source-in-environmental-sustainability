@@ -36,6 +36,7 @@ html:
   base_url: https://protontypes.github.io/open-source-in-environmental-sustainability
   use_issues_button: true
   use_repository_button: true
+  favicon: favicon.png
 
 sphinx:
   extra_extensions:
