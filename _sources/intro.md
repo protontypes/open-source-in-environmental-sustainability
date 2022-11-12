@@ -1,16 +1,15 @@
-# Welcome to your Jupyter Book
+<center> <h1>Open Source in Environmental Sustainability </h1> </center>
+<center> Report Issue 2022 </center>
 
-This is a small sample book to give you a feel for how book content is
-structured.
+<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center> 
 
-:::{note}
-Here is a note!
-:::
+```{figure} ./images/Orion_aveugle_cherchant_le_soleil.jpg"
+---
+height: 150px
+name: directive-fig
+---
+Here is my figure caption!
 
-And here is a code block:
 
-```
-e = mc^2
-```
 
-Check out the content pages bundled with this sample book to see more.
+

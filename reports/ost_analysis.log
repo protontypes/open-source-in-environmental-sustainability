@@ -1,15 +1,4 @@
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 730, in _async_poll_for_reply
-    msg = await ensure_async(self.kc.shell_channel.get_msg(timeout=new_timeout))
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 96, in ensure_async
-    result = await obj
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_client/channels.py", line 230, in get_msg
-    raise Empty
-_queue.Empty
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
     executenb(
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
@@ -22,18 +11,107 @@ Traceback (most recent call last):
     return future.result()
   File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
     await self.async_execute_cell(
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 949, in async_execute_cell
-    exec_reply = await self.task_poll_for_reply
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 754, in _async_poll_for_reply
-    await self._async_handle_timeout(timeout, cell)
-  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 801, in _async_handle_timeout
-    raise CellTimeoutError.error_from_timeout_and_cell(
-nbclient.exceptions.CellTimeoutError: A cell timed out while it was being executed, after 30 seconds.
-The message was: Cell execution timed out.
-Here is a preview of the cell contents:
--------------------
-df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
-df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alpha2)
-df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
--------------------
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+fig = px.scatter(
+    df_organizations.query("organizations_age_in_years<@max_age_in_years"),
+    x="organizations_age_in_years",
+    y="location_country",
+    size="organization_public_repos",
+    color="form_of_organization",
+    hover_name="organization_website",
+    hover_data=["organization_name"],
+    size_max=20,
+    color_continuous_scale=color_continuous_scale,
+).for_each_trace(lambda t: t.update(name=t.name.split("=")[1]))
+
+
+fig.update_layout(
+    coloraxis_colorbar=dict(
+        title="DDS",
+    ),
+    yaxis_title=None,
+    xaxis_title="Project Age in Years",
+    height=1000,  # Added parameter
+    title="Organizations forms within different countries",
+    hoverlabel=dict(
+    bgcolor="white"
+)
+)
+fig.show()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mIndexError[0m                                Traceback (most recent call last)
+Cell [0;32mIn [47], line 1[0m
+[0;32m----> 1[0m fig [38;5;241m=[39m [43mpx[49m[38;5;241;43m.[39;49m[43mscatter[49m[43m([49m
+[1;32m      2[0m [43m    [49m[43mdf_organizations[49m[38;5;241;43m.[39;49m[43mquery[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43morganizations_age_in_years<@max_age_in_years[39;49m[38;5;124;43m"[39;49m[43m)[49m[43m,[49m
+[1;32m      3[0m [43m    [49m[43mx[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43morganizations_age_in_years[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m      4[0m [43m    [49m[43my[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mlocation_country[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m      5[0m [43m    [49m[43msize[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43morganization_public_repos[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m      6[0m [43m    [49m[43mcolor[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mform_of_organization[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m      7[0m [43m    [49m[43mhover_name[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43morganization_website[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m      8[0m [43m    [49m[43mhover_data[49m[38;5;241;43m=[39;49m[43m[[49m[38;5;124;43m"[39;49m[38;5;124;43morganization_name[39;49m[38;5;124;43m"[39;49m[43m][49m[43m,[49m
+[1;32m      9[0m [43m    [49m[43msize_max[49m[38;5;241;43m=[39;49m[38;5;241;43m20[39;49m[43m,[49m
+[1;32m     10[0m [43m    [49m[43mcolor_continuous_scale[49m[38;5;241;43m=[39;49m[43mcolor_continuous_scale[49m[43m,[49m
+[1;32m     11[0m [43m)[49m[38;5;241;43m.[39;49m[43mfor_each_trace[49m[43m([49m[38;5;28;43;01mlambda[39;49;00m[43m [49m[43mt[49m[43m:[49m[43m [49m[43mt[49m[38;5;241;43m.[39;49m[43mupdate[49m[43m([49m[43mname[49m[38;5;241;43m=[39;49m[43mt[49m[38;5;241;43m.[39;49m[43mname[49m[38;5;241;43m.[39;49m[43msplit[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43m=[39;49m[38;5;124;43m"[39;49m[43m)[49m[43m[[49m[38;5;241;43m1[39;49m[43m][49m[43m)[49m[43m)[49m
+[1;32m     14[0m fig[38;5;241m.[39mupdate_layout(
+[1;32m     15[0m     coloraxis_colorbar[38;5;241m=[39m[38;5;28mdict[39m(
+[1;32m     16[0m         title[38;5;241m=[39m[38;5;124m"[39m[38;5;124mDDS[39m[38;5;124m"[39m,
+[0;32m   (...)[0m
+[1;32m     24[0m )
+[1;32m     25[0m )
+[1;32m     26[0m fig[38;5;241m.[39mshow()
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/plotly/graph_objs/_figure.py:810[0m, in [0;36mFigure.for_each_trace[0;34m(self, fn, selector, row, col, secondary_y)[0m
+[1;32m    764[0m [38;5;28;01mdef[39;00m [38;5;21mfor_each_trace[39m(
+[1;32m    765[0m     [38;5;28mself[39m, fn, selector[38;5;241m=[39m[38;5;28;01mNone[39;00m, row[38;5;241m=[39m[38;5;28;01mNone[39;00m, col[38;5;241m=[39m[38;5;28;01mNone[39;00m, secondary_y[38;5;241m=[39m[38;5;28;01mNone[39;00m
+[1;32m    766[0m ) [38;5;241m-[39m[38;5;241m>[39m [38;5;124m"[39m[38;5;124mFigure[39m[38;5;124m"[39m:
+[1;32m    767[0m     [38;5;124;03m"""[39;00m
+[1;32m    768[0m 
+[1;32m    769[0m [38;5;124;03m    Apply a function to all traces that satisfy the specified selection[39;00m
+[0;32m   (...)[0m
+[1;32m    808[0m 
+[1;32m    809[0m [38;5;124;03m    """[39;00m
+[0;32m--> 810[0m     [38;5;28;01mreturn[39;00m [38;5;28;43msuper[39;49m[43m([49m[43mFigure[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[43m)[49m[38;5;241;43m.[39;49m[43mfor_each_trace[49m[43m([49m[43mfn[49m[43m,[49m[43m [49m[43mselector[49m[43m,[49m[43m [49m[43mrow[49m[43m,[49m[43m [49m[43mcol[49m[43m,[49m[43m [49m[43msecondary_y[49m[43m)[49m
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/plotly/basedatatypes.py:1306[0m, in [0;36mBaseFigure.for_each_trace[0;34m(self, fn, selector, row, col, secondary_y)[0m
+[1;32m   1262[0m [38;5;124;03m"""[39;00m
+[1;32m   1263[0m [38;5;124;03mApply a function to all traces that satisfy the specified selection[39;00m
+[1;32m   1264[0m [38;5;124;03mcriteria[39;00m
+[0;32m   (...)[0m
+[1;32m   1301[0m [38;5;124;03m    Returns the Figure object that the method was called on[39;00m
+[1;32m   1302[0m [38;5;124;03m"""[39;00m
+[1;32m   1303[0m [38;5;28;01mfor[39;00m trace [38;5;129;01min[39;00m [38;5;28mself[39m[38;5;241m.[39mselect_traces(
+[1;32m   1304[0m     selector[38;5;241m=[39mselector, row[38;5;241m=[39mrow, col[38;5;241m=[39mcol, secondary_y[38;5;241m=[39msecondary_y
+[1;32m   1305[0m ):
+[0;32m-> 1306[0m     [43mfn[49m[43m([49m[43mtrace[49m[43m)[49m
+[1;32m   1308[0m [38;5;28;01mreturn[39;00m [38;5;28mself[39m
+
+Cell [0;32mIn [47], line 11[0m, in [0;36m<lambda>[0;34m(t)[0m
+[1;32m      1[0m fig [38;5;241m=[39m px[38;5;241m.[39mscatter(
+[1;32m      2[0m     df_organizations[38;5;241m.[39mquery([38;5;124m"[39m[38;5;124morganizations_age_in_years<@max_age_in_years[39m[38;5;124m"[39m),
+[1;32m      3[0m     x[38;5;241m=[39m[38;5;124m"[39m[38;5;124morganizations_age_in_years[39m[38;5;124m"[39m,
+[1;32m      4[0m     y[38;5;241m=[39m[38;5;124m"[39m[38;5;124mlocation_country[39m[38;5;124m"[39m,
+[1;32m      5[0m     size[38;5;241m=[39m[38;5;124m"[39m[38;5;124morganization_public_repos[39m[38;5;124m"[39m,
+[1;32m      6[0m     color[38;5;241m=[39m[38;5;124m"[39m[38;5;124mform_of_organization[39m[38;5;124m"[39m,
+[1;32m      7[0m     hover_name[38;5;241m=[39m[38;5;124m"[39m[38;5;124morganization_website[39m[38;5;124m"[39m,
+[1;32m      8[0m     hover_data[38;5;241m=[39m[[38;5;124m"[39m[38;5;124morganization_name[39m[38;5;124m"[39m],
+[1;32m      9[0m     size_max[38;5;241m=[39m[38;5;241m20[39m,
+[1;32m     10[0m     color_continuous_scale[38;5;241m=[39mcolor_continuous_scale,
+[0;32m---> 11[0m )[38;5;241m.[39mfor_each_trace([38;5;28;01mlambda[39;00m t: t[38;5;241m.[39mupdate(name[38;5;241m=[39m[43mt[49m[38;5;241;43m.[39;49m[43mname[49m[38;5;241;43m.[39;49m[43msplit[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43m=[39;49m[38;5;124;43m"[39;49m[43m)[49m[43m[[49m[38;5;241;43m1[39;49m[43m][49m))
+[1;32m     14[0m fig[38;5;241m.[39mupdate_layout(
+[1;32m     15[0m     coloraxis_colorbar[38;5;241m=[39m[38;5;28mdict[39m(
+[1;32m     16[0m         title[38;5;241m=[39m[38;5;124m"[39m[38;5;124mDDS[39m[38;5;124m"[39m,
+[0;32m   (...)[0m
+[1;32m     24[0m )
+[1;32m     25[0m )
+[1;32m     26[0m fig[38;5;241m.[39mshow()
+
+[0;31mIndexError[0m: list index out of range
+IndexError: list index out of range
 
