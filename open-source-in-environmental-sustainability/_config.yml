@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title                       : Open Source in Environmental Sustainability  # The title of the book. Will be placed in the left navbar.
-author                      : Tobias Augspurger  # The author of the book
+author                      : Tobias Augspurger, Eirini Malliaraki and Josh Hopkins  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
@@ -26,7 +26,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ly0n/Open Source in Environmental Sustainability  # Online location of your book
+  url: https://github.com/protontypes/open-source-in-environmental-sustainability  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

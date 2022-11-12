@@ -23,11 +23,17 @@ from pycountry_convert import country_alpha2_to_continent_code, country_alpha3_t
 # In[2]:
 
 
-### KK: add simple docstrings
-
 # Clean up the dataset
 def name_to_iso3(x):
-    # fuzzy search does not like UK
+    """Perform a fuzzy search for UK-like strings
+    Arguments:
+        x - a string with a country name
+        
+    Outputs: 
+        A string with ISO3 name standard for the UK
+        
+    """
+    
     if x == "UK":
         x = "United Kingdom"
     try:
@@ -37,13 +43,32 @@ def name_to_iso3(x):
     return iso3
 
 def alpha3_to_alpha2(x):
+    """Convert country code ISO 3166-1 alpha-3 to country code ISO 3166-1 alpha-2 .
+    Arguments:
+        x - a string with a country name following ISO 3166-1 alpha-3 standard
+        
+    Outputs: 
+        A string with a country name following country code ISO 3166-1 alpha-2
+        
+    """
+    
     try:
         alpha_2 = country_alpha3_to_country_alpha2(x)
     except:
         alpha_2 = ""
     return alpha_2
 
+
 def alpha2_to_continent(x):
+    """Convert country code ISO 3166-1 alpha-2 to continent name
+    Arguments:
+        x - a string with a country name following ISO 3166-1 alpha-2 standard
+        
+    Outputs: 
+        A string with a continent name
+        
+    """
+    
     try:
         continent = country_alpha2_to_continent_code(x)
     except:
@@ -52,12 +77,35 @@ def alpha2_to_continent(x):
 
 
 def upper_string(lower_string):
+    """Apply title format
+    Arguments:
+        lower_string - a string 
+    Outputs: 
+        A string with a title format
+        
+    """
+    
     return lower_string.title()
 
-def calc_age(x):
-    return (datetime.datetime.now() - dateparser.parse(x, settings={'TIMEZONE': 'CEST'})).days/365
+def calc_age(start_date):
+    """Calculate age in years between now and start_date
+    Arguments:
+        start_date - a date
+    Outputs: 
+        A float with number of years between now and start_date
+        
+    """
+    return (datetime.datetime.now() - dateparser.parse(start_date, settings={'TIMEZONE': 'CEST'})).days/365
 
 def count_strings(comma_seperated_string):
+    """Count number of delimiters (commas) in a string 
+    Arguments:
+        comma_seperated_string - a string containing commas
+    Outputs: 
+        A number (int) of commas found in comma_seperated_string
+        
+    """
+    
     if type(comma_seperated_string) == str:
         return comma_seperated_string.count(",")
     else:
@@ -86,7 +134,6 @@ pio.templates["OpenSustain"] = go.layout.Template(
         ),
         title_font_family="Google Font",
         title_font_color="#040404",
-        legend_title_font_color="#040404",
     ),
 )
 
@@ -98,6 +145,8 @@ pio.templates.default = "plotly+OpenSustain"
 
 
 df_raw = pd.read_csv("./csv/projects.csv")
+df_raw.rename(columns={"rubric": "topic"},inplace=True)
+df_raw.rename(columns={"topics": "labels"},inplace=True)
 df_raw.head(5)
 
 
@@ -106,7 +155,6 @@ df_raw.head(5)
 # In[5]:
 
 
-## KK: I would suggest using a clearer object-naming convention. Below it becomes unclear what's the difference between df and df_raw
 # Age plots are better in years
 df_raw["project_age_in_years"] = df_raw["project_age_in_days"].apply(lambda x: x / 365)
 max_age_in_years = 8.0
@@ -208,7 +256,7 @@ df_active = df_raw.copy()
 # Filter out the inactive project for further analysis
 df_active = df_active[(df_active["project_active"] == True)]
 # Ciruated Lists are no classical open source projects and are not included into the analysis
-df_active = df_active[(df_active["rubric"] != "Curated Lists")]
+df_active = df_active[(df_active["topic"] != "Curated Lists")]
 # Filter out the projects not on the GitHub platform
 df_active = df_active[(df_active["platform"] == "github")]
 
@@ -347,6 +395,31 @@ fig.show()
 # In[15]:
 
 
+# alternative to the pie chart in cell 23
+# main point: ~80% of all open source licences fall under 5 types
+main_license_types = ['BSD-3-Clause', 'MIT', 'GPL-3.0', 'CUSTOM', 'Apache-2.0']
+alt_df_active = df_active.copy()
+
+alt_df_active['pooled_license'] = np.where(
+     alt_df_active['license'].isin(main_license_types), alt_df_active['license'], 'Other')
+
+alt_license_his = (
+    alt_df_active["pooled_license"]
+    .value_counts()
+    .to_frame()
+    .rename_axis("license_names")
+    .reset_index()
+)
+alt_fig = px.pie(alt_license_his, values="pooled_license", names="license_names", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+
+alt_fig.update_layout(title="Distribution of Licenses", showlegend=True, font_size=16)
+alt_fig.update_traces(textposition='inside', textinfo='percent+label', marker=dict(line=dict(color='#000000', width=1)))
+alt_fig.show()
+
+
+# In[16]:
+
+
 fig = px.histogram(
     df_active,
     x="project_age_in_years",
@@ -361,7 +434,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[16]:
+# In[17]:
 
 
 fig = px.histogram(
@@ -378,40 +451,34 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[17]:
-
-
-rubric_his = (
-    df_active["rubric"]
-    .value_counts()
-    .to_frame()
-    .rename_axis("rubric_names")
-    .reset_index()
-)
-fig = px.pie(rubric_his, values="rubric", names="rubric_names", color_discrete_sequence=color_discrete_sequence, hole=0.2)
-
-fig.update_layout(title="Projects within Rubrics", height=1200, showlegend=False)
-fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
-fig.show()
-
-
-
 # In[18]:
 
 
-fig = px.pie(df_active.groupby('rubric')['contributors'].sum().reset_index(), values="contributors", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+## KK: is there a way of grouping these topics differently? The graph below is difficult to read. What's the story/message? That most topics have under 50 projects+show those that have more? Something else?
 
-fig.update_layout(title="Contributors within Rubrics", height=1200, showlegend=False)
+topic_his = (
+    df_active["topic"]
+    .value_counts()
+    .to_frame()
+    .rename_axis("topic_names")
+    .reset_index()
+)
+fig = px.pie(topic_his, values="topic", names="topic_names", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+
+fig.update_layout(title="Projects within Topics", height=1200, showlegend=False)
 fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
 fig.show()
+
 
 
 # In[19]:
 
 
-fig = px.pie(df_active.groupby('rubric')['stargazers_count'].sum().reset_index(), values="stargazers_count", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+## KK:Same as above: what's the message? How else can we group the data to get it across? 
 
-fig.update_layout(title="Stars within Rubrics", height=1000, showlegend=False)
+fig = px.pie(df_active.groupby('topic')['contributors'].sum().reset_index(), values="contributors", names="topic", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+
+fig.update_layout(title="Contributors within Topics", height=1200, showlegend=False)
 fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
 fig.show()
 
@@ -419,9 +486,9 @@ fig.show()
 # In[20]:
 
 
-fig = px.pie(df_active.groupby('rubric')['development_distribution_score'].median().reset_index(), values="development_distribution_score", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+fig = px.pie(df_active.groupby('topic')['stargazers_count'].sum().reset_index(), values="stargazers_count", names="topic", color_discrete_sequence=color_discrete_sequence, hole=0.2)
 
-fig.update_layout(title="Median Development Distribution Score within Rubrics", height=1000, showlegend=False)
+fig.update_layout(title="Stars within topics", height=1000, showlegend=False)
 fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
 fig.show()
 
@@ -429,14 +496,92 @@ fig.show()
 # In[21]:
 
 
-fig = px.pie(df_active.groupby('rubric')['stars_last_year'].sum().reset_index(), values="stars_last_year", names="rubric", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+fig = px.pie(df_active.groupby('topic')['development_distribution_score'].median().reset_index(), values="development_distribution_score", names="topic", color_discrete_sequence=color_discrete_sequence, hole=0.2)
 
-fig.update_layout(title="Stars within Rubrics", height=1200, showlegend=False)
+fig.update_layout(title="Median Development Distribution Score within topics", height=1000, showlegend=False)
 fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
 fig.show()
 
 
 # In[22]:
+
+
+fig = px.pie(df_active.groupby('topic')['stars_last_year'].sum().reset_index(), values="stars_last_year", names="topic", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+
+fig.update_layout(title="Stars within Topics", height=1200, showlegend=False)
+fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
+fig.show()
+
+
+# In[23]:
+
+
+topic_his = (
+    df_active["topic"]
+    .value_counts()
+    .to_frame()
+    .rename_axis("topic_names")
+    .reset_index()
+)
+
+fig = px.bar(
+    df_active.groupby('topic')['contributors'].sum().reset_index().sort_values('contributors',ascending=[False]),
+    x="contributors",
+    y="topic",
+    orientation="h",
+)
+
+fig.update_layout(
+    height=1000,  # Added parameter
+    yaxis_title="Topics",
+    xaxis_title="Contributors",
+    title="Contributors within Topics",
+    coloraxis_colorbar=dict(
+    title="DDS",
+    ),
+    hoverlabel=dict(
+    bgcolor="white"
+    )
+)
+fig.update_traces(marker_color=marker_color)
+fig.update(layout_showlegend=False)
+
+
+# In[24]:
+
+
+topic_his = (
+    df_active["topic"]
+    .value_counts()
+    .to_frame()
+    .rename_axis("topic_names")
+    .reset_index()
+)
+
+fig = px.bar(
+    topic_his,
+    x="topic",
+    y="topic_names",
+    orientation="h",
+)
+
+fig.update_layout(
+    height=1000,  # Added parameter
+    yaxis_title="Topics",
+    xaxis_title="Projects",
+    title="Projects within Topics",
+    coloraxis_colorbar=dict(
+    title="DDS",
+    ),
+    hoverlabel=dict(
+    bgcolor="white"
+    )
+)
+fig.update_traces(marker_color=marker_color)
+fig.update(layout_showlegend=False)
+
+
+# In[25]:
 
 
 license_dominating_language = (
@@ -455,24 +600,27 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[23]:
+# In[26]:
 
 
-# df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
+# KK I thing the question that we should be asking: are there similar patterns followed by most topics? If so, whatare they? If not, what are the fields that stand out and what is the difference?
+
+# df_sorted = df.groupby(['topic'], as_index=False)['dominating_language'].agg('sum')
 df_language_distribution = (
-    df_active.value_counts(["rubric", "dominating_language"]).to_frame().reset_index()
+    df_active.value_counts(["topic", "dominating_language"]).to_frame().reset_index()
 )
 
 df_language_distribution.rename(columns={0: "counts"}, inplace=True)
 fig = px.scatter(
-    df_language_distribution, x="dominating_language", y="rubric", size="counts", 
+    df_language_distribution, x="dominating_language", y="topic", size="counts", 
 )
 
 
 fig.update_layout(
     height=1000,  # Added parameter
+    width=1200,
     xaxis_title="Dominating Language",
-    yaxis_title="Rubric",
+    yaxis_title="Topic",
 )
 fig.update_traces(marker_color=marker_color)
 
@@ -480,23 +628,25 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[24]:
+# In[27]:
 
 
-# df_sorted = df.groupby(['rubric'], as_index=False)['dominating_language'].agg('sum')
+# KK I thing the question that we should be asking: are there similar patterns followed by most topics? If so, whatare they? If not, what are the fields that stand out and what is the difference?
+
+# df_sorted = df.groupby(['topic'], as_index=False)['dominating_language'].agg('sum')
 df_license_distribution = (
-    df_active.value_counts(["rubric", "license"]).to_frame().reset_index()
+    df_active.value_counts(["topic", "license"]).to_frame().reset_index()
 )
 
 df_license_distribution.rename(columns={0: "counts"}, inplace=True)
-fig = px.scatter(df_license_distribution, x="license", y="rubric", size="counts")
+fig = px.scatter(df_license_distribution, x="license", y="topic", size="counts")
 
 
 fig.update_layout(
     height=1000,  # Added parameter
     xaxis_title="License",
-    yaxis_title="Rubric",
-    title="License Distribution over Rubric",
+    yaxis_title="topic",
+    title="License Distribution over Topic",
     autosize=True,
 )
 fig.update_traces(marker_color=marker_color)
@@ -505,7 +655,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[25]:
+# In[28]:
 
 
 fig = px.histogram(
@@ -522,7 +672,7 @@ fig.update_traces(marker_color=marker_color)
 fig.show()
 
 
-# In[26]:
+# In[29]:
 
 
 most_listed_projects = df_active["git_namespace"].value_counts(ascending=False).to_frame().rename_axis("Namespace").reset_index().rename(columns={"git_namespace": "counts"})
@@ -538,7 +688,7 @@ autosize=False,
 fig.show()
 
 
-# In[27]:
+# In[30]:
 
 
 oldest_projects = df_active.nlargest(40, "project_age_in_years")
@@ -551,14 +701,14 @@ fig = px.bar(
     orientation="h",
     range_x=(9.6, 14),
     hover_name=oldest_projects["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=oldest_projects["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
 
 fig.update_layout(
     height=1000,  # Added parameter
-    yaxis_title="Rubric",
+    yaxis_title="Project",
     xaxis_title="Project Age in Years",
     title="The oldest Projects still active",
     coloraxis_colorbar=dict(
@@ -574,7 +724,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[28]:
+# In[31]:
 
 
 contributors = df_active.nlargest(40, "contributors")
@@ -586,7 +736,7 @@ fig = px.bar(
     orientation="h",
     title="Projects with most contributors",
     hover_name=contributors["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=contributors["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -607,7 +757,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[29]:
+# In[32]:
 
 
 top_stargazers = df_active.nlargest(40, "stargazers_count")
@@ -618,7 +768,7 @@ fig = px.bar(
     y=top_stargazers["project_name"],
     orientation="h",
     hover_name=top_stargazers["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=top_stargazers["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 
@@ -640,7 +790,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[30]:
+# In[33]:
 
 
 df_top_100_stargazers = df_active[(df_active["stargazers_count"]) > 100].copy()
@@ -655,7 +805,7 @@ fig = px.bar(
     y=df_top_40_star_growth["project_name"],
     orientation="h",
     hover_name=df_top_40_star_growth["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=df_top_40_star_growth["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -666,12 +816,14 @@ fig.update_layout(
     yaxis_title="Project",
     title="Projects with the highest Star Growth",
     hoverlabel=dict(
-    bgcolor="white"
-    )
+    bgcolor="white"),
+    coloraxis_colorbar=dict(
+    title="DDS",
+    ),
 )
 
 
-# In[31]:
+# In[34]:
 
 
 df_top_40_growth = df_active.nlargest(40, "total_commits_last_year")
@@ -683,7 +835,7 @@ fig = px.bar(
     orientation="h",
     color=df_top_40_growth["development_distribution_score"],
     hover_name=df_top_40_growth["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color_continuous_scale=color_continuous_scale,
 )
 
@@ -693,7 +845,7 @@ fig.update_layout(
     yaxis_title="Project",
     title="Projects with the highest Commit Growth",
     coloraxis_colorbar=dict(
-    title="Rubric",
+    title="DDS",
     ),
     hoverlabel=dict(
     bgcolor="white"
@@ -701,7 +853,7 @@ fig.update_layout(
 )
 
 
-# In[32]:
+# In[35]:
 
 
 df_total_score = df_active.nlargest(40, "total_score")
@@ -713,7 +865,7 @@ fig = px.bar(
     orientation="h",
     range_x=(0.85, 1),
     hover_name=df_total_score["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color = df_total_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -733,7 +885,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[33]:
+# In[36]:
 
 
 df_activity_score = df_active.nlargest(40, "activity")
@@ -745,7 +897,7 @@ fig = px.bar(
     orientation="h",
     range_x=(2.9, 3.2),
     hover_name=df_activity_score["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=df_activity_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -766,7 +918,7 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[34]:
+# In[37]:
 
 
 df_size_score = df_active.nlargest(40, "size")
@@ -778,7 +930,7 @@ fig = px.bar(
     orientation="h",
     range_x=(3.75, 4),
     hover_name=df_size_score["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=df_size_score["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
@@ -799,17 +951,19 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[35]:
+# In[38]:
 
+
+# KK: I'd suggest selecting a few most interesting examples conveying a message and put plots with raw data in the Appendix
 
 fig = px.scatter(
     df_active.query("project_age_in_years<@max_age_in_years"),
     x="project_age_in_years",
-    y="rubric",
+    y="topic",
     size="size",
     color="total_score",
     hover_name="git_url",
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     size_max=20,
 )
 
@@ -817,7 +971,7 @@ fig.update_layout(
     coloraxis_colorbar=dict(title="Total Score"),
     height=1000,  # Added parameter
     xaxis_title="Project Age in Years",
-    yaxis_title="Rubric",
+    yaxis_title="Topic",
     title="Total Score of Projects",
     hoverlabel=dict(
     bgcolor="white"
@@ -828,17 +982,19 @@ fig.update_layout(
 fig.show()
 
 
-# In[36]:
+# In[39]:
 
+
+# KK: I'd suggest selecting a few most interesting examples conveying a message and put plots with raw data in the Appendix
 
 fig = px.scatter(
     df_organization_projects.query("project_age_in_years<@max_age_in_years"),
     x="project_age_in_years",
-    y="rubric",
+    y="topic",
     size="size",
     color="development_distribution_score",
     hover_name="git_url",
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     size_max=20,
 )
 
@@ -846,7 +1002,7 @@ fig.update_layout(
     coloraxis_colorbar=dict(
         title="DDS",
     ),
-    yaxis_title="Rubric",
+    yaxis_title="Topic",
     xaxis_title="Project Age in Years",
     height=1000,  # Added parameter
     title="Development Distribution Score",
@@ -857,7 +1013,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[37]:
+# In[40]:
 
 
 personal_stargazers = df_personal_projects.nlargest(40, "stargazers_count")
@@ -868,14 +1024,14 @@ fig = px.bar(
     y=personal_stargazers["git_namespace"],
     orientation="h",
     hover_name=personal_stargazers["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=personal_stargazers["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
 
 fig.update_layout(
     height=1000,  # Added parameter
-    yaxis_title="Rubric",
+    yaxis_title="Project",
     xaxis_title="Stars",
     title="Projects with most Stars in User Namespace",
     coloraxis_colorbar=dict(
@@ -890,8 +1046,10 @@ fig.update_layout(
 fig.update(layout_showlegend=False)
 
 
-# In[38]:
+# In[41]:
 
+
+# KK: can topics be grouped in fewer categories? can DDS be bucketed into categories, e.g. 0.3>=, 0.3<=&<=0.6, 0.6>=? Do we need to show all three variables, projects, DDS and dependents? 
 
 df_active["dependents_count"] = df_active["dependents_repos"].apply(count_strings)
 
@@ -906,14 +1064,14 @@ fig = px.bar(
     y=most_dependent_projects["project_name"],
     orientation="h",
     hover_name=most_dependent_projects["git_url"],
-    hover_data=["oneliner","rubric","git_namespace"],
+    hover_data=["oneliner","topic","git_namespace"],
     color=most_dependent_projects["development_distribution_score"],
     color_continuous_scale=color_continuous_scale
 )
 
 fig.update_layout(
     height=1000,  # Added parameter
-    yaxis_title="Rubric",
+    yaxis_title="Topic",
     xaxis_title="Dependents",
     title="Most used Python Projects vs. DDS",
     coloraxis_colorbar=dict(
@@ -927,14 +1085,14 @@ fig.update_layout(
 
 # ## Process the organizations
 
-# In[39]:
+# In[42]:
 
 
 df_organizations = pd.read_csv("./csv/github_organizations.csv")
 df_organizations.head()
 
 
-# In[40]:
+# In[43]:
 
 
 df_organizations["ISO_3"] = df_organizations["location_country"].apply(name_to_iso3)
@@ -942,7 +1100,7 @@ df_organizations["ISO_3_alpha2"] = df_organizations["ISO_3"].apply(alpha3_to_alp
 df_organizations["continent"] = df_organizations["ISO_3_alpha2"].apply(alpha2_to_continent)
 
 
-# In[41]:
+# In[44]:
 
 
 continent_his = df_organizations["continent"].value_counts().to_frame().rename_axis("continent_name")
@@ -956,7 +1114,27 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[42]:
+# In[45]:
+
+
+# alternative to plotin cell 52
+
+alt_df_organizations = df_organizations.copy()
+vals_to_replace = {"EU": "Europe", "NA": "North America", "": "Global", "OC":"Other", "AS":"Other", "SA":"Other", "AF": "Other"}
+alt_df_organizations['continent'] = alt_df_organizations['continent'].map(vals_to_replace)
+
+alt_continent_his = alt_df_organizations["continent"].value_counts().to_frame().rename_axis("continent_name")
+
+
+print(alt_continent_his)
+alt_fig = px.pie(alt_continent_his.reset_index(), values="continent", names="continent_name", color_discrete_sequence=color_discrete_sequence, hole=0.2)
+
+alt_fig.update_layout(title="Distribution of Organizations between Continents", font_size=16)
+alt_fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(line=dict(color='#000000', width=2)))
+alt_fig.show()
+
+
+# In[46]:
 
 
 ## https://octoverse.github.com/
@@ -965,8 +1143,10 @@ index_labels=['Oceania','Africa','South America','Europe','Asia','North America'
 df_users_continent_cotoverse = pd.DataFrame(values,index=index_labels).reset_index()
 
 
-# In[43]:
+# In[47]:
 
+
+# similar pooling to the one in cell 53 could be done here for Africa + Oceania
 
 fig = px.pie(df_users_continent_cotoverse, values=0, names="index", color_discrete_sequence=color_discrete_sequence, hole=0.2)
 
@@ -975,7 +1155,7 @@ fig.update_traces(textposition='outside', textinfo='value+label', marker=dict(li
 fig.show()
 
 
-# In[44]:
+# In[48]:
 
 
 organization_his = (
@@ -995,7 +1175,7 @@ fig.update_traces(textposition='outside', textinfo='percent+label', marker=dict(
 fig.show()
 
 
-# In[45]:
+# In[49]:
 
 
 df_countries = (
@@ -1023,7 +1203,7 @@ fig.update_layout(title="Distribution of Organizational Locations Worldwide",
 fig.show()
 
 
-# In[46]:
+# In[50]:
 
 
 df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
@@ -1031,15 +1211,13 @@ df_public_repos = df_organizations.nlargest(40, "organization_public_repos")
 df_public_repos.head()
 
 
-# In[47]:
+# In[51]:
 
 
-df_organizations["organizations_age_in_years"] = df_organizations[
-    "organization_created"
-].apply(calc_age)
+df_organizations["organizations_age_in_years"] = df_organizations["organization_created"].apply(calc_age)
 
 
-# In[48]:
+# In[52]:
 
 
 fig = px.scatter(
@@ -1058,7 +1236,7 @@ fig.update_layout(
     coloraxis_colorbar=dict(
         title="DDS",
     ),
-    yaxis_title="Rubric",
+    yaxis_title="topic",
     xaxis_title="Project Age in Years",
     height=1000,  # Added parameter
     title="Organizations forms within different countries",
@@ -1072,13 +1250,13 @@ fig.show()
 # ## Not included Projects
 # Within the first version of this study we were not able to integrate a GitLab API interfaces. Also other projects on self-hosted repositories and other colloboaritve website could not be included in the study. Another group that was not included in the study are the inactive projects. Here we try to give an insight into these projects. 
 
-# In[49]:
+# In[53]:
 
 
 df_raw[(df_raw["platform"] == "gitlab")]
 
 
-# In[50]:
+# In[54]:
 
 
 df_inactive = df_raw[(df_raw["project_active"] == False)].copy()
@@ -1089,7 +1267,7 @@ df_inactive["project_age_in_years"] = df_inactive["project_age_in_days"].apply(l
 fig = px.scatter(
     df_inactive,
     x="project_age_in_years",
-    y="rubric",
+    y="topic",
     size="contributors",
     color="development_distribution_score",
     hover_name="git_url",
@@ -1103,7 +1281,7 @@ fig.update_layout(
     ),
     paper_bgcolor="lightgray",
     height=1000,  # Added parameter
-    yaxis_title="Rubric",
+    yaxis_title="Topic",
     xaxis_title="Project Age in years",
     title="Development Distribution Score within inactive Projects",
     hoverlabel=dict(
