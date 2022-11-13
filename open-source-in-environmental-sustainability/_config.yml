@@ -15,10 +15,11 @@ logo                        : logo.png  # A path to the book logo
 execute:
   execute_notebooks: force
 
-# Define the name of the latex output file for PDF builds
 latex:
+  latex_engine              : pdflatex  # one of 'pdflatex', 'xelatex' (recommended for unicode), 'luatex', 'platex', 'uplatex'
+  use_jupyterbook_latex     : true # use sphinx-jupyterbook-latex for pdf builds as default
   latex_documents:
-    targetname: book.tex
+     targetname: book.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
