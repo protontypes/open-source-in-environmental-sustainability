@@ -1,4 +1,4 @@
-## Prelude
+# Prelude
 
 In 2019, Eirini Malliaraki curated a collection of open data in the field of environmental information . [Data for Environmental Intelligence](https://github.com/rockita/Environmental_Intelligence) gives an overview of open and freely available resources on the state of our natural environment from different perspectives, such as biodiversity, or Earth observation. It was assembled with the aim of helping developers, journalists, scientists – ultimately, anyone with access to an internet connection – to find information on how our planet's natural systems are changing. 
 
