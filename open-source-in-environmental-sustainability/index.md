@@ -1,4 +1,4 @@
-<meta name="description" content="blblablaa">
+<meta property=":og:description:" content="Preserving stable climate and natural resources with openness" />
 
 # Open Source in Environmental Sustainability
 <center> <strong> Preserving stable climate and natural resources with openness </strong> </center>
