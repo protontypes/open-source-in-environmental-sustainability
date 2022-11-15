@@ -1,16 +1,16 @@
+<meta name="description" content="blblablaa">
+
 # Open Source in Environmental Sustainability
-<center> Preserving stable climate and natural resources with openness </center>
+<center> <strong> Preserving stable climate and natural resources with openness </strong> </center>
+<br />
 <center> <strong> Report Issue 2022 </strong> </center>
 <center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
-
 <br />
 
 ```{image} ./images/mycelium_sustainability.png
 :width: 300px
 :align: center
 ```
-
-<br />
 <br />
 
 ## Executive Summary 
