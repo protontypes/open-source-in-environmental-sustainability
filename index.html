@@ -1,1 +1,503 @@
-<meta http-equiv="Refresh" content="0; url=title.html" />
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta property="og:title" content="Open Source in Environmental Sustainability" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://report-2022.opensustain.tech/index.html" />
+<meta property="og:description" content="Executive Summary: ’Open source’ culture in the creation and curation of data, knowledge, and technology offers unprecedented collaborative efficiencies across numerous fields, but the opportunitie..." />
+<meta property="og:image" content="https://report-2022.opensustain.tech/_images/mycelium_sustainability.png" />
+<meta property="og:image:alt" content="Open Source in Environmental Sustainability" />
+<meta name="description" content="Executive Summary: ’Open source’ culture in the creation and curation of data, knowledge, and technology offers unprecedented collaborative efficiencies across numerous fields, but the opportunitie..." />
+
+    <title>Open Source in Environmental Sustainability &#8212; Open Source in Environmental Sustainability</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Markdown Files" href="markdown.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="#">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Source in Environmental Sustainability</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Open Source in Environmental Sustainability
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown.html">
+   Markdown Files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
+   Content with notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ost_analysis.html">
+   Data Analysis
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/index.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#executive-summary">
+   Executive Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acknowledgements">
+   Acknowledgements
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Open Source in Environmental Sustainability</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#executive-summary">
+   Executive Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acknowledgements">
+   Acknowledgements
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <meta property=":og:description:" content="Preserving stable climate and natural resources with openness" />
+<section class="tex2jax_ignore mathjax_ignore" id="open-source-in-environmental-sustainability">
+<h1>Open Source in Environmental Sustainability<a class="headerlink" href="#open-source-in-environmental-sustainability" title="Permalink to this headline">#</a></h1>
+<center> <strong> Preserving stable climate and natural resources with openness </strong> </center>
+<br />
+<center> <strong> Report Issue 2022 </strong> </center>
+<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
+<br />
+<a class="reference internal image-reference" href="_images/mycelium_sustainability.png"><img alt="_images/mycelium_sustainability.png" class="align-center" src="_images/mycelium_sustainability.png" style="width: 300px;" /></a>
+<br />
+<section id="executive-summary">
+<h2>Executive Summary<a class="headerlink" href="#executive-summary" title="Permalink to this headline">#</a></h2>
+<p>’Open source’ culture in the creation and curation of data, knowledge, and technology offers unprecedented collaborative efficiencies across numerous fields, but the opportunities it brings to the field of environmental sustainability have not been extensively mapped. We find there are common Open Sustainability Principles, such as those embodied in open source software (OSS), which are critical for achieving cross-system sustainability goals. They provide transparency and trust in the development and deployment of various technologies, support traceable decision-making, foster collaborative innovation, and build capacity for the localisation and customisation of climate technologies.</p>
+<p>Despite the strong transformative impact of OSS and open data in other domains, the potential for developing environmentally sustainable technologies is not well understood. This study provides an overview of the health and vibrancy of the open source software ecosystem in the field of environmental sustainability and climate technology. Thousands of actively developed OSS projects and organisations have been collected through the Open Sustainable Technology database and systematically analysed using qualitative and quantitative methods.</p>
+<p>The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision makers, as well as opportunities for more systemic collaboration and positive impact generation.</p>
+<p>The analysis reveals that despite its high transformational potential in environmental science, and the need for urgency of action, open source still plays a minor role as a long-term transformation strategy in sustainability when compared to other domains that have been transformed by Open Source Software. Half of all identified projects are in data-rich domains such as climate science, biosphere, energy system modelling, transportation and buildings. Other topics, such as carbon offsets, battery technology, sustainable investment, emission observation and integrated assessment modelling, show very few notable developments.</p>
+<p>Newly emerging topics such as green software were identified based on popularity growth. Most identified projects are relatively young, with a median age of about 4 years. Python, R, and Jupyter notebooks dominate the ecosystem, while permissive licences such as MIT are the first choice for most projects, followed by copyleft licence GPLv3.</p>
+<p>Analysis of the distribution of knowledge, work, and project governance further reveals that small open source communities lead most the development, and open source projects rely heavily on a single developer contributing on average 70% of the commits to a project. It further indicates a sectoral and geographical imbalance in open information and knowledge exchange, with large proportion of OSS projects originating in academia and some large government agencies. In particular, the participation of private companies is remarkably low. The geographic focus is on Europe and the U.S., while the number of projects from the Global South is low.</p>
+<p>The low participation of for-profit organisations and start-ups with open source business models is particularly remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes of that change on a company level. Impactful developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.</p>
+<p>When combined with the right support, community and funding structures, OSS accelerates collaboration. This requires:</p>
+<ul class="simple">
+<li><p>Strengthening the interconnectivity and knowledge exchange of the identified communities</p></li>
+<li><p>Closing the knowledge gap on the environmental impact of industries and companies</p></li>
+<li><p>Creating incubators and other support programmes for OSS in the field of environmental sustainability as well as dedicated funds that provide core and maintenance funding</p></li>
+<li><p>Developing better technical interfaces and middlewares between platforms, data, models and OSS tools across and within sectors to “stop reinventing the wheel”</p></li>
+</ul>
+<p>To summarise, we conclude that digital and sustainable transformation must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems, while increasing transparency and mitigating the risks of “greenwashing”. This report presents the first of its kind analysis of open source technology in sustainability to provide the empirical backbone for guiding community building, policy development and investment. Strengthening OSS for sustainability is the first step toward creating an open environmental intelligence to enable a prosperous and sustainable future for all.</p>
+<hr class="docutils" />
+<blockquote>
+<div><p>“The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.” <br/><br/>
+<a class="reference external" href="https://en.wikipedia.org/wiki/Ursula_Franklin">Ursula M. Franklin</a>, The Real World of Technology (1989)</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="acknowledgements">
+<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">#</a></h2>
+<p>Thanks for all the valuable insights and interviews: <br/>
+<a class="reference external" href="https://github.com/jdhoffa"><strong>Jackson Hoffart</strong></a> (<a class="reference external" href="https://rmi.org/">Rocky Mountain Institute</a>), <a class="reference external" href="https://github.com/danielhuppmann/"><strong>Daniel Huppmann</strong></a> (<a class="reference external" href="https://iiasa.ac.at/">International Institute for Applied Systems Analysis</a>), <a class="reference external" href="https://github.com/bpetit"><strong>Benoit Petit</strong></a> (<a class="reference external" href="https://hubblo.org/">Hubblo</a>), <a class="reference external" href="https://github.com/rabernat"><strong>Ryan Abernathey</strong></a> (<a class="reference external" href="https://earthmover.io/">Earthmover</a>), <a class="reference external" href="https://github.com/nworbmot"><strong>Tom Brown</strong></a> (<a class="reference external" href="https://pypsa.readthedocs.io/">PyPSA</a>), <a class="reference external" href="https://github.com/cwhanse"><strong>Clifford Hansen</strong></a> (<a class="reference external" href="https://pvlib-python.readthedocs.io/">pvlib</a>), <a class="reference external" href="https://github.com/tinosulzer"><strong>Valentin Sulzer</strong></a> (<a class="reference external" href="https://github.com/pybamm-team/">PyBaMM</a>), <a class="reference external" href="https://github.com/jennirinker"><strong>Jenni Rinker</strong></a> (<a class="reference external" href="https://wind.dtu.dk/">DTU Wind and Energy Systems</a>), <a class="reference external" href="https://github.com/jwagemann"><strong>Julia Wagemann</strong></a> (Independent), <a class="reference external" href="https://github.com/dabreegster"><strong>Dustin Carlino</strong></a> (<a class="reference external" href="https://github.com/a-b-street/abstreet">A/B Street</a>), <a class="reference external" href="https://www.linkedin.com/in/shuligoodman"><strong>Shuli Goodman</strong></a> (<a class="reference external" href="https://www.lfenergy.org/">Linux Foundation Energy</a>), <a class="reference external" href="https://github.com/rafmudaf"><strong>Rafael Mudafort</strong></a> (<a class="reference external" href="http://www.nrel.gov/">US National Renewable Energy Laboratory</a>), <a class="reference external" href="https://github.com/jhamman"><strong>Joe Hamman</strong></a> (<a class="reference external" href="https://carbonplan.org/">CarbonPlan</a>), <a class="reference external" href="https://github.com/slayoo"><strong>Sylwester Arabas</strong></a> (<a class="reference external" href="https://github.com/atmos-cloud-sim-uj/PySDM">PySDM</a>),  <a class="reference external" href="https://github.com/TrystanLea"><strong>Trystan Lea</strong></a> (<a class="reference external" href="https://openenergymonitor.org/">Open Energy Monitor</a>)</p>
+<p>Special thanks to <a class="reference external" href="https://github.com/kkulma"><strong>Katarzyna Kulma</strong></a> for reviewing and contributing to the data analysis and visualisation.</p>
+<p>Thanks to the contributions and support of:<br />
+<a class="reference external" href="https://github.com/tjarkdoering">Tjark Döring</a>, <a class="reference external" href="https://www.linkedin.com/in/victoria-lo">Victoria Lo</a>, <a class="reference external" href="https://linkedin.com/in/nmstreethran">Nithiya Streethran</a>, <a class="reference external" href="https://github.com/fdietze">Felix Dietze</a>, <a class="reference external" href="https://fr.linkedin.com/in/johannes-karoff-3110011b6">Johannes Karoff</a>, <a class="reference external" href="https://linkedin.com/in/alejandro-aristi">Alejandro Aristi</a>, <a class="reference external" href="https://www.linkedin.com/in/joetorreggiani">Joe Torreggiani</a>, <a class="reference external" href="https://de.linkedin.com/in/malgorzata-augspurger-9a28987b">Malgorzata Augspurger</a>, <a class="reference external" href="https://linkedin.com/in/miriam-winter-11b763225/">Miriam Winter</a> and <a class="reference external" href="https://linkedin.com/in/nickfiege">Nick Fiege</a>.</p>
+<p>This report would have been impossible without people all round the world contributing to <a class="reference external" href="https://opensustain.tech/">OpenSustain.tech</a>:<br />
+<br />
+<a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
+<img width="100%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
+</a>
+<br /></p>
+<p>The people behind OpenSustain.tech and this report are an free and open source community. However, we would like to thank the organizations that provided us with financial and consulting support.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://subak.org/"><img alt="" src="_images/subak.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://protontypes.eu/"><img alt="" src="_images/protontypes_text_only.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<p class="sd-card-text"><a class="reference external" href="https://www.opencorridor.org/"><img alt="" src="_images/open_corridor.png" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="markdown.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Markdown Files</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Tobias Augspurger, Eirini Malliaraki and Josh Hopkins<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
