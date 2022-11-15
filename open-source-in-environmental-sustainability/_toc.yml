@@ -3,23 +3,12 @@
 
 format: jb-book
 root: index
-chapters:
-- file: markdown
-- file: notebooks
-- file: ost_analysis
+parts:
+- caption: Introduction
+  chapters:
+  - file: introduction/prelude
+  - file: introduction/the_role_of_open_source_software
 
 
 
-#- file: intro.ipynb
-#- chapter: Week 1
-#  sections:
-#  - file: chapter-1-intro-to-data-science.ipynb
-#  - file: chapter-2-mathematical-foundations.ipynb
-#- chapter: Week 2
-#  sections:
-#  - file: chapter-3-jupyter.ipynb
-#  - file: chapter-4-review-of-python-and-pandas.ipynb
-#- chapter: Week 3
-#  sections:
-#  - file: chapter-5-before-and-after.ipynb
-#  - file: chapter-6-single-table-verbs.ipynb
+
