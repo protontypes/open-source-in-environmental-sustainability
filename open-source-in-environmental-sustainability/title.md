@@ -46,24 +46,22 @@ To summarise, we conclude that digital and sustainable transformation must conve
 
 ## Acknowledgements
 
-Thanks for all the valuable insights and interviews: 
-
+Thanks for all the valuable insights and interviews: <br/> 
 [**Jackson Hoffart**](https://github.com/jdhoffa) ([Rocky Mountain Institute](https://rmi.org/)), [**Daniel Huppmann**](https://github.com/danielhuppmann/) ([International Institute for Applied Systems Analysis](https://iiasa.ac.at/)), [**Benoit Petit**](https://github.com/bpetit) ([Hubblo](https://hubblo.org/)), [**Ryan Abernathey**](https://github.com/rabernat) ([Earthmover](https://earthmover.io/)), [**Tom Brown**](https://github.com/nworbmot) ([PyPSA](https://pypsa.readthedocs.io/)), [**Clifford Hansen**](https://github.com/cwhanse) ([pvlib](https://pvlib-python.readthedocs.io/)), [**Valentin Sulzer**](https://github.com/tinosulzer) ([PyBaMM](https://github.com/pybamm-team/)), [**Jenni Rinker**](https://github.com/jennirinker) ([DTU Wind and Energy Systems](https://wind.dtu.dk/)), [**Julia Wagemann**](https://github.com/jwagemann) (Independent), [**Dustin Carlino**](https://github.com/dabreegster) ([A/B Street](https://github.com/a-b-street/abstreet)), [**Shuli Goodman**](https://www.linkedin.com/in/shuligoodman) ([Linux Foundation Energy](https://www.lfenergy.org/)), [**Rafael Mudafort**](https://github.com/rafmudaf) ([US National Renewable Energy Laboratory](http://www.nrel.gov/)), [**Joe Hamman**](https://github.com/jhamman) ([CarbonPlan](https://carbonplan.org/)), [**Sylwester Arabas**](https://github.com/slayoo) ([PySDM](https://github.com/atmos-cloud-sim-uj/PySDM)),  [**Trystan Lea**](https://github.com/TrystanLea) ([Open Energy Monitor](https://openenergymonitor.org/))
 
 Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation. 
 
-**Thanks to the contributions and support of** Tjark Döring, Victoria Lo, Nithiya Streethran, Felix Dietze, Johannes Karoff, Alejandro Aristi, Joe Torreggiani, Malgorzata Augspurger, Miriam Winter and Nick Fiege.
+Thanks to the contributions and support of:<br />
+[Tjark Döring](https://github.com/tjarkdoering), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/) and [Nick Fiege](https://linkedin.com/in/nickfiege).
 
-This report would have been impossible without people all round the globe contributing to [OpenSustain.tech](https://opensustain.tech/):
-
+This report would have been impossible without people all round the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
+<br />
 <a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
   <img width="100%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
 </a>
-
-<br />
 <br />
 
-The people behind OpenSustain.tech and this report are an open source community, not backed by any legal organisation. However, we would like to thank the organizations that provided us with financial and consulting support. 
+The people behind OpenSustain.tech and this report are an free and open source community. However, we would like to thank the organizations that provided us with financial and consulting support. 
 
 ::::{grid}
 :gutter: 3
