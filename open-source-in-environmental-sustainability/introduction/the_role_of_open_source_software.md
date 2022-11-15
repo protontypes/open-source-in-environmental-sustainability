@@ -1,4 +1,4 @@
-## The Role of Open Source Software
+# The Role of Open Source Software
 
 Open source software (OSS) has transformed the digital industry by accelerating the development of cloud computing, operating systems, data science and artificial intelligence. Besides core information technology infrastructure, open source software is becoming increasingly critical in environmental science, disaster impact assessment, energy efficiency, and sustainability in general. The origins of the open source software movement can be found in the development of core IT infrastructure such as operating systems, web servers and databases. Linux is by far the most widely used operating system in the field of supercomputers, embedded systems and Internet infrastructure. At the same time, the Open Science movement and “[FAIR Principles](https://www.go-fair.org/fair-principles/)” have been instrumental in making scientific work transparent and collaborative. 
 
