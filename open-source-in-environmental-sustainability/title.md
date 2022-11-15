@@ -1,7 +1,7 @@
-<h1><center>  Open Source in Environmental Sustainability </h1> </center>
+# Open Source in Environmental Sustainability
+<center> Preserving stable climate and natural resources with openness </center>
 <center> <strong> Report Issue 2022 </strong> </center>
-
-<center>Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center> 
+<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
 
 <br />
 
