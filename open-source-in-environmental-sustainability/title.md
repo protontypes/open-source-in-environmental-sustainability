@@ -1,15 +1,17 @@
-<center> <h1>Open Source in Environmental Sustainability </h1> 
-<strong> Report Issue 2022 </strong> 
+<h1><center>  Open Source in Environmental Sustainability </h1> </center>
+<center> <strong> Report Issue 2022 </strong> </center>
 
-<strong> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </strong> </center> 
+<center><strong> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </strong> </center> 
 
 <br />
+
+## Executive Summary 
+
 ’Open source’ culture in the creation and curation of data, knowledge, and technology offers unprecedented collaborative efficiencies across numerous fields, but the opportunities it brings to the field of environmental sustainability have not been extensively mapped. We find there are common Open Sustainability Principles, such as those embodied in open source software (OSS), which are critical for achieving cross-system sustainability goals. They provide transparency and trust in the development and deployment of various technologies, support traceable decision-making, foster collaborative innovation, and build capacity for the localisation and customisation of climate technologies.
 
 ```{figure} ./images/Orion_aveugle_cherchant_le_soleil.jpg
 ---
 height: 350px
-name: directive-fig
 ---
 Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants" which means "using the understanding gained by major thinkers who have gone before in order to make intellectual progress"
 ```
@@ -26,6 +28,13 @@ Analysis of the distribution of knowledge, work, and project governance further 
 
 The low participation of for-profit organisations and start-ups with open source business models is particularly remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes of that change on a company level. Impactful developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.
 
+```{figure} ./images/global_distribution_of_organisations.png
+---
+height: 450px
+---
+Global distribution of active organizations contributing to open source in environmental sustainability.
+```
+
 When combined with the right support, community and funding structures, OSS accelerates collaboration. This requires: 
 - Strengthening the interconnectivity and knowledge exchange of the identified communities 
 - Closing the knowledge gap on the environmental impact of industries and companies 
@@ -33,6 +42,53 @@ When combined with the right support, community and funding structures, OSS acce
 - Developing better technical interfaces and middlewares between platforms, data, models and OSS tools across and within sectors to “stop reinventing the wheel”
 
 To summarise, we conclude that digital and sustainable transformation must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems, while increasing transparency and mitigating the risks of “greenwashing”. This report presents the first of its kind analysis of open source technology in sustainability to provide the empirical backbone for guiding community building, policy development and investment. Strengthening OSS for sustainability is the first step toward creating an open environmental intelligence to enable a prosperous and sustainable future for all. 
+
+---
+
+>  “The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.”
+> [Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
+
+
+---
+
+## Acknowledgements
+
+Thanks to all the valuable insights and interviews: 
+
+[**Jackson Hoffart**](https://github.com/jdhoffa) ([Rocky Mountain Institute](https://rmi.org/)), [**Daniel Huppmann**](https://github.com/danielhuppmann/) ([International Institute for Applied Systems Analysis](https://iiasa.ac.at/)), [**Benoit Petit**](https://github.com/bpetit) ([Hubblo](https://hubblo.org/)), [**Ryan Abernathey**](https://github.com/rabernat) ([Earthmover](https://earthmover.io/)), [**Tom Brown**](https://github.com/nworbmot) ([PyPSA](https://pypsa.readthedocs.io/)), [**Clifford Hansen**](https://github.com/cwhanse) ([pvlib](https://pvlib-python.readthedocs.io/)), [**Valentin Sulzer**](https://github.com/tinosulzer) ([PyBaMM](https://github.com/pybamm-team/)), [**Jenni Rinker**](https://github.com/jennirinker) ([DTU Wind and Energy Systems](https://wind.dtu.dk/)), [**Julia Wagemann**](https://github.com/jwagemann) (Independent), [**Dustin Carlino**](https://github.com/dabreegster) ([A/B Street](https://github.com/a-b-street/abstreet)), [**Shuli Goodman**](https://www.linkedin.com/in/shuligoodman) ([Linux Foundation Energy](https://www.lfenergy.org/)), [**Rafael Mudafort**](https://github.com/rafmudaf) ([US National Renewable Energy Laboratory](http://www.nrel.gov/)), [**Joe Hamman**](https://github.com/jhamman) ([CarbonPlan](https://carbonplan.org/)), [**Sylwester Arabas**](https://github.com/slayoo) ([PySDM](https://github.com/atmos-cloud-sim-uj/PySDM)),  [**Trystan Lea**](https://github.com/TrystanLea) ([Open Energy Monitor](https://openenergymonitor.org/))
+
+Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation. 
+
+**Thanks to the contributions and support of** Tjark Döring, Victoria Lo, Nithiya Streethran, Felix Dietze, Johannes Karoff, Alejandro Aristi, Joe Torreggiani, Malgorzata Augspurger, Miriam Winter and Nick Fiege for supporting Open Sustainable Technology.
+
+## Contributors of OpenSustain.tech
+
+This work would have been impossible without people all round the globe contributing to the OpenSustain.tech website:
+
+<a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
+  <img width="70%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
+</a>
+
+<br />
+<br />
+
+The preparation of this report and OpenSustain.tech are an open source community project, not backed by any legal organisation. However, we would like to thank the organizations that provided us with financial and consulting support. 
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} 
+![](./images/subak.png)
+:::
+
+:::{grid-item-card} 
+![](./images/protontypes_text_only.png)
+:::
+
+:::{grid-item-card} Three!
+OpenCorridor Logo
+:::
+::::
 
 
 
