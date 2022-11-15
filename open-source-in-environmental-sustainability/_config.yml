@@ -9,6 +9,7 @@ title                       : Open Source in Environmental Sustainability  # The
 author                      : Tobias Augspurger, Eirini Malliaraki and Josh Hopkins  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
+description                 : "Preserving stable climate and natural resources with openness"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -48,9 +49,3 @@ sphinx:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
 
-myst:
-  html_meta:
-    "description lang=en": "metadata description"
-    "description lang=fr": "description des métadonnées"
-    "keywords": "Sphinx, MyST"
-    "property=og:locale": "en_US"
