@@ -44,16 +44,6 @@ Without open data, rigorous science and open software, it is impossible to make 
 
 Planetary Management is an established approach to understanding how we can wisely use global resources. However, not much is known about the state of the open source and open data ecosystem that provides actionable intelligence about the state of our ecosystem. There are few efforts to date to build bridges between the various developments and to better manage collaboration and inventory. How do these open projects – which have the potential to yield actionable insights in a transparent and democratic way – evolve over the years? 
 
-## Goals 
-
-While there is a general trend toward more widespread use and adoption of open source technology projects, there is no systematic assessment of which projects can be considered critical digital infrastructure, or of where significant funding and resourcing gaps exist. OSS is a public good, but no one is currently responsible for stewarding and funding it. OSS providers frequently lack a business model, resulting in a systemic lack of investment in digital infrastructure at a time when societies' reliance on it is growing. 
-
-To the knowledge of the authors, there has been no systematic study of these dynamics in the open source ecosystem for environmental sustainability. For the past 2 years, Open Sustainable Technology has mapped the OSS ecosystem within the fields of environmental sustainability. An OSS ecosystem is defined as a collection of related software projects that co-evolve in the same environment. **The purpose of this study is to examine the health and state of this emerging ecosystem to understand the impact of the open source culture within environmental sustainability.** 
-
-**A central objective is to create strategies and visions to accelerate the use of open source technologies in all sustainable technologies.** Based on this study, we attempt to consolidate existing heterogeneous open source projects that can be combined into a common operating system for environmental intelligence. 
-
-
-
 ## A brief History of Open Source Culture in Sustainability
 
 Environmental open data has a very long but not well known history. Without the exchange of measurement data between meteorologists, weather forecasting would have been impossible to collaborate in the early days of this scientific field. The origin of the World Meteorological Organization (WMO) stretches back almost 150 years, and international data sharing has been central to its activities from the very beginning. 
@@ -76,13 +66,3 @@ align: center
 ---
 Source: [Government Satellite Data and Its Role in Advancing Global Development](https://medium.com/radiant-earth-insights/government-satellite-data-and-its-role-in-advancing-global-development-7b6760e803b1)
 ```
-## Defining ‘Open Sustainability’ 
-When it comes to sustainability and open source, we can be discussing completely different things depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of of ‘open sustainability’, but touches on others with similar framing and scope: 
-
-Open Sustainability refers to the use of open source technical approaches for the benefit of the environment. The field examines how open source culture and methods can contribute to economic, ecological, and social sustainability. It describes more what open source can do for the environment and less what the environment can do for open source. Within this study, this aspect will be dealt with in more detail, especially with a focus on environmental sustainability. 
-
-Open Source Sustainability refers to the ability of an open source project and its community to sustain themselves over a long period of time and to adapt the project to new circumstances and technologies. A strong community and governance structure is central to delivering bug fixes and new features. This is widely known and analysed in detail within books and publications.  
-
-Large, well-known projects receive more donations than small, but key to digital infrastructure software. Even though large companies use these projects, donations are small compared to the development resources that are required. A whole [ecosystem emerged](https://github.com/nayafia/lemonade-stand#a-handy-guide-to-financial-support-for-open-source) from this problem – with the objective of trying to commercialise the support, risk analysis and funding of open source software. Within the Linux Foundation, a new community emerged to determine the health state of an open source project: Community Health Analytics Open Source Software ([CHAOSS](https://chaoss.community/)). Another strong community that has formed in this space is [Sustain](https://sustainoss.org/).
-
-Green Software, also known as Green Computing, is concerned with lowering the energy consumption, environmental impact, and carbon intensity of programming languages and applications. With over 97% of the world's applications now using open source, this clearly affects energy usage and efficiency worldwide.
