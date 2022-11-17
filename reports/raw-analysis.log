@@ -17,87 +17,103 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-df_raw = pd.read_csv("./csv/projects.csv")
-df_raw.rename(columns={"rubric": "topic"},inplace=True)
-df_raw.rename(columns={"topics": "labels"},inplace=True)
+# Save the dataset with the scores
+df_active_path = "./csv/project_analysis.csv"
+df_active.to_csv(df_active_path)
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-Cell [0;32mIn [4], line 1[0m
-[0;32m----> 1[0m df_raw [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mread_csv[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43m./csv/projects.csv[39;49m[38;5;124;43m"[39;49m[43m)[49m
-[1;32m      2[0m df_raw[38;5;241m.[39mrename(columns[38;5;241m=[39m{[38;5;124m"[39m[38;5;124mrubric[39m[38;5;124m"[39m: [38;5;124m"[39m[38;5;124mtopic[39m[38;5;124m"[39m},inplace[38;5;241m=[39m[38;5;28;01mTrue[39;00m)
-[1;32m      3[0m df_raw[38;5;241m.[39mrename(columns[38;5;241m=[39m{[38;5;124m"[39m[38;5;124mtopics[39m[38;5;124m"[39m: [38;5;124m"[39m[38;5;124mlabels[39m[38;5;124m"[39m},inplace[38;5;241m=[39m[38;5;28;01mTrue[39;00m)
+[0;31mOSError[0m                                   Traceback (most recent call last)
+Cell [0;32mIn [9], line 3[0m
+[1;32m      1[0m [38;5;66;03m# Save the dataset with the scores[39;00m
+[1;32m      2[0m df_active_path [38;5;241m=[39m [38;5;124m"[39m[38;5;124m./csv/project_analysis.csv[39m[38;5;124m"[39m
+[0;32m----> 3[0m [43mdf_active[49m[38;5;241;43m.[39;49m[43mto_csv[49m[43m([49m[43mdf_active_path[49m[43m)[49m
 
 File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/util/_decorators.py:211[0m, in [0;36mdeprecate_kwarg.<locals>._deprecate_kwarg.<locals>.wrapper[0;34m(*args, **kwargs)[0m
 [1;32m    209[0m     [38;5;28;01melse[39;00m:
 [1;32m    210[0m         kwargs[new_arg_name] [38;5;241m=[39m new_arg_value
 [0;32m--> 211[0m [38;5;28;01mreturn[39;00m [43mfunc[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
 
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/util/_decorators.py:331[0m, in [0;36mdeprecate_nonkeyword_arguments.<locals>.decorate.<locals>.wrapper[0;34m(*args, **kwargs)[0m
-[1;32m    325[0m [38;5;28;01mif[39;00m [38;5;28mlen[39m(args) [38;5;241m>[39m num_allow_args:
-[1;32m    326[0m     warnings[38;5;241m.[39mwarn(
-[1;32m    327[0m         msg[38;5;241m.[39mformat(arguments[38;5;241m=[39m_format_argument_list(allow_args)),
-[1;32m    328[0m         [38;5;167;01mFutureWarning[39;00m,
-[1;32m    329[0m         stacklevel[38;5;241m=[39mfind_stack_level(),
-[1;32m    330[0m     )
-[0;32m--> 331[0m [38;5;28;01mreturn[39;00m [43mfunc[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
-
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/parsers/readers.py:950[0m, in [0;36mread_csv[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, error_bad_lines, warn_bad_lines, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options)[0m
-[1;32m    935[0m kwds_defaults [38;5;241m=[39m _refine_defaults_read(
-[1;32m    936[0m     dialect,
-[1;32m    937[0m     delimiter,
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/core/generic.py:3720[0m, in [0;36mNDFrame.to_csv[0;34m(self, path_or_buf, sep, na_rep, float_format, columns, header, index, index_label, mode, encoding, compression, quoting, quotechar, lineterminator, chunksize, date_format, doublequote, escapechar, decimal, errors, storage_options)[0m
+[1;32m   3709[0m df [38;5;241m=[39m [38;5;28mself[39m [38;5;28;01mif[39;00m [38;5;28misinstance[39m([38;5;28mself[39m, ABCDataFrame) [38;5;28;01melse[39;00m [38;5;28mself[39m[38;5;241m.[39mto_frame()
+[1;32m   3711[0m formatter [38;5;241m=[39m DataFrameFormatter(
+[1;32m   3712[0m     frame[38;5;241m=[39mdf,
+[1;32m   3713[0m     header[38;5;241m=[39mheader,
 [0;32m   (...)[0m
-[1;32m    946[0m     defaults[38;5;241m=[39m{[38;5;124m"[39m[38;5;124mdelimiter[39m[38;5;124m"[39m: [38;5;124m"[39m[38;5;124m,[39m[38;5;124m"[39m},
-[1;32m    947[0m )
-[1;32m    948[0m kwds[38;5;241m.[39mupdate(kwds_defaults)
-[0;32m--> 950[0m [38;5;28;01mreturn[39;00m [43m_read[49m[43m([49m[43mfilepath_or_buffer[49m[43m,[49m[43m [49m[43mkwds[49m[43m)[49m
+[1;32m   3717[0m     decimal[38;5;241m=[39mdecimal,
+[1;32m   3718[0m )
+[0;32m-> 3720[0m [38;5;28;01mreturn[39;00m [43mDataFrameRenderer[49m[43m([49m[43mformatter[49m[43m)[49m[38;5;241;43m.[39;49m[43mto_csv[49m[43m([49m
+[1;32m   3721[0m [43m    [49m[43mpath_or_buf[49m[43m,[49m
+[1;32m   3722[0m [43m    [49m[43mlineterminator[49m[38;5;241;43m=[39;49m[43mlineterminator[49m[43m,[49m
+[1;32m   3723[0m [43m    [49m[43msep[49m[38;5;241;43m=[39;49m[43msep[49m[43m,[49m
+[1;32m   3724[0m [43m    [49m[43mencoding[49m[38;5;241;43m=[39;49m[43mencoding[49m[43m,[49m
+[1;32m   3725[0m [43m    [49m[43merrors[49m[38;5;241;43m=[39;49m[43merrors[49m[43m,[49m
+[1;32m   3726[0m [43m    [49m[43mcompression[49m[38;5;241;43m=[39;49m[43mcompression[49m[43m,[49m
+[1;32m   3727[0m [43m    [49m[43mquoting[49m[38;5;241;43m=[39;49m[43mquoting[49m[43m,[49m
+[1;32m   3728[0m [43m    [49m[43mcolumns[49m[38;5;241;43m=[39;49m[43mcolumns[49m[43m,[49m
+[1;32m   3729[0m [43m    [49m[43mindex_label[49m[38;5;241;43m=[39;49m[43mindex_label[49m[43m,[49m
+[1;32m   3730[0m [43m    [49m[43mmode[49m[38;5;241;43m=[39;49m[43mmode[49m[43m,[49m
+[1;32m   3731[0m [43m    [49m[43mchunksize[49m[38;5;241;43m=[39;49m[43mchunksize[49m[43m,[49m
+[1;32m   3732[0m [43m    [49m[43mquotechar[49m[38;5;241;43m=[39;49m[43mquotechar[49m[43m,[49m
+[1;32m   3733[0m [43m    [49m[43mdate_format[49m[38;5;241;43m=[39;49m[43mdate_format[49m[43m,[49m
+[1;32m   3734[0m [43m    [49m[43mdoublequote[49m[38;5;241;43m=[39;49m[43mdoublequote[49m[43m,[49m
+[1;32m   3735[0m [43m    [49m[43mescapechar[49m[38;5;241;43m=[39;49m[43mescapechar[49m[43m,[49m
+[1;32m   3736[0m [43m    [49m[43mstorage_options[49m[38;5;241;43m=[39;49m[43mstorage_options[49m[43m,[49m
+[1;32m   3737[0m [43m[49m[43m)[49m
 
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/parsers/readers.py:605[0m, in [0;36m_read[0;34m(filepath_or_buffer, kwds)[0m
-[1;32m    602[0m _validate_names(kwds[38;5;241m.[39mget([38;5;124m"[39m[38;5;124mnames[39m[38;5;124m"[39m, [38;5;28;01mNone[39;00m))
-[1;32m    604[0m [38;5;66;03m# Create the parser.[39;00m
-[0;32m--> 605[0m parser [38;5;241m=[39m [43mTextFileReader[49m[43m([49m[43mfilepath_or_buffer[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwds[49m[43m)[49m
-[1;32m    607[0m [38;5;28;01mif[39;00m chunksize [38;5;129;01mor[39;00m iterator:
-[1;32m    608[0m     [38;5;28;01mreturn[39;00m parser
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/util/_decorators.py:211[0m, in [0;36mdeprecate_kwarg.<locals>._deprecate_kwarg.<locals>.wrapper[0;34m(*args, **kwargs)[0m
+[1;32m    209[0m     [38;5;28;01melse[39;00m:
+[1;32m    210[0m         kwargs[new_arg_name] [38;5;241m=[39m new_arg_value
+[0;32m--> 211[0m [38;5;28;01mreturn[39;00m [43mfunc[49m[43m([49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
 
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/parsers/readers.py:1442[0m, in [0;36mTextFileReader.__init__[0;34m(self, f, engine, **kwds)[0m
-[1;32m   1439[0m     [38;5;28mself[39m[38;5;241m.[39moptions[[38;5;124m"[39m[38;5;124mhas_index_names[39m[38;5;124m"[39m] [38;5;241m=[39m kwds[[38;5;124m"[39m[38;5;124mhas_index_names[39m[38;5;124m"[39m]
-[1;32m   1441[0m [38;5;28mself[39m[38;5;241m.[39mhandles: IOHandles [38;5;241m|[39m [38;5;28;01mNone[39;00m [38;5;241m=[39m [38;5;28;01mNone[39;00m
-[0;32m-> 1442[0m [38;5;28mself[39m[38;5;241m.[39m_engine [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_make_engine[49m[43m([49m[43mf[49m[43m,[49m[43m [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mengine[49m[43m)[49m
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/formats/format.py:1189[0m, in [0;36mDataFrameRenderer.to_csv[0;34m(self, path_or_buf, encoding, sep, columns, index_label, mode, compression, quoting, quotechar, lineterminator, chunksize, date_format, doublequote, escapechar, errors, storage_options)[0m
+[1;32m   1168[0m     created_buffer [38;5;241m=[39m [38;5;28;01mFalse[39;00m
+[1;32m   1170[0m csv_formatter [38;5;241m=[39m CSVFormatter(
+[1;32m   1171[0m     path_or_buf[38;5;241m=[39mpath_or_buf,
+[1;32m   1172[0m     lineterminator[38;5;241m=[39mlineterminator,
+[0;32m   (...)[0m
+[1;32m   1187[0m     formatter[38;5;241m=[39m[38;5;28mself[39m[38;5;241m.[39mfmt,
+[1;32m   1188[0m )
+[0;32m-> 1189[0m [43mcsv_formatter[49m[38;5;241;43m.[39;49m[43msave[49m[43m([49m[43m)[49m
+[1;32m   1191[0m [38;5;28;01mif[39;00m created_buffer:
+[1;32m   1192[0m     [38;5;28;01massert[39;00m [38;5;28misinstance[39m(path_or_buf, StringIO)
 
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/parsers/readers.py:1735[0m, in [0;36mTextFileReader._make_engine[0;34m(self, f, engine)[0m
-[1;32m   1733[0m     [38;5;28;01mif[39;00m [38;5;124m"[39m[38;5;124mb[39m[38;5;124m"[39m [38;5;129;01mnot[39;00m [38;5;129;01min[39;00m mode:
-[1;32m   1734[0m         mode [38;5;241m+[39m[38;5;241m=[39m [38;5;124m"[39m[38;5;124mb[39m[38;5;124m"[39m
-[0;32m-> 1735[0m [38;5;28mself[39m[38;5;241m.[39mhandles [38;5;241m=[39m [43mget_handle[49m[43m([49m
-[1;32m   1736[0m [43m    [49m[43mf[49m[43m,[49m
-[1;32m   1737[0m [43m    [49m[43mmode[49m[43m,[49m
-[1;32m   1738[0m [43m    [49m[43mencoding[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43moptions[49m[38;5;241;43m.[39;49m[43mget[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mencoding[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[38;5;28;43;01mNone[39;49;00m[43m)[49m[43m,[49m
-[1;32m   1739[0m [43m    [49m[43mcompression[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43moptions[49m[38;5;241;43m.[39;49m[43mget[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mcompression[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[38;5;28;43;01mNone[39;49;00m[43m)[49m[43m,[49m
-[1;32m   1740[0m [43m    [49m[43mmemory_map[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43moptions[49m[38;5;241;43m.[39;49m[43mget[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mmemory_map[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[38;5;28;43;01mFalse[39;49;00m[43m)[49m[43m,[49m
-[1;32m   1741[0m [43m    [49m[43mis_text[49m[38;5;241;43m=[39;49m[43mis_text[49m[43m,[49m
-[1;32m   1742[0m [43m    [49m[43merrors[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43moptions[49m[38;5;241;43m.[39;49m[43mget[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mencoding_errors[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[38;5;124;43m"[39;49m[38;5;124;43mstrict[39;49m[38;5;124;43m"[39;49m[43m)[49m[43m,[49m
-[1;32m   1743[0m [43m    [49m[43mstorage_options[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43moptions[49m[38;5;241;43m.[39;49m[43mget[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mstorage_options[39;49m[38;5;124;43m"[39;49m[43m,[49m[43m [49m[38;5;28;43;01mNone[39;49;00m[43m)[49m[43m,[49m
-[1;32m   1744[0m [43m[49m[43m)[49m
-[1;32m   1745[0m [38;5;28;01massert[39;00m [38;5;28mself[39m[38;5;241m.[39mhandles [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m
-[1;32m   1746[0m f [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39mhandles[38;5;241m.[39mhandle
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/formats/csvs.py:241[0m, in [0;36mCSVFormatter.save[0;34m(self)[0m
+[1;32m    237[0m [38;5;124;03m"""[39;00m
+[1;32m    238[0m [38;5;124;03mCreate the writer & save.[39;00m
+[1;32m    239[0m [38;5;124;03m"""[39;00m
+[1;32m    240[0m [38;5;66;03m# apply compression and byte/text conversion[39;00m
+[0;32m--> 241[0m [38;5;28;01mwith[39;00m [43mget_handle[49m[43m([49m
+[1;32m    242[0m [43m    [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mfilepath_or_buffer[49m[43m,[49m
+[1;32m    243[0m [43m    [49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mmode[49m[43m,[49m
+[1;32m    244[0m [43m    [49m[43mencoding[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mencoding[49m[43m,[49m
+[1;32m    245[0m [43m    [49m[43merrors[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43merrors[49m[43m,[49m
+[1;32m    246[0m [43m    [49m[43mcompression[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mcompression[49m[43m,[49m
+[1;32m    247[0m [43m    [49m[43mstorage_options[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mstorage_options[49m[43m,[49m
+[1;32m    248[0m [43m[49m[43m)[49m [38;5;28;01mas[39;00m handles:
+[1;32m    249[0m 
+[1;32m    250[0m     [38;5;66;03m# Note: self.encoding is irrelevant here[39;00m
+[1;32m    251[0m     [38;5;28mself[39m[38;5;241m.[39mwriter [38;5;241m=[39m csvlib[38;5;241m.[39mwriter(
+[1;32m    252[0m         handles[38;5;241m.[39mhandle,
+[1;32m    253[0m         lineterminator[38;5;241m=[39m[38;5;28mself[39m[38;5;241m.[39mlineterminator,
+[0;32m   (...)[0m
+[1;32m    258[0m         quotechar[38;5;241m=[39m[38;5;28mself[39m[38;5;241m.[39mquotechar,
+[1;32m    259[0m     )
+[1;32m    261[0m     [38;5;28mself[39m[38;5;241m.[39m_save()
 
-File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/common.py:856[0m, in [0;36mget_handle[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)[0m
-[1;32m    851[0m [38;5;28;01melif[39;00m [38;5;28misinstance[39m(handle, [38;5;28mstr[39m):
-[1;32m    852[0m     [38;5;66;03m# Check whether the filename is to be opened in binary mode.[39;00m
-[1;32m    853[0m     [38;5;66;03m# Binary mode does not support 'encoding' and 'newline'.[39;00m
-[1;32m    854[0m     [38;5;28;01mif[39;00m ioargs[38;5;241m.[39mencoding [38;5;129;01mand[39;00m [38;5;124m"[39m[38;5;124mb[39m[38;5;124m"[39m [38;5;129;01mnot[39;00m [38;5;129;01min[39;00m ioargs[38;5;241m.[39mmode:
-[1;32m    855[0m         [38;5;66;03m# Encoding[39;00m
-[0;32m--> 856[0m         handle [38;5;241m=[39m [38;5;28;43mopen[39;49m[43m([49m
-[1;32m    857[0m [43m            [49m[43mhandle[49m[43m,[49m
-[1;32m    858[0m [43m            [49m[43mioargs[49m[38;5;241;43m.[39;49m[43mmode[49m[43m,[49m
-[1;32m    859[0m [43m            [49m[43mencoding[49m[38;5;241;43m=[39;49m[43mioargs[49m[38;5;241;43m.[39;49m[43mencoding[49m[43m,[49m
-[1;32m    860[0m [43m            [49m[43merrors[49m[38;5;241;43m=[39;49m[43merrors[49m[43m,[49m
-[1;32m    861[0m [43m            [49m[43mnewline[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43m"[39;49m[43m,[49m
-[1;32m    862[0m [43m        [49m[43m)[49m
-[1;32m    863[0m     [38;5;28;01melse[39;00m:
-[1;32m    864[0m         [38;5;66;03m# Binary mode[39;00m
-[1;32m    865[0m         handle [38;5;241m=[39m [38;5;28mopen[39m(handle, ioargs[38;5;241m.[39mmode)
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/common.py:734[0m, in [0;36mget_handle[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)[0m
+[1;32m    732[0m [38;5;66;03m# Only for write methods[39;00m
+[1;32m    733[0m [38;5;28;01mif[39;00m [38;5;124m"[39m[38;5;124mr[39m[38;5;124m"[39m [38;5;129;01mnot[39;00m [38;5;129;01min[39;00m mode [38;5;129;01mand[39;00m is_path:
+[0;32m--> 734[0m     [43mcheck_parent_directory[49m[43m([49m[38;5;28;43mstr[39;49m[43m([49m[43mhandle[49m[43m)[49m[43m)[49m
+[1;32m    736[0m [38;5;28;01mif[39;00m compression:
+[1;32m    737[0m     [38;5;28;01mif[39;00m compression [38;5;241m!=[39m [38;5;124m"[39m[38;5;124mzstd[39m[38;5;124m"[39m:
+[1;32m    738[0m         [38;5;66;03m# compression libraries do not like an explicit text-mode[39;00m
 
-[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: './csv/projects.csv'
-FileNotFoundError: [Errno 2] No such file or directory: './csv/projects.csv'
+File [0;32m/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/pandas/io/common.py:597[0m, in [0;36mcheck_parent_directory[0;34m(path)[0m
+[1;32m    595[0m parent [38;5;241m=[39m Path(path)[38;5;241m.[39mparent
+[1;32m    596[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m parent[38;5;241m.[39mis_dir():
+[0;32m--> 597[0m     [38;5;28;01mraise[39;00m [38;5;167;01mOSError[39;00m([38;5;124mrf[39m[38;5;124m"[39m[38;5;124mCannot save file into a non-existent directory: [39m[38;5;124m'[39m[38;5;132;01m{[39;00mparent[38;5;132;01m}[39;00m[38;5;124m'[39m[38;5;124m"[39m)
+
+[0;31mOSError[0m: Cannot save file into a non-existent directory: 'csv'
+OSError: Cannot save file into a non-existent directory: 'csv'
 
