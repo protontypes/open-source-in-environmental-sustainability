@@ -52,7 +52,7 @@ The number of dependencies is another important attribute, indicative of the siz
   - **Financial Sustainability** *(What efforts are being made to reach this definition of sustainability? From what sources do projects receive funding or sponsorship?)*
   - **Future outlook** *(Do you see your instrument being widely used by your community in the future? What are the top5 open sustainable projects on your radar?)*
 
- ```{figure} ../images/yukon.jpg
+ ```{figure} ../images/yukon.png
 ---
 height: 400px
 ---
