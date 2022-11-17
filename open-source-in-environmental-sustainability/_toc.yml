@@ -16,7 +16,8 @@ parts:
     - file: chapters/topics
     - file: chapters/popularity
     - file: chapters/age-and-maturity
-    - file: chapters/fastest-growth-in-popularity
+    - file: chapters/fastest-growth
+    - file: chapters/ranking
 
 
 
