@@ -3,12 +3,8 @@
 
 format: jb-book
 root: index
-parts:
-- caption: Introduction
-  chapters:
-  - file: introduction/prelude
-  - file: introduction/the_role_of_open_source_software
-  - file: introduction/goals
+chapters:
+  - file: introduction/introduction
 
 
 
