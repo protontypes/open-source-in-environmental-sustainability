@@ -15,6 +15,7 @@ parts:
     - file: chapters/overview
     - file: chapters/topics
     - file: chapters/popularity
+    - file: chapters/age-and-maturity.ipynb
 
 
 
