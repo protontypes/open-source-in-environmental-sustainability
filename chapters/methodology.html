@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta property="og:title" content="Methodology" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://report-2022.opensustain.tech/chapters/methodology.html" />
+<meta property="og:description" content="Developing and maintaining open source software relies on an integration of technical, social and organisational aspects. A mixed methods study was therefore designed to understand all aspects. We ..." />
+<meta property="og:image" content="https://report-2022.opensustain.tech/_images/mycelium_sustainability.png" />
+<meta property="og:image:alt" content="Methodology" />
+<meta name="description" content="Developing and maintaining open source software relies on an integration of technical, social and organisational aspects. A mixed methods study was therefore designed to understand all aspects. We ..." />
+
+    <title>Methodology &#8212; Open Source in Environmental Sustainability</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Open Sustainability Principles" href="open-sustainability-principles.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Source in Environmental Sustainability</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Open Source in Environmental Sustainability
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="introduction.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="open-sustainability-principles.html">
+   Open Sustainability Principles
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Methodology
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Fchapters/methodology.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/chapters/methodology.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quantitative-analysis">
+   Quantitative Analysis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#qualitative-analysis">
+   Qualitative Analysis
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Methodology</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#quantitative-analysis">
+   Quantitative Analysis
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#qualitative-analysis">
+   Qualitative Analysis
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="methodology">
+<h1>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">#</a></h1>
+<p>Developing and maintaining open source software relies on an integration of technical, social and organisational aspects. A mixed methods study was therefore designed to understand all aspects. We collected quantitative and qualitative data concurrently and used one source’s findings as cross-validation for the other.
+Thousands of projects were analysed along six dimensions:</p>
+<ul class="simple">
+<li><p><strong>General overview</strong> - Project themes, growth and popularity, areas where projects are mature and where tools or processes exist that funders should support instead of forging a new path.</p></li>
+<li><p><strong>Technology -</strong> Preferred programming languages, licence use and technical challenges facing developers.</p></li>
+<li><p><strong>Community</strong> - What contributions from organisations and people are being made and how active is a community around a given software package.</p></li>
+<li><p><strong>Ecosystem collaborations</strong> - What is the organisational makeup of contributions and what potential exists for more ecosystemic cooperation across and within sectors and disciplines.</p></li>
+<li><p><strong>Financial sustainability</strong> - What is the different use of business models and funding mechanisms.</p></li>
+</ul>
+<section id="quantitative-analysis">
+<h2>Quantitative Analysis<a class="headerlink" href="#quantitative-analysis" title="Permalink to this headline">#</a></h2>
+<p>From October 2020 until August 2022, ~1300 <strong>actively</strong> developed open source projects were crowdsourced and curated. All entries are selected based on the contribution <a class="reference external" href="https://opensustain.tech/contributing/">guide</a> of OpenSustain.tech. For a project to be listed, it must:</p>
+<ul class="simple">
+<li><p>Follow at least one aspect of the Open Sustainability Principles</p></li>
+<li><p>Preserve natural ecosystems and mitigate climate &amp; environmental change through open technology, methods, data, intelligence, knowledge or tools</p></li>
+<li><p>Be used beyond the project’s main developers. Be structured and documented so that it can be reused and extended by <a class="reference external" href="http://others.Be">others.Be</a> published under an open source licence.</p></li>
+<li><p>The project dataset is entirely machine-generated based on data from OpenSustain.tech and the metadata from the GitHub API. The methodology and code with which the data is parsed and analysed can be found in the <a class="reference external" href="https://github.com/protontypes/AwesomeCure">AwesomeCure</a> repository.</p></li>
+</ul>
+<p>Various strategies were piloted to include as many projects as possible in data collection based on multiple keywords in relation to sustainable technology and environmental sustainability:</p>
+<ul class="simple">
+<li><p>Searching OSS platforms like Gitlab, Github, Bitbucket or Zenodo</p></li>
+<li><p>Mining scientific papers for terms like git, and searching in each paper’s keyword dictionary Using search engines for OSS, such as <a class="reference external" href="http://Libraries.io">Libraries.io</a>; and package managers such as PyPi or CRAN</p></li>
+<li><p>Investigating journals focused on OSS such as the <a class="reference external" href="https://joss.theoj.org/">Journal of Open Source Software</a></p></li>
+<li><p>Crowdsourcing input, and interviewing people working in relevant domains</p></li>
+<li><p>Browsing stars awarded by developers within the sectors</p></li>
+</ul>
+<p>Despite extensive research and a comprehensive use of complementary strategies, this database is only representative of a subset of projects. We must acknowledge that a variety of technological developments of relevance to OSS in the domain of environmental sustainability are not directly aimed at analysing or improving the sustainability of the environment; rather, they provide the technical basis for software tools that can. This applies, for example, in domains such as earth observation or geographic information systems (GIS). The boundaries here are often fluid, and the extent to which a development contributes to environmental sustainability cannot be clearly predicted. For example, a geoscience development that contributes to the exploitation of oil fields could also contribute to the exploitation of geothermal energy.</p>
+<p>Moreover, projects that are on self-hosted Git platforms are harder to find. While currently not supported, future re-analysis will consider other platforms, such as GitLab, more extensively. Also some important attributes could not be collected via the GitHub API – for example: the number of clones or the number of downloads. For Python and R, these numbers could be freely obtained via the package platform. However, the integration of this data was not possible until now.</p>
+<p>The number of dependencies is another important attribute, indicative of the size and growth of a project. We were able to obtain this data for Python projects via GitHub using a web crawler; Something that was not possible during the study via the GitHub API Referring to open source projects within publications has also unfortunately been uncommon up to now, making it difficult to find out via citations how much a project has been reused.</p>
+<p>Other data, such as user permissions, cannot be viewed within individual projects without additional authorisation. For this reason, governance structures in most open source projects are difficult to determine. Individuals who did not contribute code were also invisible to our analyses. Even if such contributions are of central importance, it is not possible to obtain them simply via the GitHub API. For individual open source projects, it is possible to process all pull requests and issue comments to obtain more information about non-code contributors but even in this way other persons working in the background can not be included.</p>
+</section>
+<section id="qualitative-analysis">
+<h2>Qualitative Analysis<a class="headerlink" href="#qualitative-analysis" title="Permalink to this headline">#</a></h2>
+<p><strong>OSS communities are keystone actors of OSS projects, and projects are typically initiated by an individual or a small group with a specific need</strong> often not being met satisfactorily by existing software. We began our research with these individuals. 15 interviews were conducted with project developers and contributors from projects of variable sizes and sectors, including on emission intensity, sustainable Investment, climate modelling, green software, earth sciences, energy modelling, photovoltaic systems, battery modelling, wind turbines, environmental sciences and transportation.</p>
+<p>Because we used a concurrent rather than sequential triangulation strategy, we had the opportunity to revisit and enhance our model to account for information revealed by the interviews. We drew inspiration from the questions asked in <a class="reference external" href="https://recommendations.implicit-development.org/">Roadwork ahead</a> to enquire about the developers’ challenges, incentives, needs, the financial viability of their projects, and the barriers that have hampered the development of best practices and more equitable developer communities. We asked about:</p>
+<ul class="simple">
+<li><p><strong>Trajectories and positions in OSS</strong> <em>(What are you working on, and how did you end up there? Where do you see your project related to the broader open sustainable ecosystem)</em></p></li>
+<li><p><strong>Technology &amp; support</strong> <em>(What open datasets and tools are you missing? What do you need to maintain your project in the near term?)</em></p></li>
+<li><p><strong>Community</strong> <em>(How many users does your instrument have, and how is this metric tracked? What efforts are made to build a diverse developer base? What is the developer model? How are developers retained?)</em></p></li>
+<li><p><strong>Collaboration</strong> <em>(In which field would you like to see more collaboration?)</em></p></li>
+<li><p><strong>Financial Sustainability</strong> <em>(What efforts are being made to reach this definition of sustainability? From what sources do projects receive funding or sponsorship?)</em></p></li>
+<li><p><strong>Future outlook</strong> <em>(Do you see your instrument being widely used by your community in the future? What are the top5 open sustainable projects on your radar?)</em></p></li>
+</ul>
+</section>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/yukon.jpg"><img alt="../_images/yukon.jpg" src="../_images/yukon.jpg" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the Open Source Python package <a class="reference external" href="https://github.com/OpenTopography/RiverREM">RiverREM</a></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="open-sustainability-principles.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Open Sustainability Principles</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Tobias Augspurger, Eirini Malliaraki and Josh Hopkins<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
