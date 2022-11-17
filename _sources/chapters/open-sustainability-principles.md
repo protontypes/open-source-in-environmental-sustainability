@@ -6,7 +6,7 @@ height: 400px
 ---
 Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants".
 ```
-Openness is a key indicator of sustainability. It allows different disciplines and organisations to refine their understanding of sustainability systematically over a long period of time. Knowledge can only continue to accumulate over a long period of time if it is made accessible. This basic idea is often associated with the metaphor "Standing on the shoulders of giants” which means “building on previous discoveries”. This expression, which describes a core idea of how science progresses, was coined by Issac Newton.**It is this attribute of making one's intentions and conclusions transparent to others that makes openness integral to sustainability and prevents manipulation of conclusions about the state of our planet.** The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:
+Openness is a key indicator of sustainability. It allows different disciplines and organisations to refine their understanding of sustainability systematically over a long period of time. Knowledge can only continue to accumulate over a long period of time if it is made accessible. This basic idea is often associated with the metaphor "Standing on the shoulders of giants” which means “building on previous discoveries”. This expression, which describes a core idea of how science progresses, was coined by Issac Newton. **It is this attribute of making one's intentions and conclusions transparent to others that makes openness integral to sustainability and prevents manipulation of conclusions about the state of our planet.** The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:
 
 ## Transparency and Trust
 
@@ -42,5 +42,4 @@ height: 400px
 ---
 CropHarvest is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products.
 ```
-
 
