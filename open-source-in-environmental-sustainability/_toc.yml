@@ -15,7 +15,8 @@ parts:
     - file: chapters/overview
     - file: chapters/topics
     - file: chapters/popularity
-    - file: chapters/age-and-maturity.ipynb
+    - file: chapters/age-and-maturity
+    - file: chapters/fastest-growth-in-popularity
 
 
 
