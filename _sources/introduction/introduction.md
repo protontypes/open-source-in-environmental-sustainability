@@ -26,6 +26,7 @@ While technological breakthroughs have been widely regarded as essential to addr
 ```{figure} ../images/turbine.png
 ---
 align: center
+height: 400px
 ---
 The International Energy Agency is working with the National Renewable Energy Laboratory and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://iea-wind.org/task37/) with open simulation and development tools.
 ```
@@ -50,3 +51,31 @@ While there is a general trend toward more widespread use and adoption of open s
 To the knowledge of the authors, there has been no systematic study of these dynamics in the open source ecosystem for environmental sustainability. For the past 2 years, Open Sustainable Technology has mapped the OSS ecosystem within the fields of environmental sustainability. An OSS ecosystem is defined as a collection of related software projects that co-evolve in the same environment. **The purpose of this study is to examine the health and state of this emerging ecosystem to understand the impact of the open source culture within environmental sustainability.** 
 
 **A central objective is to create strategies and visions to accelerate the use of open source technologies in all sustainable technologies.** Based on this study, we attempt to consolidate existing heterogeneous open source projects that can be combined into a common operating system for environmental intelligence. 
+
+
+
+## A brief history of open source culture in sustainability
+
+Environmental open data has a very long but not well known history. Without the exchange of measurement data between meteorologists, weather forecasting would have been impossible to collaborate in the early days of this scientific field. The origin of the World Meteorological Organization (WMO) stretches back almost 150 years, and international data sharing has been central to its activities from the very beginning. 
+
+With the beginning of the space age, the small number of weather satellites forced nations around the world to share data between different observatories to understand the state of the atmosphere and other Earth systems as a whole. The weather forecasts that became possible in this way generated a significant value for all sectors of societies. This open global computation endeavour gave us increased awareness of anthropogenic climate change and increased ability to act in this environment.
+
+Despite increasingly strong commercial interests in civil satellite data, a strong culture of open data and open science has been established to date. 41% of the unclassified Earth Observation Satellite programs of the 10 largest nations today provide open data . The creation of the Global Climate Observing System (GCOS), launched at the Second World Climate Conference, also committed parties to support international and intergovernmental sharing of data and analysis. The urgent need for a transition to a more sustainable society, and clear signs of anthropogenic climate change, have created multiple new movements and organisations with similar open ethoses and mandates in other domains alongside Earth observation: 
+
+- In the energy sector the [OpenMod Initiative](https://openmod-initiative.org/) formed in 2014 with the goal of opening up energy models – so the sector as a whole can improve the quality, transparency, and credibility of its products, leading to better research and policy. 
+- In 2017 academic Stefan Pfenninger [wrote an article published in in Nature](https://www.nature.com/articles/542393a.pdf) urging scientists to “Free The Models” for the energy sector – a call to action supported by influential scientists like Auke Hoekstra and politicians like Michael Liebreich. This led to the sector pushing toward open data and open source – a move that will be critical for a fossil fuel-free economy transition.
+- In 2018, Shuli Goodman founded the [LF Energy](https://www.lfenergy.org/) open source foundation for the power systems sector – enabling companies worldwide in the development of energy-related open software tools collaboratively within the Linux Foundation. 
+- [ClimateChange.ai](https://www.climatechange.ai/) provides an open community with multiple educational resources around tackling climate change by applying the power of artificial intelligence – another technology revolution that has been catalysed by open source culture. 
+- The [Open Climate Community Calls](https://www.appropedia.org/Open_Climate) created worldwide connections between multiple individuals from different domains – to understand the [relation](https://branch.climateaction.tech/issues/issue-2/open-climate-now/)ship between openness and climate change.
+-  [OS-Climate](https://os-climate.org/) created another large-scale collaboration between major companies under the Linux Foundation to bring more transparency and traceability into Environmental, Social and Governance (ESG) ratings – and support sustainable investment with the help of an open source toolchain.
+-  [The Digital Public Goods Alliance](https://digitalpublicgoods.net/) is an initiative endorsed by the UN Secretary-General that facilitates the discovery and deployment of digital public goods – With similarity to the [Open Sustainable Technology](https://opensustain.tech/) project, it provides an index of value open source projects but to sustainability in general, accompanied by a billion dollar investment 
+
+```{figure} ../images/open_satellite_data_downloads.jpeg
+---
+align: center
+---
+Source: [Government Satellite Data and Its Role in Advancing Global Development](https://medium.com/radiant-earth-insights/government-satellite-data-and-its-role-in-advancing-global-development-7b6760e803b1)
+```
+
+
+
