@@ -19,10 +19,10 @@ From October 2020 until August 2022, ~1300 **actively** developed open source pr
 
 - Follow at least one aspect of the Open Sustainability Principles 
 - Preserve natural ecosystems and mitigate climate & environmental change through open technology, methods, data, intelligence, knowledge or tools
-- Be used beyond the project's main developers. Be structured and documented so that it can be reused and extended by others.Be published under an open source licence.
-- The project dataset is entirely machine-generated based on data from OpenSustain.tech and the metadata from the GitHub API. The methodology and code with which the data is parsed and analysed can be found in the [AwesomeCure](https://github.com/protontypes/AwesomeCure) repository. 
+- Be used beyond the project's main developers. Be structured and documented so that it can be reused and extended by others.
+- Be published under an open source licence.
 
-Various strategies were piloted to include as many projects as possible in data collection based on multiple keywords in relation to sustainable technology and environmental sustainability:
+The project dataset is entirely machine-generated based on data from OpenSustain.tech and the metadata from the GitHub API. The methodology and code with which the data is parsed and analysed can be found in the [AwesomeCure](https://github.com/protontypes/AwesomeCure) repository. Various strategies were piloted to include as many projects as possible in data collection based on multiple keywords in relation to sustainable technology and environmental sustainability:
 
 - Searching OSS platforms like Gitlab, Github, Bitbucket or Zenodo
 - Mining scientific papers for terms like git, and searching in each paper’s keyword dictionary Using search engines for OSS, such as Libraries.io; and package managers such as PyPi or CRAN
