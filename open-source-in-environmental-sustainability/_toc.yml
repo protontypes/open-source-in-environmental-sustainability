@@ -4,7 +4,9 @@
 format: jb-book
 root: index
 chapters:
-  - file: introduction/introduction
+  - file: chapters/introduction
+  - file: chapters/open-sustainability-principles  
+
 
 
 

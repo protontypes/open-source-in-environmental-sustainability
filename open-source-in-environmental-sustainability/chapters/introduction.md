@@ -28,7 +28,7 @@ While technological breakthroughs have been widely regarded as essential to addr
 align: center
 height: 400px
 ---
-The International Energy Agency is working with the National Renewable Energy Laboratory and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://iea-wind.org/task37/) with open simulation and development tools.
+The International Energy Agency is working with the National Renewable Energy Laboratory, Technical University of Denmark and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://iea-wind.org/task37/) with open simulation and development tools.
 ```
 
 Without understanding and simulating vital natural systems, it is impossible to understand their interrelationships, or indicate how humans can preserve this unique life-protecting world that has emerged in a completely hostile space. Mathematical models, technologies and measurement tools provide us with independent reporting on the state of the planet, and the extent of human impact; while knowledge accumulated over decades ensures that people around the world are able to understand how to preserve vital resources such as fresh water, fertile soil or clean air. The in-depth understanding of the Earth and its natural, economic and social systems subsequently allow us to make predictions about human actions and the associated impacts such as: 
@@ -54,7 +54,7 @@ To the knowledge of the authors, there has been no systematic study of these dyn
 
 
 
-## A brief history of open source culture in sustainability
+## A brief History of Open Source Culture in Sustainability
 
 Environmental open data has a very long but not well known history. Without the exchange of measurement data between meteorologists, weather forecasting would have been impossible to collaborate in the early days of this scientific field. The origin of the World Meteorological Organization (WMO) stretches back almost 150 years, and international data sharing has been central to its activities from the very beginning. 
 
@@ -76,6 +76,13 @@ align: center
 ---
 Source: [Government Satellite Data and Its Role in Advancing Global Development](https://medium.com/radiant-earth-insights/government-satellite-data-and-its-role-in-advancing-global-development-7b6760e803b1)
 ```
+## Defining ‘Open Sustainability’ 
+When it comes to sustainability and open source, we can be discussing completely different things depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of of ‘open sustainability’, but touches on others with similar framing and scope: 
 
+Open Sustainability refers to the use of open source technical approaches for the benefit of the environment. The field examines how open source culture and methods can contribute to economic, ecological, and social sustainability. It describes more what open source can do for the environment and less what the environment can do for open source. Within this study, this aspect will be dealt with in more detail, especially with a focus on environmental sustainability. 
 
+Open Source Sustainability refers to the ability of an open source project and its community to sustain themselves over a long period of time and to adapt the project to new circumstances and technologies. A strong community and governance structure is central to delivering bug fixes and new features. This is widely known and analysed in detail within books and publications.  
 
+Large, well-known projects receive more donations than small, but key to digital infrastructure software. Even though large companies use these projects, donations are small compared to the development resources that are required. A whole [ecosystem emerged](https://github.com/nayafia/lemonade-stand#a-handy-guide-to-financial-support-for-open-source) from this problem – with the objective of trying to commercialise the support, risk analysis and funding of open source software. Within the Linux Foundation, a new community emerged to determine the health state of an open source project: Community Health Analytics Open Source Software ([CHAOSS](https://chaoss.community/)). Another strong community that has formed in this space is [Sustain](https://sustainoss.org/).
+
+Green Software, also known as Green Computing, is concerned with lowering the energy consumption, environmental impact, and carbon intensity of programming languages and applications. With over 97% of the world's applications now using open source, this clearly affects energy usage and efficiency worldwide.
