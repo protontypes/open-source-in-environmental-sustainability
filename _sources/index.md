@@ -78,6 +78,3 @@ The people behind OpenSustain.tech and this report are an free and open source c
 [![](./images/open_corridor.png)](https://www.opencorridor.org/)
 :::
 ::::
-
-
-
