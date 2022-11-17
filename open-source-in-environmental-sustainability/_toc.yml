@@ -6,6 +6,7 @@ root: index
 chapters:
   - file: chapters/introduction
   - file: chapters/open-sustainability-principles  
+  - file: chapters/methodology
 
 
 
