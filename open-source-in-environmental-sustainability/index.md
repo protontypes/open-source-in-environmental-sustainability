@@ -1,14 +1,13 @@
 # Open Source in Environmental Sustainability
 **<center>Preserving stable climate and natural resources with openness</center>**
-
+<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
+<center> <strong> Report Issue 2022 </strong> </center>
+<br />
 ```{image} ./images/mycelium_sustainability.png
 :width: 300px
 :align: center
 ```
 <br />
-<center> <strong> Report Issue 2022 </strong> </center>
-<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
-
 ## Executive Summary 
 
 Despite the strong transformative impact of Open Source Software (OSS) and open data, the potential for developing environmentally sustainable technologies is not well understood. This study provides the first analysis of the open source software ecosystem in the field of environmental sustainability and climate technology. Thousands of actively developed OSS projects and organisations have been collected through the Open Sustainable Technology database and systematically analysed using qualitative and quantitative methods.
@@ -25,7 +24,7 @@ Analysis of the distribution of knowledge, work, and project governance further 
 
 The low participation of for-profit organisations and start-ups with open source business models is remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes on a company level. Larger developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.
 
-When combined with the right support, community and funding structures, OSS accelerates collaboration. To achieve this, several recommendations have been developed, including: 
+When combined with the right support, community and funding structures, OSS accelerates collaboration. On the basis of our analyses, we therefore make recommendations such as:
 - Strengthening the interconnectivity and knowledge exchange of the identified communities 
 - Closing the knowledge gap on the environmental impact of industries and companies 
 - Creating incubators and other support programmes for OSS in the field of environmental sustainability as well as dedicated funds that provide core and maintenance funding 
