@@ -1,8 +1,9 @@
 <meta property=":og:description:" content="Preserving stable climate and natural resources with openness" />
 
 # Open Source in Environmental Sustainability
-<center> <strong> Preserving stable climate and natural resources with openness </strong> </center>
-<br />
+Preserving stable climate and natural resources with openness
+
+
 <center> <strong> Report Issue 2022 </strong> </center>
 <center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
 <br />
@@ -15,27 +16,29 @@
 
 ## Executive Summary 
 
-’Open source’ culture in the creation and curation of data, knowledge, and technology offers unprecedented collaborative efficiencies across numerous fields, but the opportunities it brings to the field of environmental sustainability have not been extensively mapped. We find there are common Open Sustainability Principles which are critical for achieving cross-system sustainability goals between social and economical sectors. They provide transparency and trust in the development and deployment of various technologies, support traceable decision-making, foster collaborative innovation, and build capacity for the localisation and customisation of climate technologies.
-
-Despite the strong transformative impact of Open Source Software (OSS) and open data in other domains, the potential for developing environmentally sustainable technologies is not well understood. This study provides an overview of the health and vibrancy of the open source software ecosystem in the field of environmental sustainability and climate technology. Thousands of actively developed OSS projects and organisations have been collected through the Open Sustainable Technology database and systematically analysed using qualitative and quantitative methods. 
+Despite the strong transformative impact of Open Source Software (OSS) and open data, the potential for developing environmentally sustainable technologies is not well understood. This study provides the first analysis of the open source software ecosystem in the field of environmental sustainability and climate technology. Thousands of actively developed OSS projects and organisations have been collected through the Open Sustainable Technology database and systematically analysed using qualitative and quantitative methods.
 
 The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision makers, as well as opportunities for more systemic collaboration and positive impact generation.
 
-The analysis reveals that despite its high transformational potential in environmental science, and the need for urgency of action, open source still plays a minor role as a long-term transformation strategy in sustainability when compared to other domains that have been transformed by Open Source Software. Half of all identified projects are in data-rich domains such as climate science, biosphere, energy system modelling, transportation and buildings. Other topics, such as carbon offsets, battery technology, sustainable investment, emission observation and integrated assessment modelling, show few notable developments. 
+This study identifies common Open Sustainability Principles, which are critical for achieving sustainability goals. They provide transparency and trust in the development and deployment of various technologies, support traceable decision-making, foster collaborative innovation, and build capacity for the localisation and customisation of climate technologies.
 
-Newly emerging topics such as green software were identified based on popularity growth. Most identified projects are relatively young, with a median age of about 4 years. The programming languages Python, R, and Jupyter notebooks dominate the ecosystem. Permissive licences such as MIT are the first choice for most projects, followed by copyleft licence GPLv3.
+Open source still plays a minor role as a long-term transformation strategy in sustainability compared to other domains transformed by Open Source Software. Half of all identified projects are in data-rich domains such as climate science, biosphere, energy system modelling, transportation and buildings. Other topics, such as carbon offsets, battery technology, sustainable investment, emission observation and integrated assessment modelling, show few notable developments. 
 
-Analysis of the distribution of knowledge, work, and project governance further reveals that small open source communities lead most the development, and open source projects rely heavily on a single developer contributing on average 70% of the commits to a project. It further indicates a sectoral and geographical imbalance in open information and knowledge exchange, with large proportion of OSS projects originating in academia and some large government agencies. In particular, the participation of private companies is remarkably low. The geographic focus is on Europe and the U.S., while the number of projects from the Global South is low. 
+Newly emerging topics such as green software were identified based on popularity growth. Most identified projects are relatively young, with a median age of about 4 years. The programming languages Python and R dominate the ecosystem. Permissive licences such as MIT are the first choice for most projects, followed by copyleft licence GPLv3.
 
-The low participation of for-profit organisations and start-ups with open source business models is remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes of that change on a company level. Larger developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.
+Analysis of the distribution of knowledge, work, and project governance further reveals that small open source communities lead most of the development, and open source projects rely heavily on a single developer contributing on average 70% of the commits to a project. It further indicates a sectoral and geographical imbalance in open information and knowledge exchange, with large proportion of OSS projects originating in academia and some large government agencies. In particular, the participation of private companies is remarkably low. The geographic focus is on Europe and the U.S., while the number of projects from the Global South is low. 
 
-When combined with the right support, community and funding structures, OSS accelerates collaboration. This requires: 
+The low participation of for-profit organisations and start-ups with open source business models is remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes on a company level. Larger developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.
+
+When combined with the right support, community and funding structures, OSS accelerates collaboration. To achieve this, several recommendations have been developed, including: 
 - Strengthening the interconnectivity and knowledge exchange of the identified communities 
 - Closing the knowledge gap on the environmental impact of industries and companies 
 - Creating incubators and other support programmes for OSS in the field of environmental sustainability as well as dedicated funds that provide core and maintenance funding 
-- Developing better technical interfaces and middlewares between platforms, data, models and OSS tools across and within sectors to “stop reinventing the wheel”
+- Developing better technical interfaces and middleware between platforms, data, models and OSS tools across and within sectors to “stop reinventing the wheel”
 
-To summarise, we conclude that digital and sustainable transformation must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems, while increasing transparency and mitigating the risks of “greenwashing”. This report presents the first of its kind analysis of open source technology in sustainability to provide the empirical backbone for guiding community building, policy development and investment. Strengthening OSS for sustainability is the first step toward creating an open environmental intelligence to enable a prosperous and sustainable future for all. 
+To summarise, we conclude that digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems. The use of open source and open science methods prevents greenwashing by making decision-making processes transparent and traceable.
+
+This report presents the first of its kind analysis of open source technology in sustainability to provide the empirical backbone for guiding community building, policy development and investment. Strengthening OSS for sustainability is the first step toward creating an open environmental intelligence to enable a prosperous and sustainable future for all. 
 
 ---
 
@@ -71,7 +74,7 @@ The people behind OpenSustain.tech and this report are an free and open source c
 :::
 
 :::{grid-item-card} 
-[![](./images/protontypes_text_only.png)](https://protontypes.eu/)
+[![](./images/protontypes_text_only.png)](https://github.com/protontypes)
 :::
 
 :::{grid-item-card} 
