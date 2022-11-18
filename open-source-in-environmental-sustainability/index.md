@@ -3,11 +3,14 @@
 <center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
 <center> <strong> Report Issue 2022 </strong> </center>
 <br />
+
 ```{image} ./images/mycelium_sustainability.png
 :width: 300px
 :align: center
 ```
+
 <br />
+
 ## Executive Summary 
 
 Despite the strong transformative impact of Open Source Software (OSS) and open data, the potential for developing environmentally sustainable technologies is not well understood. This study provides the first analysis of the open source software ecosystem in the field of environmental sustainability and climate technology. Thousands of actively developed OSS projects and organisations have been collected through the Open Sustainable Technology database and systematically analysed using qualitative and quantitative methods.
