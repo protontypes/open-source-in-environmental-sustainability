@@ -27,6 +27,7 @@ parts:
       - file: chapters/contributors
       - file: chapters/organisational-diversity
       - file: chapters/geography_of_organisations
+    - file: chapters/users-and-usage
 
 
 
