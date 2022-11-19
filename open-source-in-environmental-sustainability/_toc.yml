@@ -18,8 +18,13 @@ parts:
     - file: chapters/age-and-maturity
     - file: chapters/fastest-growth
     - file: chapters/ranking
-    - file: chapters/programming_languages
+    - file: chapters/programming-languages
     - file: chapters/licences
+    - file: chapters/data-wishlist
+    - file: chapters/community
+      sections:
+      - file: chapters/development-distribution-score
+      - file: chapters/test
 
 
 
