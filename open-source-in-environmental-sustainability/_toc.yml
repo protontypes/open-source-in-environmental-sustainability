@@ -24,7 +24,7 @@ parts:
     - file: chapters/community
       sections:
       - file: chapters/development-distribution-score
-      - file: chapters/test
+      - file: chapters/number-of-contributors
 
 
 
