@@ -27,11 +27,12 @@ Analysis of the distribution of knowledge, work, and project governance further 
 
 The low participation of for-profit organisations and start-ups with open source business models is remarkable. Almost all developments focus on understanding environmental change at the state or sectoral level without examining the causes on a company level. Larger developments by organisations based in India and China are underrepresented or virtually nonexistent, despite the current significant emissions and environmental impacts of these countries.
 
-When combined with the right support, community and funding structures, OSS accelerates collaboration. On the basis of our analyses, we therefore make recommendations such as:
+When combined with the right support, community, and funding structures, OSS accelerates collaboration and can have a fundamental impact on climate change and environmental sustainability. On the basis of our analyses, we therefore make recommendations such as:
 - Strengthening the interconnectivity and knowledge exchange of the identified communities 
 - Closing the knowledge gap on the environmental impact of industries and companies 
 - Creating incubators and other support programmes for OSS in the field of environmental sustainability as well as dedicated funds that provide core and maintenance funding 
 - Developing better technical interfaces and middleware between platforms, data, models and OSS tools across and within sectors to “stop reinventing the wheel”
+- Transforming financial institutions through transparent and scientific decision making for sustainable investments.
 
 To summarise, we conclude that digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems. The use of open source and open science methods prevents greenwashing by making decision-making processes transparent and traceable.
 
