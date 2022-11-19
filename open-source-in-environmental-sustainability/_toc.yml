@@ -28,6 +28,14 @@ parts:
       - file: chapters/organisational-diversity
       - file: chapters/geography_of_organisations
     - file: chapters/users-and-usage
+    - file: chapters/ecosystem-collaborations
+  - caption: Recommendations
+    chapters:
+    - file: chapters/overall
+    - file: chapters/technology
+    - file: chapters/funding
+
+ 
 
 
 
