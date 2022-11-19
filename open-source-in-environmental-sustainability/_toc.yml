@@ -24,7 +24,9 @@ parts:
     - file: chapters/community
       sections:
       - file: chapters/development-distribution-score
-      - file: chapters/number-of-contributors
+      - file: chapters/contributors
+      - file: chapters/organisational-diversity
+      - file: chapters/geography_of_organisations
 
 
 
