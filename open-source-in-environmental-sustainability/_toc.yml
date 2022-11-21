@@ -10,7 +10,7 @@ parts:
     - file: chapters/open-sustainability-principles  
     - file: chapters/objectives
     - file: chapters/methodology
-  - caption: Insides
+  - caption: Insights
     chapters:
     - file: chapters/overview
     - file: chapters/topics
