@@ -84,5 +84,5 @@ More than ever, free and open source projects are enabling citizens, scientists,
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
 - Want to help us build any of the recommendations and future directions of OpenSustain.Tech.
 
-For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](eirinimalliaraki@gmail.com) or [Josh](josh@opencorridor.org):
+For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](mailto:eirinimalliaraki@gmail.com) or [Josh](mailto:josh@opencorridor.org):
 
