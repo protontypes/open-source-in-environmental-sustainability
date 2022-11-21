@@ -19,7 +19,7 @@ Thousands of actively developed open source projects and organisations have been
 
 This analysis indicates that open source still plays a minor role as a long-term transformation strategy in sustainability compared to other domains. Half of all identified projects are in data-rich domains such as climate science, biosphere, energy system modelling, transportation and buildings. Other topics, such as carbon offsets, battery technology, sustainable investment, emission observation and integrated assessment modelling, show few notable developments. Newly emerging topics such as green software were identified based on popularity growth while most identified projects are relatively young, with a median age of about 4 years. Moreover, programming languages Python and R dominate the ecosystem and regarding licensing, permissive licences such as MIT is preferred, followed by copyleft licence GPLv3.
 
-Analysis of the distribution of knowledge, work, and project governance reveals that small open source communities lead most of the development, and open source projects rely heavily on a single developer responsible on average 70% of the contributions to a project. Academia and some large government agencies contribute significantly to open source while the lack of for-profit organisations and start-ups with open source business models in the space is remarkable. Finally, the majority of open source projects are based in Europe and the United States, with a small number of projects from the Global South. Despite their significant footprints, larger developments by organisations based in India and China are underrepresented or nonexistent.
+Analysis of the distribution of knowledge, work, and project governance reveals that small open source communities lead most of the development, and open source projects rely heavily on a single developer responsible on average for 70% of the contributions to a project. Academia and some large government agencies contribute significantly to open source while the lack of for-profit organisations and start-ups with open source business models in the space is remarkable. Finally, the majority of open source projects are based in Europe and the United States, with a small number of projects from the Global South. Despite their significant footprints, larger developments by organisations based in India and China are underrepresented or nonexistent.
 
 This report presents the first of its kind analysis of open source technology in sustainability to provide the empirical backbone for guiding community building, policy development and future investment. Based on this analysis, we therefore propose recommendations for those interested in supporting OSS in environmental sustainability more effectively via:
 
@@ -74,7 +74,7 @@ The people behind OpenSustain.tech and this report are an free and open source c
 :::
 ::::
 
-## Contribute 
+## How to contribute 
 
 More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. Funders also have the opportunity to play an active role in promoting a larger, more systematic shift towards open, community-driven infrastructure at the institutional level. We want to hear from you if you:
 
