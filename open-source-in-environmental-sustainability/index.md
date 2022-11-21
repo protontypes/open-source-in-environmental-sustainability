@@ -11,6 +11,8 @@
 
 <br />
 
+## Executive Summary
+
 Transitioning to a more sustainable future requires not only technological innovation, but also new ways of involving society in technological development. Open source culture has demonstrated the possibility of transparent and collaborative innovation, laying the groundwork for modern IT infrastructure. Open Source Software (OSS) supports traceable decision-making, builds capacity for localisation and customisation of climate technologies, and, most importantly, helps prevent greenwashing. Despite the strong transformative impact of open source culture, its potential for developing environmentally sustainable technologies is not well understood. This study provides the first analysis of the open source software ecosystem in the field of sustainability and climate technology. 
 
 Thousands of actively developed open source projects and organisations have been collected through the [Open Sustainable Technology](https://opensustain.tech/) database and systematically analysed using qualitative and quantitative methods. The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision makers, as well as opportunities for more systemic collaboration. Based on these unique insights, we were able to define the Open Sustainability Principles that embody open source in environmental sustainability.
@@ -44,7 +46,7 @@ Thanks for all the valuable insights and interviews: <br/>
 Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation. 
 
 Thanks to the contributions and support of:<br />
-[Tjark Döring](https://github.com/tjarkdoering), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/) and [Nick Fiege](https://linkedin.com/in/nickfiege).
+[Tjark Döring](https://github.com/tjarkdoering), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6),  [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/) and [Nick Fiege](https://linkedin.com/in/nickfiege).
 
 This report would have been impossible without people all round the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
 <br />
@@ -70,3 +72,11 @@ The people behind OpenSustain.tech and this report are an free and open source c
 [![](./images/open_corridor.png)](https://www.opencorridor.org/)
 :::
 ::::
+
+## Contact
+
+Please feel free to contact us directly if you are interested in sharing your opinion on this study.  Our team also offers workshops and presentations on Open Sustainability Principles. We support you in finding the ideal software, data, community or strategy for your open source sustainability project. 
+
+```{image} ./images/email.png
+:align: center
+```
