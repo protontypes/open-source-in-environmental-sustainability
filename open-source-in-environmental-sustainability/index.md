@@ -1,6 +1,6 @@
 # Open Source in Environmental Sustainability
 **<center>Preserving a stable climate and natural resources with openness</center>**
-<center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="Eirini Malliaraki">https://www.linkedin.com/in/eirinimalliaraki/</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
+<center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="https://www.linkedin.com/in/eirinimalliaraki/">Eirini Malliaraki</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
 <center> Report Issue 2022 </center>
 <br />
 
