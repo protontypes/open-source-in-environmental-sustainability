@@ -1,6 +1,6 @@
 # Open Source in Environmental Sustainability
 **<center>Preserving a stable climate and natural resources with openness</center>**
-<center> Tobias Augspurger, Eirini Malliaraki and Josh Hopkins </center>
+<center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="Eirini Malliaraki">https://www.linkedin.com/in/eirinimalliaraki/</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
 <center> Report Issue 2022 </center>
 <br />
 
@@ -73,9 +73,17 @@ The people behind OpenSustain.tech and this report are an free and open source c
 :::
 ::::
 
-## Contact
+## Contribute 
 
-Please feel free to contact us directly if you are interested in sharing your opinion on this study.  Our team also offers workshops and presentations on Open Sustainability Principles. We support you in finding the ideal software, data, community or strategy for your open source sustainability project. 
+More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. Funders also have the opportunity to play an active role in promoting a larger, more systematic shift towards open, community-driven infrastructure at the institutional level. We want to hear from you if you:
+
+- Have experience developing, supporting or systematically using open source software for sustainability applications.
+- Want to contribute to OpenSustain.tech by identifying new and missing projects.
+- Have experience visualising or processing data with Python and know how to integrate such data into a new website.
+- Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
+- Want to help us build any of the recommendations and future directions of OpenSustain.Tech.
+
+For these and any other enquiry please reach us at:
 
 ```{image} ./images/email.png
 :align: center

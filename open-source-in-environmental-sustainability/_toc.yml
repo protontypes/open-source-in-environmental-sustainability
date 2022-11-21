@@ -33,6 +33,7 @@ parts:
     chapters:
     - file: chapters/overall
     - file: chapters/technology
+    - file: chapters/collaboration
     - file: chapters/funding
 
  
