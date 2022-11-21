@@ -27,7 +27,8 @@ This report presents the first of its kind analysis of open source technology in
 - Closing the knowledge gap on the environmental impact of industries and companies. Adapting and extending existing open source projects for underrepresented countries in the global south.
 - Creating incubators and other support programmes for open source software in environmental sustainability as well as dedicated funds that provide core and maintenance funding.
 - Developing better technical interfaces between platforms, data, models and open source tools across and within sectors to “stop reinventing the wheel”.
-- Standardising environmental data and models using open source across different levels of government.Transforming financial institutions through transparent and scientific decision making for sustainable investments.
+- Standardising environmental data and models using open source across different levels of government.
+- Transforming financial institutions through transparent and scientific decision making for sustainable investments.
 
 Digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets, and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems and prevent greenwashing through transparent and traceable decision making. 
 
@@ -83,8 +84,5 @@ More than ever, free and open source projects are enabling citizens, scientists,
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
 - Want to help us build any of the recommendations and future directions of OpenSustain.Tech.
 
-For these and any other enquiry please reach us at:
+For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](eirinimalliaraki@gmail.com) or [Josh](josh@opencorridor.org):
 
-```{image} ./images/email.png
-:align: center
-```
