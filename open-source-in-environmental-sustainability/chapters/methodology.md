@@ -1,7 +1,7 @@
 # Methodology 
 Developing and maintaining open source software relies on an integration of technical, social and organisational aspects. A mixed methods study was therefore designed to understand all aspects. We collected quantitative and qualitative data concurrently and used one source's findings as cross-validation for the other. Thousands of projects were analysed along six dimensions:
 
-- **General overview** - Project themes, growth and popularity, areas where projects are mature and where tools or processes exist that funders should support instead of forging a new path.
+- **General overview** - Project themes, growth, age and popularity, areas where projects are mature.
 
 - **Technology -** Preferred programming languages, licence use and technical challenges facing developers.
 
