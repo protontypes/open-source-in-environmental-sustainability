@@ -35,6 +35,9 @@ parts:
     - file: chapters/technology
     - file: chapters/collaboration
     - file: chapters/funding
+  - caption: Bibliography
+    chapters:
+    - file: bibliography.md
 
  
 
