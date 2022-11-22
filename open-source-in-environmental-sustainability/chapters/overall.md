@@ -20,9 +20,15 @@ Based on the insights, we propose recommendations for those interested in suppor
 
 - **Transform financial institutions through transparent and scientific decision-making for sustainable investments.** Banks, rating agencies and investors are at the centre of our economy and decide which inventions are sustainable and viable. However, our analysis has shown that open software tools and data are the exception in this space. This makes decision-making opaque and vulnerable to greenwashing. The financial industry is still far away from sustainable investment funds designed based on open scientific methods. However, such development has the potential to create greenwashing-free investment opportunities for private and public investors. Financial products that use open and evidence-based practices for their decisions can significantly contribute to securing investors' trust. Banks and rating agencies would thus become critical users and potential contributors to various environmentally relevant open-source projects. [OS-Climate](https://os-climate.org/) already represents a significant milestone here.
 
+---
+
  ```{figure} ../images/ElectricityMaps.png
 ---
-height: 400px
+width: 100%
 ---
 Electricity Maps provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globle. In this way energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project.
  ```
+
+```python
+
+```

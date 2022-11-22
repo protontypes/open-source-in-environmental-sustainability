@@ -8,10 +8,9 @@
 :width: 300px
 :align: center
 ```
---- 
+---
 
-_>  “The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.”_ <br/>
-> [Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
+> “The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.”<br/>[Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
 
 ---
 
@@ -82,7 +81,6 @@ More than ever, free and open source projects are enabling citizens, scientists,
 - Want to contribute to OpenSustain.tech by identifying new and missing projects.
 - Have experience visualising or processing data with Python and know how to integrate such data into a new website.
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
-- Want to help us build any of the recommendations and future directions of OpenSustain.Tech.
+- Want to help us build any of the recommendations and future directions of OpenSustain.tech.
 
 For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](mailto:eirinimalliaraki@gmail.com) or [Josh](mailto:josh@opencorridor.org):
-
