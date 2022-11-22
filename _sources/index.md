@@ -8,6 +8,11 @@
 :width: 300px
 :align: center
 ```
+--- 
+
+_>  “The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.”_ <br/>
+> [Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
+
 ---
 
 
@@ -31,11 +36,6 @@ This report presents the first-of-its-kind analysis of open-source technology in
 - Transforming financial institutions through transparent and scientific decision-making for sustainable investments.
 
 Digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation of the economy and the conservation of natural resources and ecosystems and prevent greenwashing through transparent and traceable decision-making.
-
---- 
-
-_>  “The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context.”_ <br/>
-> [Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
 
 ---
 
