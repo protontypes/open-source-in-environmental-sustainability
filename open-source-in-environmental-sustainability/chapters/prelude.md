@@ -9,7 +9,7 @@ Together with the online community *protontypes* they created the [Open Sustaina
 
 In September 2021 Eirini and Tobias combined their efforts towards a common goal: to study and understand the intersection of open source, environmental sustainability, and technology and to share their findings and insights with the public. Further collaborations have been established to capture a global picture of this open source ecosystem. In 2022, Josh Hopkins joined to investigate which open source projects can be integrated into digital public goods for communities and decision-makers, led by sustainability intelligence non-profit, Open Corridor. Shortly after, Kasia Kulma joined. Kasia uses the online open source repository [Climate Change Data](https://github.com/KKulma/climate-change-data) to collect open data sources and power APIs for a wide range of stakeholders.
 
-```{figure} ../images/city_forest_wildlife_stream_utopia.jpeg
+```{figure} ../images/city_forest_wildlife_stream_utopia.png
 ---
 align: center
 width: 80%

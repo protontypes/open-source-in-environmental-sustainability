@@ -37,7 +37,7 @@ parts:
     - file: chapters/funding
   - caption: Bibliography
     chapters:
-    - file: bibliography.md
+    - file: chapters/bibliography.md
 
  
 
