@@ -9,3 +9,12 @@
 ---
 
 - **Standardise environmental data and models using open source across different levels of government.** The standardisation of data structures and APIs using open-source approaches can contribute significantly to ensuring that local data about our natural environment are interoperable across government bodies and industries and can be easily integrated into larger datasets. The province of British Columbia is a pioneer in this regard, delivering a variety of [open source and open data developments](https://github.com/bcgov) on [water supply](https://github.com/bcgov/fasstr), [wetlands](https://github.com/bcgov/wetlandmapR), and [air quality](https://github.com/bcgov/pm25-caaqs-indicator). Such standardised environmental data are essential for scientific analyses. At the same time, they can also be used to better understand the environmental impacts of local production and consumption. However, such data can only be useful if the collection and provision conform to common standards. Analysis and presentation of such aggregated environmental data across different provinces, cities and municipalities can significantly contribute to a shared knowledge base for decision-makers and citizens. With many governments adopting the UN Sustainable Development Goals as part of their internal strategies, we encourage policy and decision-makers to assess their contribution towards these Global goals within the context of open source and public good contributions for sustainability. 
+
+---
+
+ ```{figure} ../images/africa_osm_map.png
+---
+width: 100%
+---
+[PyPSA-Earth](https://pypsa-earth.readthedocs.io/) is the first open-source global energy system model with data in high spatial and temporal resolution. It enables large-scale collaboration by providing a tool that can model the world energy system or any subset of it.
+```

@@ -4,7 +4,7 @@ Openness is a key indicator of sustainability. It allows different disciplines a
 
 ```{figure} ../images/Orion_aveugle_cherchant_le_soleil.jpg
 ---
-height: 400px
+width: 100%
 ---
 Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants".
 ```
@@ -39,7 +39,7 @@ Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. The progressi
 
 ```{figure} ../images/crop_harvest.jpg
 ---
-height: 400px
+width: 100%
 ---
 CropHarvest is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products.
 ```

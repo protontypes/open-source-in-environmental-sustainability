@@ -10,7 +10,7 @@ One promising area for more collaboration is between the **physics-based modelli
 
 ```{figure} ../images/pyam_trajectories.png
 ---
-height: 300px
+width: 100%
 name: directive-fig
 ---
 Integrated Assessment Modeling with [pyam](https://pyam-iamc.readthedocs.io/en/stable/) enables the calculation of scenarios for our society by combining ecological and economic models. 
@@ -26,7 +26,7 @@ To simplify access to Earth observation data, the [SpatioTemporal Asset Catalogs
 
 ```{figure} ../images/mean_surface_temperature.png
 ---
-height: 300px
+width: 100%
 ---
 
 Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an open source development environment for the earth science. By providing simple interfaces, [examples](http://gallery.pangeo.io/repos/pangeo-gallery/cmip6/global_mean_surface_temp.html#), and data access to state-of-the-art climate simulations like Coupled Model Intercomparison Project ([CMIP6](https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6)), anyone with little Python knowledge can see for themselves the science behind topics like climate change.
