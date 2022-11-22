@@ -24,5 +24,5 @@ Based on the insights, we propose recommendations for those interested in suppor
 ---
 height: 400px
 ---
-Electricity Maps provides time-resolved historical data and forecasts about the amount of renewable energy in the electricity grids. This means that energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project.
+Electricity Maps provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globle. In this way energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project.
  ```
