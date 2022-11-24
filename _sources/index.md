@@ -43,7 +43,7 @@ Thanks for all the valuable insights and interviews: <br/>
 Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation. 
 
 Thanks to the contributions and support of:<br />
-[Tjark Döring](https://github.com/tjarkdoering), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6),  [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/) and [Nick Fiege](https://linkedin.com/in/nickfiege).
+[Tjark Döring](https://github.com/tjarkdoering), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6),  [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/), Lars Oliver Zlotos and [Nick Fiege](https://linkedin.com/in/nickfiege).
 
 This report would have been impossible without people all round the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
 <br />
