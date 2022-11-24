@@ -4,3 +4,7 @@ Establishing communities of developers and users brings open source projects clo
 
 - **The community of contributors**. Software developers, architects, and designers who write code, update documentation and contribute in a multitude of ways.
 - **The community of users**. End users who find value in the OSS product, provide feedback and expert knowledge and can act as project evangelists.
+
+The analysis of the communities is divided into different chapters:
+```{tableofcontents}
+```

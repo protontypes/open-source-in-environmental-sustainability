@@ -1,6 +1,6 @@
 # Funding Models
 
-*Funding Models*There is a broad range of funding models behind the actors in this sector. Academic and research funding, as well as private sector investment and government grants, have all benefited these projects. Because the structure and ecosystem behind each project differ, each project ecosystem has different funding models. 
+There is a broad range of funding models behind the actors in this sector. Academic and research funding, as well as private sector investment and government grants, have all benefited these projects. Because the structure and ecosystem behind each project differ, each project ecosystem has different funding models. 
 
 **Only 3.8% of the projects studied officially offer GitHub users the option to donate.** This is particularly difficult to explain due to the high proportion of purely community-based projects. One reason could be the low usage and popularity in general, which leads to developers not even expecting to receive donations.
 
