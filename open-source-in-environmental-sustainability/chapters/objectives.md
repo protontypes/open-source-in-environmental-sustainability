@@ -1,4 +1,4 @@
-## Objectives 
+# Objectives 
 
 OSS is a public good, but no one is responsible for stewarding and funding it. OSS providers frequently lack a business model, resulting in a systemic lack of investment in digital infrastructure when societies' reliance on it is growing. While there is a general trend toward more widespread use and adoption of open-source technology projects in sustainability, there is no systematic assessment of which projects can be considered critical digital infrastructure or where significant funding and resourcing gaps exist.
 
