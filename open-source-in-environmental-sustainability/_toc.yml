@@ -29,6 +29,7 @@ parts:
       - file: chapters/geography_of_organisations
     - file: chapters/users-and-usage
     - file: chapters/ecosystem-collaborations
+    - file: chapters/funding-models.md
   - caption: Recommendations
     chapters:
     - file: chapters/overall
