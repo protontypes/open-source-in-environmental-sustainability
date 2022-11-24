@@ -8,4 +8,12 @@
   - Improve the design and user experience of technology; and 
   - Establish or adopt technical standards. 
 
-The insights, methods and tools developed in this study can contribute to making such investments transparent and more targeted.
+**The insights, methods and tools developed in this study can contribute to making such investments transparent and more targeted.**
+
+```{figure} ../images/hydra_floods.png
+---
+align: center
+width: 70%
+---
+[HYDRAFloods](https://github.com/Servir-Mekong/hydra-floods) is an open source Python application for downloading, processing, and delivering flood maps derived from remote sensing data
+```
