@@ -1,6 +1,6 @@
 # Open Sustainability Principles 
 
-Openness is a key indicator of sustainability. It allows different disciplines and organisations to refine their understanding of sustainability systematically over a long period of time. Knowledge can only continue to accumulate over a long period of time if it is made accessible. This basic idea is often associated with the metaphor "Standing on the shoulders of giants” which means “building on previous discoveries”, coined by Issac Newton. **It is this attribute of making one's intentions and conclusions transparent to others that makes openness integral to sustainability and prevents manipulation of conclusions about the state of our planet.** The following painting illustrates the metaphor of "standing on the shoulders of giants". The giant represents the software and knowledge accumulated over the years that enables the person on the shoulder to see further.
+Openness is a key indicator of sustainability. It allows different disciplines and organisations to refine their understanding of sustainability systematically over a long period of time. Knowledge can only continue to accumulate over a long period of time if it is made accessible. This basic idea is often associated with the metaphor "Standing on the shoulders of giants” which means “building on previous discoveries”, coined by Issac Newton. <sup><a href="https://discover.hsp.org/Record/dc-9792/Details">6</a></sup> **It is this attribute of making one's intentions and conclusions transparent to others that makes openness integral to sustainability and prevents manipulation of conclusions about the state of our planet.** The following painting illustrates the metaphor of "standing on the shoulders of giants". The giant represents the software and knowledge accumulated over the years that enables the person on the shoulder to see further.
 
 ```{figure} ../images/Orion_aveugle_cherchant_le_soleil.jpg
 ---
@@ -8,9 +8,8 @@ width: 100%
 ---
 The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. 
 ```
-</br>
 
-The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:
+**The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:**
 
 ## Transparency and Trust
 
