@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta property="og:title" content="Funding Models" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://report-2022.opensustain.tech/chapters/funding-models.html" />
+<meta property="og:site_name" content="Python" />
+<meta property="og:description" content="Funding Models There is a broad range of funding models..." />
+<meta property="og:image" content="https://report-2022.opensustain.tech/_images/mycelium_sustainability.png" />
+<meta property="og:image:alt" content="Python" />
+<meta name="description" content="Funding Models There is a broad range of funding models..." />
+
+    <title>Funding Models &#8212; Open Source in Environmental Sustainability</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Overall" href="overall.html" />
+    <link rel="prev" title="Ecosystem collaborations" href="ecosystem-collaborations.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Open Source in Environmental Sustainability</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Open Source in Environmental Sustainability
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Introduction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="prelude.html">
+   Prelude
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="open-sustainability-principles.html">
+   Open Sustainability Principles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="objectives.html">
+   Objectives
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="methodology.html">
+   Methodology
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Insights
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   Overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="topics.html">
+   Topics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="popularity.html">
+   Popularity
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="age-and-maturity.html">
+   Age and Maturity
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="fastest-growth.html">
+   Fastest Growth
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ranking.html">
+   Ranking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="programming-languages.html">
+   Programming Languages
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="licences.html">
+   Licences
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-wishlist.html">
+   Data Wishlist
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="community.html">
+   Community
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="development-distribution-score.html">
+     Development Distribution Score
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="contributors.html">
+     Number of Contributors
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="organisational-diversity.html">
+     Organisational diversity
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="geography_of_organisations.html">
+     Geography of organisations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="users-and-usage.html">
+   Users and Usage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ecosystem-collaborations.html">
+   Ecosystem collaborations
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Funding Models
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Recommendations
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overall.html">
+   Overall
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="technology.html">
+   Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="collaboration.html">
+   Collaboration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="funding.html">
+   Funding
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Fchapters/funding-models.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/chapters/funding-models.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Funding Models</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="funding-models">
+<h1>Funding Models<a class="headerlink" href="#funding-models" title="Permalink to this headline">#</a></h1>
+<p><em>Funding Models</em>There is a broad range of funding models behind the actors in this sector. Academic and research funding, as well as private sector investment and government grants, have all benefited these projects. Because the structure and ecosystem behind each project differ, each project ecosystem has different funding models.</p>
+<p><strong>Only 3.8% of the projects studied officially offer GitHub users the option to donate.</strong> This is particularly difficult to explain due to the high proportion of purely community-based projects. One reason could be the low usage and popularity in general, which leads to developers not even expecting to receive donations.</p>
+<p><strong>Public sector funding from research councils, the EU, academic labs and national labs play a transformative role in sustaining OSS projects in sustainability.</strong> Universities are not only knowledge providers but can also bring stability, independence and access to developer resources via their <a class="reference external" href="https://de.wikipedia.org/wiki/Research_Software_Engineering">Research Software Engineering</a> teams.</p>
+<p><strong>However, there are very few dedicated funds for OSS development and maintenance in sustainability.</strong> Large academic projects prioritise academic research and dedicate tiny amounts of funding to open source software development. Where there are funds, such as UKRI’s Infrastructure Fund in the UK, or Horizon Europe, they primarily aim to support new feature development (and frequently not at the scale that supports significant strategic software developments). There is no dedicated fund or consideration around maintenance; Developers and Research software engineers, in academic labs are trying to squeeze in person months in multiple concurrent projects and make that open infrastructure re-usable across many projects. Features are used across many different projects, so you can’t say exactly how much maintenance or user support costs there are.</p>
+<blockquote>
+<div><p>“It’s a little bit bizarre that there are no government grants available for open source software for public transit.” </br> Developer of popular transportation planning and traffic simulation software*</p>
+</div></blockquote>
+<p>This challenge is also reflected in OSS projects developed by think tanks, whereby funding for a new project is relatively easy to obtain while virtually impossible for maintaining the software and data infrastructure. It’s really hard to get a proposal, a grant proposal that says we’re going to make it continue to be what it is. One of the few good examples here is the <a class="reference external" href="https://shuttleworthfoundation.org/">Shuttleworth Foundation</a>.</p>
+<p><strong>Projects with a bigger user base (e.g.</strong> <a class="reference external" href="https://github.com/OpenFAST/openfast"><strong>openFAST</strong></a><strong>) have a mix of investments, grants and a small income from the industry.</strong> However, these projects are more likely to get stuck in technical debt, making maintenance and future development even more expensive. These more mature projects should be better funded by industry. If projects want to maintain the work for the longer term, someone other than the lab would have to establish a business structure and legal entity to be able to take donations. This is currently not feasible in government-funded labs, research councils, and academic labs.</p>
+<p><strong>Collaborations between industry and academia present new challenges and opportunities.</strong> The developers we spoke with were familiar with hybrid business models like Open Core, where the core code base is open source. Here, functions that are needed within larger companies are offered under a proprietary licence. At the same time, maintainers want to support open source without it being at the cost of the community; They are mindful that their users might get upset if they feel that open source work is being used for profit by companies.</p>
+<p><strong>Industry-consulting models have mixed success so far.</strong> In some circumstances (like green IT/data centre operations), open sourcing the code was a hard requirement from the developer and reactions from industrial partners have been positive. In other instances, companies wanted to keep the project work modelled after their systems (like batteries) closed source for two years as they were worried that their competitors would use them for free. However, it is both logistically challenging to have a closed source component of an open source package and slow progress towards sustainable development.</p>
+<p><strong>Finally, it is critical to demonstrate and quantify the impact of OSS sustainability projects in the industry.</strong> Government departments fund academic labs that in turn collaborate with industry partners to develop new features. In addition, research funders and government agencies, such as the US Department of Energy, are interested in encouraging innovation in specific strategic sectors, such as renewable energy. When academic projects can demonstrate to public funders the value of open source work outside academia and show a return on investment, it becomes easier for those projects to raise funds.</p>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapters"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="ecosystem-collaborations.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Ecosystem collaborations</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="overall.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Overall</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Tobias Augspurger, Eirini Malliaraki and Josh Hopkins<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
