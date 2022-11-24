@@ -39,7 +39,7 @@ html:
   home_page_in_navbar: false
   extra_footer: |
     <p>
-    Except where otherwise noted, this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+    This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
     </p>
 
 sphinx:
@@ -52,3 +52,4 @@ sphinx:
     ogp_enable_meta_description: true
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_show_copyright: false
