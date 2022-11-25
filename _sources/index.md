@@ -38,7 +38,8 @@ This report presents the first-of-its-kind analysis of open source technology in
 <!-- - Including open source contributions within Sustainable Development Goals (SDGs), more broadly. -->
 
 
-We believe that digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation and the conservation of natural resources and ecosystems while providing critical transparency and traceable decision-making.
+In conclusion we are convinced that digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation and the conservation of natural resources and ecosystems by providing critical transparency, traceable decision-making
+and collaboration on innovation. 
 
 ---
 
