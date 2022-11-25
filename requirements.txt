@@ -17,3 +17,4 @@ pyyaml
 handcalcs
 pycountry-convert
 sphinxext-opengraph
+pillow

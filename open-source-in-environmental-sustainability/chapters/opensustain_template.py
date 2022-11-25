@@ -1,6 +1,8 @@
 import plotly.io as pio
 import plotly.graph_objects as go
 import plotly.express as px
+from PIL import Image
+logo_img = Image.open('logo.png') # image path
 # default plotting options
 # Palette https://coolors.co/palette/0e7c7b-17bebb-ffc857-e9724c-c5283d
 color_continuous_scale = px.colors.sequential.Aggrnyl[::-1]
