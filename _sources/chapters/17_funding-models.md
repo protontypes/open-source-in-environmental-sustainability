@@ -8,7 +8,7 @@ There is a broad range of funding models behind the actors in this sector. Acade
 
 **However, there are very few dedicated funds for OSS development and maintenance in sustainability.** Large academic projects prioritise academic research and dedicate tiny amounts of funding to open source software development. Where there are funds, such as UKRI's Infrastructure Fund in the UK, or Horizon Europe, they primarily aim to support new feature development (and frequently not at the scale that supports significant strategic software developments). There is no dedicated fund or consideration around maintenance; Developers and Research software engineers, in academic labs are trying to squeeze in person months in multiple concurrent projects and make that open infrastructure re-usable across many projects. Features are used across many different projects, so you can't say exactly how much maintenance or user support costs there are.
 
->  _It's a little bit bizarre that there are no government grants available for open source software for public transit._ 
+>  "It's a little bit bizarre that there are no government grants available for open source software for public transit." 
 </br> Developer of popular transportation planning and traffic simulation software
 
 This challenge is also reflected in OSS projects developed by think tanks, whereby funding for a new project is relatively easy to obtain while virtually impossible for maintaining the software and data infrastructure. It's really hard to get a proposal, a grant proposal that says we're going to make it continue to be what it is. One of the few good examples here is the [Shuttleworth Foundation](https://shuttleworthfoundation.org/).
