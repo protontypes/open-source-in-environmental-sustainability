@@ -78,7 +78,7 @@ OpenSustain.tech is a community-driven, nonprofit project. However, we would lik
 :::
 ::::
 
-## How to contribute 
+## How to Contribute 
 
 More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. Funders also have the opportunity to play an active role in promoting a larger, more systematic shift towards open, community-driven infrastructure at the institutional level. We want to hear from you if you:
 
