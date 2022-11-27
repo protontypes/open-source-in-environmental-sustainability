@@ -29,13 +29,13 @@ This report presents the first-of-its-kind analysis of open source technology in
 - Closing the knowledge gap on the environmental impact of companies through open source principles.
 - Adapting and extending existing open source projects for underrepresented countries in the global south.
 - Creating incubators and other support programmes for open source software in environmental sustainability as well as dedicated funds that provide core funding for development and maintenance.
-<!-- - Building knowledge and capacity for both open source and sustainability through primary, secondary and tertiary curricula. -->
 - Developing better technical interfaces between platforms, data, models and open source tools across and within sectors to “stop reinventing the wheel”.
 - Standardising environmental data exchange across different levels of government.
 - Transforming financial institutions through transparent and scientific decision-making for sustainable investments.
 - Adopting an "open-source-first" criteria when providing funding towards sustainable technologies.
 <!-- - Prioritising open source outputs as an investor, research institute, or funding body (ie., government, NGO, venture capitalist). -->
 <!-- - Including open source contributions within Sustainable Development Goals (SDGs), more broadly. -->
+<!-- - Building knowledge and capacity for both open source and sustainability through primary, secondary and tertiary curricula. -->
 
 
 In conclusion we are convinced that digital and sustainable transformations must converge as a digital public good if we are to meet agreed environmental targets and create a safe and just corridor for people and the planet. Open Sustainability Principles can help governments, research institutes, NGOs, and companies to rapidly move toward science-based decarbonisation and the conservation of natural resources and ecosystems by providing critical transparency, traceable decision-making
