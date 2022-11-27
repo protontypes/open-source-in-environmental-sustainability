@@ -4,7 +4,7 @@ Developing and maintaining open source software relies on an integration of tech
 
 - **General overview** - Project themes, growth, age and popularity, and general project maturity.
 
-- **Technology -** Preferred programming languages, licence use, and technical challenges facing contributors.
+- **Technology** - Preferred programming languages, licence use, and technical challenges facing contributors.
 
 - **Community** - Community composition and participation, and overall activity.
 
