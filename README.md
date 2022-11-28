@@ -1,6 +1,6 @@
 # Open Source in Environmental Sustainability
 **Preserving climate and natural resources with openness.**
-<img src="./open-source-in-environmental-sustainability/images/mycelium_sustainability.png" align="right" width="290">
+<img src="./open-source-in-environmental-sustainability/images/mycelium_sustainability.png" align="right" width="300">
 
 This study provides the first analysis of the open source software ecosystem in sustainability and climate technology. Thousands of actively developed open source projects and organisations have been collected through the [Open Sustainable Technology](https://opensustain.tech/) project and systematically analysed using qualitative and quantitative methods. The collected raw data can be browsed [here](https://airtable.com/shr9we419r2TkpLkc). 
 
