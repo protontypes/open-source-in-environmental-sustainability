@@ -1,6 +1,8 @@
 # Open Source in Environmental Sustainability
+[<img src="./open-source-in-environmental-sustainability/images/mycelium_sustainability.png" align="right" width="350">]
+**Preserving climate and natural resources with openness**
 
-This cookiecutter creates a simple boilerplate for a Jupyter Book.
+This study provides the first analysis of the open source software ecosystem in sustainability and climate technology. Thousands of actively developed open source projects and organisations have been collected through the [Open Sustainable Technology](https://opensustain.tech/) project and systematically analysed using qualitative and quantitative methods. The collected raw data can be browsed [here](https://airtable.com/shr9we419r2TkpLkc). The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision-makers as well as opportunities for more systemic collaboration. The data acquisition and generation of the plots is almost completely automated. Thus, the study can be repeated in the future. 
 
 ## Usage
 
@@ -10,22 +12,19 @@ If you'd like to develop and/or build the Open Source in Environmental Sustainab
 
 1. Clone this repository
 2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `open_source_in_environmental_sustainability/` directory
-4. Run `jupyter-book clean open_source_in_environmental_sustainability/` to remove any existing builds
-5. Run `jupyter-book build open_source_in_environmental_sustainability/`
+3. Run `jupyter-book clean open_source_in_environmental_sustainability/` to remove any existing builds
+4. Run `jupyter-book build open_source_in_environmental_sustainability/`
 
-A fully-rendered HTML version of the book will be built in `open_source_in_environmental_sustainability/_build/html/`.
+### Regenerate the database
 
-### Hosting the book
+All created plots are based on the CSV files in the `open-source-in-environmental-sustainability/csv/` folder. The [AwesomeCure](https://github.com/protontypes/AwesomeCure) projects is used to update and recreate the raw data of this study. Just place the new `projects.csv` and `github_organizations.csv` files into the CSV folder. The only data that is not automatically generated are the `form_of_organization` and `location_country`.
 
-Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
+## How to Contribute
 
-For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
+More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. Funders also have the opportunity to play an active role in promoting a larger, more systematic shift towards open, community-driven infrastructure at the institutional level. We want to hear from you if you:
 
-## Contributors
-
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/ly0n/open_source_in_environmental_sustainability/graphs/contributors).
-
-## Credits
-
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+- Have experience developing, supporting or systematically using open source software for sustainability applications.
+- Want to contribute to OpenSustain.tech by identifying new and missing projects.
+- Have experience visualising or processing data with Python and know how to integrate such data into a new website.
+- Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
+- Want to help us build any of the recommendations and future directions of OpenSustain.tech.
