@@ -50,7 +50,7 @@ Open environmental data has a very long but not well known history. Without the 
 
 With the beginning of the space age, the small number of weather satellites forced nations around the world to share data between different observatories to understand the state of the atmosphere and other Earth systems as a whole. The weather forecasts that became possible in this way generated significant value for all sectors of society. This open planetary-scale computation endeavour gave us increased awareness of anthropogenic climate change and increased ability to act in this environment.
 
-Despite increasingly strong commercial interests in civil satellite data, a strong culture of open data and open science has been established to date. 41% of the unclassified Earth Observation Satellite programs of the 10 largest nations today provide open data<sup><a href="https://mitpress.mit.edu/9780262037181/open-space/">5</a></sup>. Open access to this data has led to a rapid increase in the number of downloads shown in {ref}`open-satellite`. The creation of the Global Climate Observing System (GCOS), launched at the Second World Climate Conference, also committed parties to support international and intergovernmental sharing of data and analysis<sup><a href="https://unfccc.int/resource/docs/convkp/conveng.pdf">6</a></sup>. The urgent need for a transition to a more sustainable society, and clear signs of anthropogenic climate change, have created multiple new movements and organisations with similar open ethoses and mandates in other domains alongside Earth observation: 
+Despite increasingly strong commercial interests in civil satellite data, a strong culture of open data and open science has been established to date. 41% of the unclassified Earth Observation Satellite programs of the 10 largest nations today provide open data<sup><a href="https://mitpress.mit.edu/9780262037181/open-space/">5</a></sup>. Open access to this data has led to a rapid increase in the number of downloads shown in {ref}`open-satellite` using the example of the Landsat Archive. The creation of the Global Climate Observing System (GCOS), launched at the Second World Climate Conference, also committed parties to support international and intergovernmental sharing of data and analysis<sup><a href="https://unfccc.int/resource/docs/convkp/conveng.pdf">6</a></sup>. The urgent need for a transition to a more sustainable society, and clear signs of anthropogenic climate change, have created multiple new movements and organisations with similar open ethoses and mandates in other domains alongside Earth observation: 
 
 - In the energy sector the [OpenMod Initiative](https://openmod-initiative.org/) formed in 2014 with the goal of opening up energy models, so the sector as a whole can improve the quality, transparency, and credibility of its products and create better research and policy. 
 - In 2017 academic Stefan Pfenninger [wrote an article published in in Nature](https://www.nature.com/articles/542393a.pdf) urging scientists to “Free The Models” for the energy sector – a call to action supported by influential scientists like Auke Hoekstra and politicians like Michael Liebreich. This led to the sector pushing toward open data and open source code – a move that will be critical for a fossil fuel-free economy transition.
@@ -60,13 +60,13 @@ Despite increasingly strong commercial interests in civil satellite data, a stro
 -  [OS-Climate](https://os-climate.org/) created another large-scale collaboration between major companies under the Linux Foundation to bring more transparency and traceability into Environmental, Social and Governance (ESG) ratings – and support sustainable investment with the help of an open source toolchain.
 -  [The Digital Public Goods Alliance](https://digitalpublicgoods.net/) is an initiative endorsed by the UN Secretary-General that facilitates the discovery and deployment of digital public goods. Similarly to the [Open Sustainable Technology](https://opensustain.tech/) project, it provides an index of value open source projects but to sustainability in general, accompanied by a [billion dollar investment](https://youtu.be/NlzKChvgk9Y) commitment.  
 
-```{figure} ../images/open_satellite_data_downloads.jpeg
+```{figure} ../images/landsat_growth_small.png
 ---
 align: center
-width: 100%
+width: 70%
 name: open-satellite
 ---
-Source: [Government Satellite Data and Its Role in Advancing Global Development](https://medium.com/radiant-earth-insights/government-satellite-data-and-its-role-in-advancing-global-development-7b6760e803b1)
+With the disclosure of the Landsat archives, the use of these satellite data increased noticeably Source: [Landsat Archive Dashboard](https://landsat.usgs.gov/landsat-archive-dashboard)
 ```
 
 
