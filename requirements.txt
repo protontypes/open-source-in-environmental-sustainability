@@ -3,7 +3,7 @@ matplotlib
 numpy
 ghp-import
 numpy
-plotly
+plotly==5.11.0
 pandas
 dateparser
 pycountry
