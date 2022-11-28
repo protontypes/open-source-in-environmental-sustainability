@@ -4,7 +4,7 @@ Openness is a key indicator of sustainability. It allows different disciplines, 
 
 ```{figure} ../images/Orion_aveugle_cherchant_le_soleil.jpg
 ---
-width: 100%
+width: 80%
 ---
 The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. 
 ```
