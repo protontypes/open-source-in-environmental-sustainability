@@ -16,6 +16,7 @@ description                 : "Preserving stable climate and natural resources w
 execute:
   execute_notebooks: force
   timeout: 100
+  allow_errors: true
 
 latex:
   latex_engine              : pdflatex  # one of 'pdflatex', 'xelatex' (recommended for unicode), 'luatex', 'platex', 'uplatex'
