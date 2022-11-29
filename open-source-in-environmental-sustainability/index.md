@@ -32,7 +32,7 @@ This report presents the first-of-its-kind analysis of open source technology in
 - Developing better technical interfaces between platforms, data, models and open source tools across and within sectors to “stop reinventing the wheel”.
 - Standardising environmental data exchange across different levels of government.
 - Transforming financial institutions through transparent and scientific decision-making for sustainable investments.
-- Adopting an "open-source-first" criteria when providing funding towards sustainable technologies.
+- Adopting an "open source-first" criteria when providing funding towards sustainable technologies.
 <!-- - Prioritising open source outputs as an investor, research institute, or funding body (ie., government, NGO, venture capitalist). -->
 <!-- - Including open source contributions within Sustainable Development Goals (SDGs), more broadly. -->
 <!-- - Building knowledge and capacity for both open source and sustainability through primary, secondary and tertiary curricula. -->
