@@ -14,6 +14,7 @@ parts:
     chapters:
     - file: chapters/05_overview
     - file: chapters/06_topics
+    - file: chapters/06_sectors
     - file: chapters/07_popularity
     - file: chapters/08_age-and-maturity
     - file: chapters/09_fastest-growth
