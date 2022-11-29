@@ -5,16 +5,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta property="og:title" content="Sectors" />
+<meta property="og:title" content="Fields" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://report-2022.opensustain.tech/chapters/06_sectors.html" />
+<meta property="og:url" content="https://report-2022.opensustain.tech/chapters/06_fields.html" />
 <meta property="og:site_name" content="Python" />
 <meta property="og:description" content="Within the OpenSustain.tech website, the topics are div..." />
 <meta property="og:image" content="https://report-2022.opensustain.tech/_images/mycelium_sustainability.png" />
 <meta property="og:image:alt" content="Python" />
 <meta name="description" content="Within the OpenSustain.tech website, the topics are div..." />
 
-    <title>Sectors &#8212; Open Source in Environmental Sustainability</title>
+    <title>Fields &#8212; Open Source in Environmental Sustainability</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -160,7 +160,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Sectors
+   Fields
   </a>
  </li>
  <li class="toctree-l1">
@@ -331,7 +331,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/protontypes/open-source-in-environmental-sustainability/main?urlpath=tree/docs/chapters/06_sectors.ipynb"
+        <a href="https://mybinder.org/v2/gh/protontypes/open-source-in-environmental-sustainability/main?urlpath=tree/docs/chapters/06_fields.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -391,7 +391,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Fchapters/06_sectors.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Fchapters/06_fields.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -419,7 +419,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/chapters/06_sectors.ipynb"
+        <a href="../_sources/chapters/06_fields.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -468,7 +468,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Sectors</h1>
+                <h1>Fields</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -480,8 +480,8 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="sectors">
-<h1>Sectors<a class="headerlink" href="#sectors" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="fields">
+<h1>Fields<a class="headerlink" href="#fields" title="Permalink to this headline">#</a></h1>
 <p>Within the OpenSustain.tech website, the topics are divided into different sectors to simplify navigation. Even though the boundaries of these sectors are not clearly defined, they give a good impression of the proportions among each other. If we look at the projects within the sectors relative to each other, it becomes clear that only a small number of projects can be found within crucial sectors such as energy storage and emissions. The following sun burst diagram shows the sectors, topics and also projects in a hierarchy. The plot is fully interactive. With a mouse click you can navigate to the individual project links within the topics.</p>
 <div class="cell tag_remove-input tag_full-width docutils container">
 <div class="cell_output docutils container">
@@ -489,14 +489,13 @@ title="Print to PDF"
 <span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
 <span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">sunburst</span><span class="p">(</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span>     <span class="n">df_active</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">hole</span><span class="o">=</span><span class="s2">&quot;Open Sustainable Technology&quot;</span><span class="p">),</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span>     <span class="n">path</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;hole&#39;</span><span class="p">,</span><span class="s1">&#39;sector&#39;</span><span class="p">,</span> <span class="s1">&#39;topic&#39;</span><span class="p">,</span> <span class="s1">&#39;project_name&#39;</span><span class="p">],</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="n">color</span><span class="o">=</span><span class="s1">&#39;sector&#39;</span><span class="p">,</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="n">maxdepth</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span>     <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">color_discrete_sequence</span>
-<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Projects within Sectors and Topics&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">1400</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1400</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="c1"># animated transitions are currently not implemented when uniformtext is used</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span>     <span class="n">df_active</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span>     <span class="n">path</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fields&#39;</span><span class="p">,</span> <span class="s1">&#39;topic&#39;</span><span class="p">,</span> <span class="s1">&#39;project_name&#39;</span><span class="p">],</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="n">maxdepth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="n">color_discrete_sequence</span><span class="o">=</span><span class="n">color_discrete_sequence</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;Projects within Fields and Topics&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="c1"># animated transitions are currently not implemented when uniformtext is used</span>
 
 <span class="nn">File /opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/plotly/express/_chart_types.py:1541,</span> in <span class="ni">sunburst</span><span class="nt">(data_frame, names, values, parents, path, ids, color, color_continuous_scale, range_color, color_continuous_midpoint, color_discrete_sequence, color_discrete_map, hover_name, hover_data, custom_data, labels, title, template, width, height, branchvalues, maxdepth)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1539</span> <span class="k">if</span> <span class="n">path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">branchvalues</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -538,7 +537,7 @@ title="Print to PDF"
 <span class="g g-Whitespace">   </span><span class="mi">1218</span>         <span class="p">)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1219</span>     <span class="p">)</span>
 
-<span class="ne">ValueError</span>: Value of &#39;path_1&#39; is not the name of a column in &#39;data_frame&#39;. Expected one of [&#39;Unnamed: 0&#39;, &#39;project_name&#39;, &#39;oneliner&#39;, &#39;git_namespace&#39;, &#39;git_url&#39;, &#39;platform&#39;, &#39;labels&#39;, &#39;topic&#39;, &#39;last_commit_date&#39;, &#39;stargazers_count&#39;, &#39;number_of_dependents&#39;, &#39;stars_last_year&#39;, &#39;project_active&#39;, &#39;dominating_language&#39;, &#39;organization&#39;, &#39;organization_user_name&#39;, &#39;languages&#39;, &#39;homepage&#39;, &#39;refs&#39;, &#39;project_created&#39;, &#39;project_age_in_days&#39;, &#39;license&#39;, &#39;total_commits_last_year&#39;, &#39;total_number_of_commits&#39;, &#39;last_issue_closed&#39;, &#39;open_issues&#39;, &#39;closed_pullrequests&#39;, &#39;closed_issues&#39;, &#39;issues_closed_last_year&#39;, &#39;days_until_last_issue_closed&#39;, &#39;open_pullrequests&#39;, &#39;reviews_per_pr&#39;, &#39;development_distribution_score&#39;, &#39;last_released_date&#39;, &#39;last_release_tag_name&#39;, &#39;good_first_issue&#39;, &#39;contributors&#39;, &#39;accepts_donations&#39;, &#39;donation_platforms&#39;, &#39;code_of_conduct&#39;, &#39;contribution_guide&#39;, &#39;dependents_repos&#39;, &#39;organization_name&#39;, &#39;organization_github_url&#39;, &#39;organization_website&#39;, &#39;organization_location&#39;, &#39;organization_country&#39;, &#39;organization_form&#39;, &#39;organization_avatar&#39;, &#39;organization_public_repos&#39;, &#39;organization_created&#39;, &#39;organization_last_update&#39;, &#39;project_age_in_years&#39;, &#39;activity&#39;, &#39;community&#39;, &#39;size&#39;, &#39;total_score&#39;, &#39;hole&#39;] but received: sector
+<span class="ne">ValueError</span>: Value of &#39;path_0&#39; is not the name of a column in &#39;data_frame&#39;. Expected one of [&#39;Unnamed: 0&#39;, &#39;project_name&#39;, &#39;oneliner&#39;, &#39;git_namespace&#39;, &#39;git_url&#39;, &#39;platform&#39;, &#39;labels&#39;, &#39;topic&#39;, &#39;last_commit_date&#39;, &#39;stargazers_count&#39;, &#39;number_of_dependents&#39;, &#39;stars_last_year&#39;, &#39;project_active&#39;, &#39;dominating_language&#39;, &#39;organization&#39;, &#39;organization_user_name&#39;, &#39;languages&#39;, &#39;homepage&#39;, &#39;refs&#39;, &#39;project_created&#39;, &#39;project_age_in_days&#39;, &#39;license&#39;, &#39;total_commits_last_year&#39;, &#39;total_number_of_commits&#39;, &#39;last_issue_closed&#39;, &#39;open_issues&#39;, &#39;closed_pullrequests&#39;, &#39;closed_issues&#39;, &#39;issues_closed_last_year&#39;, &#39;days_until_last_issue_closed&#39;, &#39;open_pullrequests&#39;, &#39;reviews_per_pr&#39;, &#39;development_distribution_score&#39;, &#39;last_released_date&#39;, &#39;last_release_tag_name&#39;, &#39;good_first_issue&#39;, &#39;contributors&#39;, &#39;accepts_donations&#39;, &#39;donation_platforms&#39;, &#39;code_of_conduct&#39;, &#39;contribution_guide&#39;, &#39;dependents_repos&#39;, &#39;organization_name&#39;, &#39;organization_github_url&#39;, &#39;organization_website&#39;, &#39;organization_location&#39;, &#39;organization_country&#39;, &#39;organization_form&#39;, &#39;organization_avatar&#39;, &#39;organization_public_repos&#39;, &#39;organization_created&#39;, &#39;organization_last_update&#39;, &#39;project_age_in_years&#39;, &#39;activity&#39;, &#39;community&#39;, &#39;size&#39;, &#39;total_score&#39;] but received: fields
 </pre></div>
 </div>
 </div>
