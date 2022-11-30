@@ -27,6 +27,7 @@ parts:
       - file: chapters/14a_development-distribution-score
       - file: chapters/14b_contributors
       - file: chapters/14c_organisational-diversity
+      - file: chapters/14e_organisation_with_most_projects
       - file: chapters/14d_geography_of_organisations
     - file: chapters/15_users-and-usage
     - file: chapters/16_ecosystem-collaborations

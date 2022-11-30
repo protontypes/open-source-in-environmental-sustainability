@@ -6,7 +6,7 @@ Openness is a key indicator of sustainability. It allows different disciplines, 
 ---
 width: 80%
 ---
-The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. 
+The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. <img src="https://licensebuttons.net/p/mark/1.0/88x31.png" width="70"/>
 ```
 
 **The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:**
@@ -39,9 +39,9 @@ The progressing of science and knowledge is phrased with the metaphor "standing 
 
 **Countries must also be supported to rapidly deploy and adapt open source technologies to meet their infrastructure needs.** This has the potential to enhance economic complexity, provide job growth, and drive resource and efficiency gains. For example, open source projects such as [NASA Harvest](https://github.com/nasaharvest/cropharvest#cropharvest) uses measurements, forecasts, and maps to improve food security and agriculture worldwide. By open-sourcing the data, models, and software tools, the derived knowledge and insights are easily accessible, adaptable, and actionable within the local context. This is critical to building resilience, social equality, and economic viability. The alternative, pursuing proprietary options, may not be appropriate at the speed and scale required. OSS, on the other hand, can lay a digital foundation based on solutions that are more easily integrated, interoperable, and maintainable, ultimately reducing reliance on external suppliers.
 
-```{figure} ../images/crop_harvest.jpg
+```{figure} ../images/crop_harvest.png
 ---
 width: 100%
 ---
-CropHarvest is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products.
+[CropHarvest](https://github.com/nasaharvest/cropharvest) is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products. [CC-BY-4.0](https://github.com/nasaharvest/cropharvest/blob/main/LICENSE.txt)
 ```
