@@ -87,7 +87,7 @@ Large, well-known projects receive more donations than small, but key to digital
 align: center
 width: 60%
 ---
-A meme illustrating the dependency structures within software shows how even small projects can be of central importance for an entire software ecosystem. Source [xkcd](https://xkcd.com/2347/)
+A meme illustrating the dependency structures within software shows how even small projects can be of central importance for an entire software ecosystem. Source: [xkcd](https://xkcd.com/2347/)
 ```
 
 

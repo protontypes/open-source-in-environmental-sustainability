@@ -9,6 +9,8 @@ The analysis of the communities is divided into different chapters:
 ```{tableofcontents}
 ```
 
+<br />
+
 ```{figure} ../images/NoiseMap.png
 ---
 align: center
