@@ -49,5 +49,5 @@ Furthermore, some important attributes, such as the number of clones and downloa
 ---
 width: 100%
 ---
-Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the Open Source Python package [RiverREM](https://github.com/OpenTopography/RiverREM)
+Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the Open Source Python package [RiverREM](https://github.com/OpenTopography/RiverREM) [GPL-3.0 license](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
  ```

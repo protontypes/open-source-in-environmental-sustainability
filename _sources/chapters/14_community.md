@@ -8,3 +8,12 @@ Establishing communities of developers and users brings open source projects clo
 The analysis of the communities is divided into different chapters:
 ```{tableofcontents}
 ```
+
+```{figure} ../images/NoiseMap.png
+---
+align: center
+width: 70%
+---
+[NoiseModelling](https://noise-planet.org/noisemodelling.html) is a free, open-source tool designed to produce environmental noise maps for very large urban areas. [GPL-3.0 license](https://github.com/Universite-Gustave-Eiffel/NoiseModelling/blob/master/LICENSE)
+```
+
