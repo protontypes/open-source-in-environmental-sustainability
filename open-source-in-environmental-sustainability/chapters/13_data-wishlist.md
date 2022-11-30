@@ -24,3 +24,13 @@ This “wishlist” was obtained via interviews with project developers. Compara
 | Wind Turbine Controllers (fixed and floating offshore wind turbines). | The wind turbine systems research community uses reference controllers to compare and evaluate modern and advanced control algorithms and enable dynamic simulations in other wind turbine studies. Design constraints, such as blade tip deflection, have become increasingly important as wind turbines have grown and modelling tools have improved and increased in fidelity. Without a representative controller that performs consistently across turbine designs, dynamic simulations cannot provide reliable turbine design results. Reference wind turbine controllers are often difficult to modify for other turbines, making it difficult for researchers to run representative, fully dynamic simulations of other wind turbine designs. This is because the control software algorithms companies keep these data close. Any open commercial controllers or their data would be helpful in this line of research. To our knowledge, a modern, open source controller with specific logic for floating offshore wind turbines (FOWTs) is not available | 2                 | Wind turbine modellers must collaborate with wind turbine companies and industrial manufacturers to create and/or access these datasets. |
 
 ````
+
+---
+
+ ```{figure} ../images/emissions_api_small.jpeg
+---
+width: 100%
+---
+[Emissions API](https://emissions-api.org/)’s mission is to provide easy access to satellite based emissions data without the need of being an expert in satellite data analysis and without having to process terabytes of data.
+
+ ```
