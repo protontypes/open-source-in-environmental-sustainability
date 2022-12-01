@@ -16,7 +16,7 @@ Developing and maintaining open source software relies on an integration of tech
 
 From October 2020 until August 2022, ~1300 **actively** developed open source projects were crowdsourced and curated. All entries are selected based on the contribution [guide](https://opensustain.tech/contributing/) of OpenSustain.tech. For a project to be listed, it must:
 
-1. Follow at least one aspect of the [Open Sustainability Principles](02_open-sustainability-principles.md).
+1. Follow at least one aspect of the {ref}`open-sustainability-principles`.
 2. Be instrumental to the preservation and restoration of natural ecosystems, support climate change mitigation or adaptation, or enable environmental sustainability more broadly, through open technology, methods, data, knowledge, intelligence or tools.
 3. Be used by others outside the core project or organisation.
 4. Be structured and documented in a way that allows for project maintenance, reuse and extendability.
@@ -25,7 +25,8 @@ From October 2020 until August 2022, ~1300 **actively** developed open source pr
 The project dataset is entirely machine-generated based on data from OpenSustain.tech and metadata from the GitHub API. Due to the limitation of the database, we assume that a project takes place in a single repository. For this reason, the terms repository and project are used analogously in this study. When entering the projects, care was taken to use the main repository of a project. The methodology and code used to parse and analyse the data are available in the [AwesomeCure](https://github.com/protontypes/AwesomeCure) repository. Several strategies were tested to include as many projects as possible in data collection using multiple keywords related to sustainable technology and environmental sustainability:
 
 - Searching OSS platforms like Gitlab, Github, Bitbucket or Zenodo.
-- Mining scientific papers for terms like git, and searching in each paper’s keyword dictionary using search engines for OSS, such as Libraries.io and package managers such as PyPi or CRAN.
+- Mining scientific papers for terms like git, and searching in each paper’s keyword dictionary 
+- Using search engines for OSS, such as Libraries.io, [PyPi](https://pypi.org/) or [rdrr.io](https://rdrr.io/).
 - Investigating OSS related journals such as the [Journal of Open Source Software](https://joss.theoj.org/) 
 - Crowdsourcing input, and interviewing people working in relevant domains.
 - Browsing stars awarded by developers.
