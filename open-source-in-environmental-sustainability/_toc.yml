@@ -17,7 +17,7 @@ parts:
     - file: chapters/06_fields
     - file: chapters/07_popularity
     - file: chapters/08_age-and-maturity
-    - file: chapters/09_fastest-growth
+    - file: chapters/09_growth
     - file: chapters/10_ranking
     - file: chapters/11_programming-languages
     - file: chapters/12_licences
