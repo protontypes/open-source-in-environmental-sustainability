@@ -1,13 +1,13 @@
 # Data Wishlist
 
-This is a list of datasets whose availability could accelerate progress or remove bottlenecks in different areas examined in OpenSustain.Tech. Since many open source projects subscribe to the concept of, and employ, other forms of openness including open data, a quantification of the available data stock based on the OpenSustain.tech projects is possible in the future. This can help to create datasets on thematic priorities and geographical coverage of these. 
+This is a list of datasets whose availability could accelerate progress or remove bottlenecks in different areas examined in this study. Since many open source projects subscribe to the concept of, and employ, other forms of openness, including open data, quantifying the available data stock based on this study's identified projects is possible in the future. This can help to create datasets on thematic priorities with temporal and geographical coverage.
 
-This “wishlist” was obtained via interviews with project developers. Comparable [wishlists](https://www.climatechange.ai/dataset-wishlist.pdf) have previously been created by ClimateChangeAI.  We classify potential datasets according to the topics selected within our study and the following types of data availability: 
-1. Type: public, needs structure 
-2. Type: private, needs to be released 
-3. Type: scattered, needs collation 
-4. Type: proxies, needs to be inferred 
-5. Type: scarce, needs collection
+This “wishlist” was obtained via interviews with project developers. Comparable [wishlists](https://www.climatechange.ai/dataset-wishlist.pdf) have previously been created by ClimateChangeAI. We classify potential datasets according to the topics selected within our study and the following types of data availability:
+1. Public, needs structure
+2. Private, needs to be released
+3. Scattered, needs collation
+4. Proxies, needs to be inferred
+5. Scarce, needs collection
 
 
 ````{div} full-width
