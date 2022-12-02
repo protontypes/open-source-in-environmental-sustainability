@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+fig = px.sunburst(
+    df_active.assign(hole="<a href="https://opensustain.tech/">Open Sustainable Technology</a>"),
+    path=['hole','field', 'topic', 'project_name'],
+    maxdepth=3,
+    color='development_distribution_score',
+
+    ## Descrete colors for all 10 feilds/categories
+    # color_discrete_sequence=['#0E7C7B',' #17BEBB', '#FFC857', '#E9724C', '#C5283D', '#A3F5F3', '#25E4E1', '#FFDD99', '#F6C6B6',' #E37886'],
+    # color='field',
+    
+    #color_continuous_scale = [[0, '#3b52ff'], [0.5, '#f1f1f1'],[1, '#169485']]
+    ## Continuous colors
+    # color_continuous_scale=px.colors.sequential.Aggrnyl, # GnBu, Aggrnyl
+    # color_continuous_midpoint=np.average(df_active['development_distribution_score'], weights=df_active['development_distribution_score']),
+    
+    # Diverging colors
+    color_continuous_scale=px.colors.diverging.Portland[::-1], # PRGn
+    color_continuous_midpoint=df_active['development_distribution_score'].median()
+)
+
+fig.update_layout(coloraxis_colorbar=dict(title='DDS'),title='Projects within fields and topics', height=1000, width=1000, title_font_size=22, font_size=12)
+# animated transitions are currently not implemented when uniformtext is used
+fig.update_traces(insidetextorientation='radial', textinfo='label', marker=dict(line=dict(color='#ffffff', width=0.3)))
+fig.write_html("output.html", full_html=False, include_plotlyjs='cdn')
+fig.show()
+------------------
+
+[0;36m  Cell [0;32mIn[3], line 2[0;36m[0m
+[0;31m    df_active.assign(hole="<a href="https://opensustain.tech/">Open Sustainable Technology</a>"),[0m
+[0m                                    ^[0m
+[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
+
+SyntaxError: invalid syntax (2734850691.py, line 2)
+
