@@ -34,7 +34,7 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   base_url: "https://report-2023.opensustain.tech/"
-  announcement: "This is a pre-release of the final report 2023, which shows the potential of the developed methodology.<br /> We are looking for more people and organisations to support us in this endeavour."
+  announcement: "This is a pre-release. We are looking for more people and organisations to support us in this endeavour."
   use_issues_button: true
   use_repository_button: true
   favicon: favicon.png
