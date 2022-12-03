@@ -1,7 +1,7 @@
 # Open Source in Environmental Sustainability
 **<center>Preserving climate and natural resources with openness</center>**
 <center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="https://www.linkedin.com/in/eirinimalliaraki/">Eirini Malliaraki</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
-<center> Volume I </center>
+<center> Pre-Release 2023 </center>
 <br />
 
 ```{image} ./images/mycelium_sustainability.png
@@ -84,7 +84,7 @@ More than ever, free and open source projects are enabling citizens, scientists,
 
 - Like to participate in future studies of this form. 
 - Have experience developing, supporting or systematically using open source software for sustainability applications.
-- Want to contribute to OpenSustain.tech by identifying new and missing projects.
+- Want to [contribute](https://opensustain.tech/contributing/) to OpenSustain.tech by identifying new and missing projects.
 - Have experience visualising or processing data with Python and know how to integrate such data into a new website.
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
 - Want to help us build any of the recommendations and future directions of OpenSustain.tech.
