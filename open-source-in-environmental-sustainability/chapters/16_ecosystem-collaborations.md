@@ -35,3 +35,17 @@ Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an
 ## Between different actors
 
 **There is a reasonable level of industry-academia collaboration in domains dominated by the private sector**, such as energy modelling and optimisation, battery modelling, wind turbine modelling, PVs, and transportation. Collaboration, however, does not occur at a sectoral or systematic level. In particular, sector-wide coordination in data collection and analysis lags. Opening up data requires global collaboration between industry and academia, and new incentives must be created for companies to open up relevant data safely and effectively. Similarly, in sustainable investment and ESG, there is a lack of open data and open source frameworks to evaluate corporate sustainability in a scientific and verifiable way.
+
+<!-- TODO: consider partly moving to collaboration recommendation -->
+**Collaboration between state and non-state actors is lacking in many places**. Very few multi-sector and cross-sector OSS collaborations can be identified. State and regional governments can accelerate their digital and sustainability transformations by collaborating more closely with industry, academia and NGOs towards shared objectives. This requires transition brokers to guide and facilitate multi-stakeholder alliances from a politically neutral standpoint, and help create the necessary preconditions for change to emerge across scales and system boundaries. Open sustainability principles can be applied here to:
+
+- Generate advocacy and support
+- Support cross-agency coordination
+- Promote and guide innovation funding
+- Support the co-creation process between industry, governments and community stakeholders
+- Bridge the knowledge and information gap between municipal, regional and state governments
+- Build capacity for local community groups to take effective action
+- Identify challenges and opportunities for effective action
+- Guide stakeholders towards science-based decision-making
+
+By doing so, state and non-state alliances are strengthened through a shared digital infrastructure, all while supporting the OSS ecosystem.
