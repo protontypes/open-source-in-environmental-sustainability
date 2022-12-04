@@ -25,7 +25,7 @@ This challenge is also reflected in OSS projects developed by think tanks, where
 ```{figure} ../images/HIM.png
 ---
 align: center
-width: 70%
+width: 100%
 ---
 [Hydrogen Infrastructure Model](https://github.com/FZJ-IEK3-VSA/HIM) offers the functionality to calculate predefined hydrogen supply chain architectures with respect to spatial resolution for the analysis of explicit nationwide infrastructures.
 License [MIT](https://github.com/FZJ-IEK3-VSA/HIM/blob/master/LICENSE.txt)
