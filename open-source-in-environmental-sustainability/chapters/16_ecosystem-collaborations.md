@@ -1,8 +1,8 @@
-# Ecosystem collaborations
+# Ecosystem Collaborations
 
 The OSS ecosystem can not be sustained unless projects, supporting organisations, and businesses collaborate to develop and foster a shared digital infrastructure. Collaboration within and across sectors reduces duplication, concentrates efforts to tackle major issues, and builds social capital. Bridging sub-communities also creates connections between projects, which can affect the sustainability of the projects. For example, research has shown that social network ties between developers influence the survival of OSS projects and that GitHub contributors are more likely to join projects with which they have prior social connections. For these reasons, combined with the urgency to decarbonise various industries, we consider areas where more collaboration is needed below. See recommendations, for general [recommendations on collaboration](20_collaboration.md).
 
-## Across and within fields
+## Across and Within Fields
 
 One promising area for more collaboration is between the **physics-based modelling and data science communities**; for example, in modelling physical systems for Earth system science or other physics-based models in battery and energy applications. In addition, many recent technological developments in machine learning exist, and several sustainable applications could benefit from those advances. However, there is an underlying methodological gap that affects such collaborations. So while new efforts are already integrating machine learning and physics-based models, the communities could join forces to combine the best from both methods: highly accurate forecasts based on machine learning models and long-term knowledge building and deep understanding of causal relationships based on physical models.
 
@@ -32,7 +32,7 @@ Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an
 
 ```
 
-## Between different actors
+## Between Different Actors
 
 **There is a reasonable level of industry-academia collaboration in domains dominated by the private sector**, such as energy modelling and optimisation, battery modelling, wind turbine modelling, PVs, and transportation. Collaboration, however, does not occur at a sectoral or systematic level. In particular, sector-wide coordination in data collection and analysis lags. Opening up data requires global collaboration between industry and academia, and new incentives must be created for companies to open up relevant data safely and effectively. Similarly, in sustainable investment and ESG, there is a lack of open data and open source frameworks to evaluate corporate sustainability in a scientific and verifiable way.
 

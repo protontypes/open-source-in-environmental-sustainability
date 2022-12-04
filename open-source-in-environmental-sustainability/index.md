@@ -60,7 +60,7 @@ This report would have not been possible without people from all around the worl
 </a>
 <br />
 
-OpenSustain.tech is a community-driven, nonprofit project. However, we would like to thank the organizations that provided us with financial and consulting support.
+OpenSustain.tech is a community-driven, non-profit project. However, we would like to thank the organizations that provided us with financial and consulting support.
 
 ::::{grid}
 :gutter: 3

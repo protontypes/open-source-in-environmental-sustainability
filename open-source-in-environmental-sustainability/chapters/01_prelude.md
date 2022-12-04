@@ -42,7 +42,7 @@ Without understanding and simulating vital natural systems, it is impossible to 
 
 Without open data, rigorous science and open software, it is impossible to make evidence-based and verifiable assessments about the feasibility of various technological developments or steward environmental commons. The manipulation and withholding of data related to the environmental impact of technologies and companies has a long history. From the[ fossil fuel industry ](https://en.wikipedia.org/wiki/ExxonMobil_climate_change_controversy) withholding studies about climate change; to [manipulation of data and measurements about emissions](https://en.wikipedia.org/wiki/Diesel_emissions_scandal) by the automotive industry; to a [lack of communication of important environmental safety information](https://en.wikipedia.org/wiki/Three_Mile_Island_accident) – pollution and environmental disasters go hand in hand with opaque reporting, obfuscated data, and closed-sourced models. To avoid greenwashing and manipulation of environmental information, we need to ensure claims about the sustainability of technology, the ecological footprints of products, and the impact of human actions are based on quantifiable and verifiable evidence.
 
-## A brief History of Open Source Culture in Sustainability
+## A Brief History of Open Source Culture in Sustainability
 
 Open environmental data has a very long but not well known history. Without the exchange of measurement data between meteorologists, weather forecasting would have been impossible to collaborate in the early days of this scientific field. The origin of the World Meteorological Organization (WMO) stretches back almost 150 years, and international data sharing has been central to its activities from the very beginning. 
 
