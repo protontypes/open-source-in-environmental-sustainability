@@ -6,35 +6,35 @@ root: index
 parts:
   - caption: Introduction
     chapters:
-    - file: chapters/01_prelude
-    - file: chapters/02_open-sustainability-principles  
-    - file: chapters/03_objectives
-    - file: chapters/04_methodology
+    - file: chapters/prelude
+    - file: chapters/open-sustainability-principles  
+    - file: chapters/objectives
+    - file: chapters/methodology
   - caption: Insights
     chapters:
-    - file: chapters/05_overview
-    - file: chapters/06_topics
-    - file: chapters/06_fields
-    - file: chapters/07_popularity
-    - file: chapters/08_age-and-maturity
-    - file: chapters/09_growth
-    - file: chapters/10_ranking
-    - file: chapters/11_programming-languages
-    - file: chapters/12_licences
-    - file: chapters/14_community
+    - file: chapters/overview
+    - file: chapters/topics
+    - file: chapters/fields
+    - file: chapters/popularity
+    - file: chapters/age-and-maturity
+    - file: chapters/growth
+    - file: chapters/ranking
+    - file: chapters/programming-languages
+    - file: chapters/licences
+    - file: chapters/community
       sections:
-      - file: chapters/14a_development-distribution-score
-      - file: chapters/14b_contributors
-      - file: chapters/14c_organisational-diversity
-      - file: chapters/14e_organisation_with_most_projects
-      - file: chapters/14d_geography_of_organisations
-    - file: chapters/15_users-and-usage
-    - file: chapters/16_ecosystem-collaborations
-    - file: chapters/17_funding-models.md
-    - file: chapters/13_data-wishlist
+      - file: chapters/development-distribution-score
+      - file: chapters/contributors
+      - file: chapters/organisational-diversity
+      - file: chapters/organisation_with_most_projects
+      - file: chapters/geography_of_organisations
+    - file: chapters/users-and-usage
+    - file: chapters/ecosystem-collaborations
+    - file: chapters/funding-models.md
+    - file: chapters/data-wishlist
   - caption: Recommendations
     chapters:
-    - file: chapters/18_overall
-    - file: chapters/19_technology
-    - file: chapters/20_collaboration
-    - file: chapters/21_funding
+    - file: chapters/overall
+    - file: chapters/technology
+    - file: chapters/collaboration
+    - file: chapters/funding

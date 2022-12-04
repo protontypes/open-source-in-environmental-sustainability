@@ -1,3 +1,4 @@
+(collaboration)=
 # Collaboration
 
 - **Connect OSS projects to local use cases.** Cities and towns can play a central role in applying various environmental datasets and models as they translate findings into action on the ground. However, they often lack the skills and knowledge to use OSS. Therefore, OSS project developers must integrate such OSS products into more usable interfaces. At the same time, the integration of datasets from different sites can contribute significantly to the generalisation of models and tools. Data Science working directly at city governments can also contribute significantly to bridging the gaps between urban application and research. Both sides can benefit considerably from partnerships by providing researchers with local data from multiple sites, while cities can support their application and integration.
