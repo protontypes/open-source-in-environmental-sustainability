@@ -43,9 +43,9 @@ Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an
 - Support cross-agency coordination
 - Promote and guide innovation funding
 - Support the co-creation process between industry, governments and community stakeholders
-- Bridge the knowledge and information gap between municipal, regional and state governments
-- Build capacity for local community groups to take effective action
+- Bridge knowledge and information gaps between municipal, regional and state governments
 - Identify challenges and opportunities for effective action
+- Build capacity for local community groups to take effective action
 - Guide stakeholders towards science-based decision-making
 
 By doing so, state and non-state alliances are strengthened through a shared digital infrastructure, all while supporting the OSS ecosystem.
