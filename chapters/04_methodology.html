@@ -458,6 +458,13 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#quantitative-analysis">
    Quantitative Analysis
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#development-distribution-score">
+     Development Distribution Score
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#qualitative-analysis">
@@ -487,6 +494,13 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#quantitative-analysis">
    Quantitative Analysis
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#development-distribution-score">
+     Development Distribution Score
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#qualitative-analysis">
@@ -534,6 +548,10 @@ title="Print to PDF"
 </ul>
 <p>Despite extensive research and a comprehensive use of complementary strategies, this database is only representative of a subset of projects within this domain, and should therefore not be considered complete. We must acknowledge that several technological developments relevant to OSS in environmental sustainability are not directly related to outcomes in environmental sustainability; instead, they provide the technical foundation that enables this software. The lines here are frequently blurred, and the extent to which a development contributes to environmental sustainability is difficult to predict. For example, a Geoscience development that contributes to the exploitation of oil fields could also contribute to the exploitation of geothermal energy.</p>
 <p>Furthermore, some important attributes, such as the number of clones and downloads could not be collected via the GitHub API. Projects hosted on self-hosted Git platforms are also more difficult to find. While not currently supported, future re-analysis will consider other platforms, such as GitLab, more extensively. The number of dependencies is another important attribute, indicative of the size and growth of a project and we were able to obtain this data for Python projects via GitHub using a web crawler. Other data, such as user permissions, cannot be viewed in individual projects without additional authorisation. For this reason, governance structures in most open source projects are difficult to determine. Individuals who did not contribute code were excluded from our analyses. Even if such contributions are critical, they cannot be obtained through the GitHub API at this time.</p>
+<section id="development-distribution-score">
+<h3>Development Distribution Score<a class="headerlink" href="#development-distribution-score" title="Permalink to this headline">#</a></h3>
+<p>In this study, a proxy is developed to quantify the <a class="reference external" href="https://en.wikipedia.org/wiki/Bus_factor">Bus Factor</a>, the Development Distribution Score (DDS). The DDS weighs how the development is distributed between project contributors by benchmarking the contributor with the most commits in relation to the other contributors. DDS seeks to measure how distributed the knowledge, work, and governance is in relation to other projects. The metric compares a project’s reliance on a small group of contributors and, therefore, its resilience to change. It can be seen as a lead indicator of health and complexity, whereby the greater the diversity of knowledge accumulated and distributed in a community, the greater the community’s resilience and productive capabilities. More details about this can be found in chapter <a class="reference internal" href="14a_development-distribution-score.html#dds-chapter"><span class="std std-ref">Development Distribution Score</span></a>.</p>
+</section>
 </section>
 <section id="qualitative-analysis">
 <h2>Qualitative Analysis<a class="headerlink" href="#qualitative-analysis" title="Permalink to this headline">#</a></h2>

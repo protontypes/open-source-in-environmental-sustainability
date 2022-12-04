@@ -1,7 +1,7 @@
 # Open Source in Environmental Sustainability
 **<center>Preserving climate and natural resources with openness</center>**
 <center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="https://www.linkedin.com/in/eirinimalliaraki/">Eirini Malliaraki</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
-<center> Pre-Release 2023 </center>
+<center> Pre-Release Report 2023 </center>
 <br />
 
 ```{image} ./images/mycelium_sustainability.png
