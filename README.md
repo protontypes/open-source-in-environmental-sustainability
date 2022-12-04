@@ -11,7 +11,7 @@ The analysis covers multiple dimensions – including the technical, the social,
 ### Reading the book
 To help you navigate and to give you a better overview of the ecosystem, all plots are interactive. Project and organisation names are linked within the plots. The book can be read on the following URL: 
 
-[https://report-2023.opensustain.tech/](https://report-2023.opensustain.tech/)
+[https://report.opensustain.tech/](https://report.opensustain.tech/)
 
 ### Building the book
 

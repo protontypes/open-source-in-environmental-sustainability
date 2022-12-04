@@ -33,7 +33,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  base_url: "https://report-2023.opensustain.tech/"
+  base_url: "https://report.opensustain.tech/"
   announcement: "This is a pre-release. We are looking for more people and organisations to support us in this endeavour."
   use_issues_button: true
   use_repository_button: true
@@ -48,8 +48,8 @@ sphinx:
   extra_extensions:
   - sphinxext.opengraph
   config:
-    ogp_site_url: "https://report-2023.opensustain.tech/"
-    ogp_image: "https://report-2023.opensustain.tech/_images/mycelium_sustainability.png"
+    ogp_site_url: "https://report.opensustain.tech/"
+    ogp_image: "https://report.opensustain.tech/_images/mycelium_sustainability.png"
     ogp_description_length: 58
     ogp_enable_meta_description: true
     html_js_files:
