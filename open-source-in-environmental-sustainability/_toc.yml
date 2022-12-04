@@ -21,7 +21,6 @@ parts:
     - file: chapters/10_ranking
     - file: chapters/11_programming-languages
     - file: chapters/12_licences
-    - file: chapters/13_data-wishlist
     - file: chapters/14_community
       sections:
       - file: chapters/14a_development-distribution-score
@@ -32,6 +31,7 @@ parts:
     - file: chapters/15_users-and-usage
     - file: chapters/16_ecosystem-collaborations
     - file: chapters/17_funding-models.md
+    - file: chapters/13_data-wishlist
   - caption: Recommendations
     chapters:
     - file: chapters/18_overall
