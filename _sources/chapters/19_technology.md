@@ -12,6 +12,11 @@
 
 ---
 
+- **Create open communities and software tools for observing and monitoring greenhouse gas emissions through Earth observation.** Although emissions are central to climate change, the software tools and communities studied allow for little collaboration on Earth observation. Free access to satellite data from [Sentinel-5P](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p), [GOSAT](https://www.gosat.nies.go.jp/en/), [GOSAT2](https://www.gosat-2.nies.go.jp/), [OCO2](https://www.nasa.gov/mission_pages/oco2/index.html) and the upcoming [CO2M](https://www.esa.int/ESA_Multimedia/Images/2021/02/CO2M) provides the basis for such collaboration. However, in many cases the integration of these data into a common format is costly. There is also a lack of powerful and open transport models that can trace these emission measurements back to individual point sources. Although open repositories such as [STILT](https://github.com/uataq/stilt) and [X-STILT](https://github.com/uataq/X-STILT) exist for these models, open licenses and communities are lacking.  The first important steps in the right direction are shown by [Emissions API](https://github.com/emissions-api/emissions-api) and [oco2peak](https://github.com/dataforgoodfr/batch7_satellite_ges/). Monitoring point emissions through open and traceable satellite data and models has the long-term potential to prevent the obscuring of major emission sources and to attribute them to polluters.  
+
+
+---
+
  ```{figure} ../images/africa_osm_map.png
 ---
 width: 100%
