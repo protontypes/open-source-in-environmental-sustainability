@@ -189,3 +189,4 @@ cython_debug/
 
 .prettierrc
 .vscode/
+**/output.html
