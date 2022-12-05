@@ -10,6 +10,7 @@ marker_color = "#0E7C7B"
 color_continuous_scale = px.colors.sequential.Aggrnyl[::-1]
 color_discrete_sequence = ["#0E7C7B", "#17BEBB", "#FFC857", "#E9724C", "#C5283D"]
 boarder_color = "#000000"
+color_divergent_scale = [[0, "#3b52ff"], [0.5, "#f1f1f1"], [1, "#169485"]]
 
 # OpenSustain.Tech colours
 # marker_color = "#159485"
