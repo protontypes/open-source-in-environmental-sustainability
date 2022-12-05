@@ -1,4 +1,4 @@
-jupyter-book
+jupyter-book=0.13.1
 matplotlib
 numpy
 ghp-import
