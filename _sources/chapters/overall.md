@@ -11,10 +11,10 @@ Based on the insights, we propose recommendations for those interested in effect
 ---
 
 - **Establish an open Earth Intelligence Incubator**. Despite the high synergy between open source culture and sustainable environmental developments, there are few incubators or support programs specialising in environmental open source project development. While individual programs focus on non-profits and academia, there is a lack of funding, knowledge, and programs for commercial open source solutions in environmental sustainability. This trend also explains the low proportion of academic open source projects that are commercialised via open source business models. Such an incubator can fill significant gaps in the ecosystem, such as:
-- Identifying opportunities for new ventures and non-profits that creatively combine existing ecosystem components to create more public-purpose value.
-- Incentivising the development of new ventures and projects that combine existing modules and packages into effective open source products.
-- Providing project support including, marketing, design, funding packages, business model design and community management.
-- Building networks with potential users such as cities, government agencies, and nature reserves.
+  - Identifying opportunities for new ventures and non-profits that creatively combine existing ecosystem components to create more public-purpose value.
+  - Incentivising the development of new ventures and projects that combine existing modules and packages into effective open source products.
+  - Providing project support including, marketing, design, funding packages, business model design and community management.
+  - Building networks with potential users such as cities, government agencies, and nature reserves.
 
 ---
 
