@@ -10,7 +10,7 @@ width: 80%
 The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. <img src="https://licensebuttons.net/p/mark/1.0/88x31.png" width="50"/>
 ```
 
-**The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles. These 4 principles are defined as follows:**
+The first ideas for this can already be found in the blog post Open Principles for a [Sustainable Technology Transition](https://opensustain.tech/blog/open_principles_for_a_sustainable_technology_transition/) we published. **The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the essential Open Sustainability Principles:**
 
 ## Transparency and Trust
 
