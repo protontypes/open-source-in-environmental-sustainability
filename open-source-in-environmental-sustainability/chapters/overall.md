@@ -2,7 +2,7 @@
 
 Based on the insights, we propose recommendations for effectively supporting and building capacity for open source in sustainability:
 
-- **Close the knowledge gap on the environmental impact of industries and individual companies.** This study has shown that only a few companies are willing to engage in open scientific dialogue about their environmental impact. For example, open science applied to the assessment of emissions from industrial facilities is usually conducted by external actors. Using remote sensing methods, open data on Scope 1 emissions would provide objective and invaluable verification of the source of environmental impact. One way to incentivise actors is to build openness and scientific verifiability into sustainability assessments and product disclosure statements. Projects, networks, and collaborations between independent scientists and industry that enable open science in sustainability could create a better understanding of the environmental impacts of entire industries.
+- **Close the knowledge gap on the environmental impact of industries and individual companies.** This study has shown that only a few companies are willing to engage in open scientific dialogue about their environmental impact. For example, open science applied to the assessment of emissions from industrial facilities is usually conducted by external actors. Open Scope 1 emissions data provided directly by the industrial facility would allow objective and invaluable verification of the source of the environmental impact. Such data would have a decisive impact on the validation of Earth Observation data and associated models. One way to incentivise actors is to build openness and scientific verifiability into sustainability assessments and product disclosure statements. Projects, networks, and collaborations between independent scientists and industry that enable open science in sustainability could create a better understanding of the environmental impacts of entire industries.
 
 ---
 
@@ -26,6 +26,6 @@ Based on the insights, we propose recommendations for effectively supporting and
 ---
 width: 100%
 ---
-[Electricity Maps](https://app.electricitymaps.com/) provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globle. In this way energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project.
+<br/> [Electricity Maps](https://app.electricitymaps.com/) provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globle. In this way energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project. <br/>
 License: [MIT](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/LICENSE.txt)
  ```
