@@ -5,7 +5,7 @@
 
 ---
 
-- **Further strengthen the interconnectivity of communities**. A flourishing ecosystem of knowledge sharing and exchange between communities needs a platform where projects, ideas and news can be distributed. Before Open Sustain Tech was established, many organisations, users and developers could not get an overview of the active projects within and across topics in OSS for sustainability. Making OSS communities robust and better connected can alleviate the increased contributor risk and provide opportunities for teams to form and contribute more equitably. This helps consolidate and further develop shared values, visions, mindsets and ideas related to Open Sustainable Principles.
+- **Further strengthen the interconnectivity of communities**. A flourishing ecosystem of knowledge sharing and exchange between communities needs a platform where projects, ideas and news can be distributed. Before OpenSustain.Tech was established, many organisations, users and developers could not get an overview of the active projects within and across topics in OSS for sustainability. Making OSS communities robust and better connected can alleviate the increased contributor risk and provide opportunities for teams to form and contribute more equitably. This helps consolidate and further develop shared values, visions, mindsets and ideas related to Open Sustainable Principles.
 
 ---
 
