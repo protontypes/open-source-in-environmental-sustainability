@@ -24,7 +24,7 @@ From October 2020 until August 2022, ~1300 **actively** developed open source pr
 
 The project dataset is entirely machine-generated based on data from OpenSustain.tech and metadata from the GitHub API. Due to the limitation of the database, we assume that a project takes place in a single repository. If multiple repositories could be identified as belonging to a single project, the main repository was identified and listed. For this reason, the terms repository and project are used analogously in this study. When entering the projects, care was taken to use the main repository of a project. The methodology and code used to parse and analyse the data are available in the [AwesomeCure](https://github.com/protontypes/AwesomeCure) repository. The scripts for generating the plots can be found in the [repository](https://github.com/protontypes/open-source-in-environmental-sustainability) of the study. Several strategies were tested to include as many projects as possible in data collection using multiple keywords related to sustainable technology and environmental sustainability:
 
-- Searching OSS platforms like Gitlab, Github, Bitbucket or Zenodo.
+- Searching OSS platforms like Gitlab, GitHub, Bitbucket or Zenodo.
 - Mining scientific papers for terms like git, and searching in each paper’s keyword dictionary 
 - Using search engines for OSS, such as Libraries.io, [PyPi](https://pypi.org/) or [rdrr.io](https://rdrr.io/).
 - Investigating OSS related journals such as the [Journal of Open Source Software](https://joss.theoj.org/) 
@@ -54,6 +54,6 @@ In this study, a proxy is developed to quantify the [Bus Factor](https://en.wiki
 ---
 width: 100%
 ---
-Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM)
+<br/>Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM)
 License: [GPL-3.0](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
  ```

@@ -44,6 +44,6 @@ The first ideas for this can already be found in the blog post Open Principles f
 ---
 width: 100%
 ---
-[CropHarvest](https://github.com/nasaharvest/cropharvest) is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products. 
+<br/>[CropHarvest](https://github.com/nasaharvest/cropharvest) is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products. 
 License: [CC-BY-4.0](https://github.com/nasaharvest/cropharvest/blob/main/LICENSE.txt)
 ```

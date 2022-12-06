@@ -31,6 +31,6 @@ This “wishlist” was obtained via interviews with project developers. Compara
 ---
 width: 100%
 ---
-[Emissions API](https://emissions-api.org/)’s mission is to provide easy access to satellite based emissions data without the need of being an expert in satellite data analysis and without having to process terabytes of data.
+<br/>[Emissions API](https://emissions-api.org/)’s mission is to provide easy access to satellite based emissions data without the need of being an expert in satellite data analysis and without having to process terabytes of data.
 
  ```
