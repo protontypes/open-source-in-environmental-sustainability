@@ -9,6 +9,6 @@ For the past two years, Open Sustainable Technology has mapped the OSS ecosystem
 ---
 width: 70%
 ---
-[iSDA](https://www.isda-africa.com/isdasoil/) built the first field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent. 
+<br/>[iSDA](https://www.isda-africa.com/isdasoil/) built the first field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent. 
 License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 ```

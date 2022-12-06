@@ -18,5 +18,5 @@
 ---
 width: 100%
 ---
-The [forestatrisk](https://ecology.ghislainv.fr/forestatrisk/) Python package can be used to model the tropical deforestation spatially, predict the spatial risk of deforestation, and forecast the future forest cover in the tropics.
+<br/>The [forestatrisk](https://ecology.ghislainv.fr/forestatrisk/) Python package can be used to model the tropical deforestation spatially, predict the spatial risk of deforestation, and forecast the future forest cover in the tropics.
  ```

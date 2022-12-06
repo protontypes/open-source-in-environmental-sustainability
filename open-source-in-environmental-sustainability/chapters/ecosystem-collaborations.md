@@ -12,7 +12,7 @@ One promising area for more collaboration is between the **physics-based modelli
 ---
 width: 100%
 ---
-Integrated Assessment Modeling with [pyam](https://pyam-iamc.readthedocs.io/en/stable/) enables the calculation of scenarios for our society by combining ecological and economic models. 
+<br/>Integrated Assessment Modeling with [pyam](https://pyam-iamc.readthedocs.io/en/stable/) enables the calculation of scenarios for our society by combining ecological and economic models. 
 ```
 
 The coupling of different Earth systems is another important development in modelling that allows a better understanding and prediction of complex interrelationships, such as climate feedback effects. Notable examples are [The Community Earth System Model](https://github.com/ESCOMP/CESM), the [Energy Exascale Earth System Model](https://github.com/E3SM-Project/E3SM) and [Pangeo](https://github.com/pangeo-data/pangeo), which each have their open source ecosystems and large communities.
@@ -28,7 +28,7 @@ Many of the identified projects and communities use similar programming language
 width: 100%
 ---
 
-Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an open source development environment for the earth science. By providing simple interfaces, [examples](http://gallery.pangeo.io/repos/pangeo-gallery/cmip6/global_mean_surface_temp.html#), and data access to state-of-the-art climate simulations like Coupled Model Intercomparison Project ([CMIP6](https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6)), anyone with little Python knowledge can see for themselves the science behind topics like climate change.
+<br/>Global Mean Surface Temperature prediction with [Pangeo](https://pangeo.io/), an open source development environment for the earth science. By providing simple interfaces, [examples](http://gallery.pangeo.io/repos/pangeo-gallery/cmip6/global_mean_surface_temp.html#), and data access to state-of-the-art climate simulations like Coupled Model Intercomparison Project ([CMIP6](https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip6)), anyone with little Python knowledge can see for themselves the science behind topics like climate change.
 
 ```
 
