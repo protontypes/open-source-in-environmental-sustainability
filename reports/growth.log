@@ -1,0 +1,77 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.8.14/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+df_top_40_growth = df_active.nlargest(40, "total_commits_last_year")
+## This projects does create a lot of automate commits
+df_top_40_growth = df_top_40_growth[df_top_40_growth["git_url"] != "https://github.com/OSUKED/ElexonDataPortal.git"]
+
+fig = px.bar(
+    df_top_40_growth,
+    x=df_top_40_growth["total_commits_last_year"],
+    y=df_top_40_growth["project_name"],
+    orientation="h",
+    color=df_top_40_growth["development_distribution_score"],
+    custom_data=["oneliner","topic","git_url"],
+    color_continuous_scale=color_continuous_scale,
+)
+fig.add_layout_image(
+    dict(
+        source=logo_img,
+        x=1, y=0,
+        sizex=0.05, sizey=0.05,
+        xanchor="right", yanchor="bottom"
+    )
+)
+
+fig.update_layout(
+    height=1000,  # Added parameter
+    width=800,
+    xaxis_title="Commit growth last year [%]",
+    yaxis_title= None,
+    title="Projects with the highest commit growth",
+    coloraxis_colorbar=dict(
+    title="DDS",
+    ),
+    hoverlabel=dict(
+    bgcolor="white"
+    dragmode=False,
+    
+),
+xaxis_range=[1000,4200]
+)
+fig['layout'].update(margin=dict(l=300,r=0,b=0,t=40))
+
+fig.update_traces(
+    hovertemplate="<br>".join([
+        "Project Info: <b>%{customdata[0]}</b>",
+        "Topic: <b>%{customdata[1]}</b>",
+        "Git URL: <b>%{customdata[2]}</b>"
+    ])
+)
+fig['layout']['yaxis']['autorange'] = "reversed"
+fig.show()
+------------------
+
+[0;36m  Cell [0;32mIn[4], line 34[0;36m[0m
+[0;31m    dragmode=False,[0m
+[0m    ^[0m
+[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
+
+SyntaxError: invalid syntax (4212344349.py, line 34)
+
