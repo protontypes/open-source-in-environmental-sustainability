@@ -26,8 +26,8 @@ parts:
       - file: chapters/development-distribution-score
       - file: chapters/contributors
       - file: chapters/organisational-diversity
-      - file: chapters/organisation_with_most_projects
-      - file: chapters/geography_of_organisations
+      - file: chapters/organisation-with-most-projects
+      - file: chapters/geography-of-organisations
     - file: chapters/users-and-usage
     - file: chapters/ecosystem-collaborations
     - file: chapters/funding-models.md
