@@ -1,4 +1,4 @@
-## Defining Open Sustainability
+# Defining Open Sustainability
 
 This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’, but touches on others with similar framing and scope:
 
