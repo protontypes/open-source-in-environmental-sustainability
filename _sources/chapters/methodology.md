@@ -1,20 +1,16 @@
 # Methodology
 
-Developing and maintaining open source software relies on an integration of technical, social and organisational factors. A mixed methods study was therefore designed to understand all aspects of this sociotechnological system. We collected quantitative and qualitative data concurrently and used one source's findings as cross-validation for the other. Thousands of projects were analysed across six dimensions:
+Developing and maintaining open source software relies on an integration of technical, social and organisational factors. A mixed methods study was therefore designed to understand all aspects of this sociotechnological system. We collected quantitative and qualitative data concurrently and used one source’s findings as cross-validation for the other. Thousands of projects were analysed across six dimensions:
 
-- **General overview** - Project themes, growth, age and popularity, and general project maturity.
-
-- **Technology** - Preferred programming languages, licence use, and technical challenges facing contributors.
-
-- **Community** - Community composition and participation, and overall activity.
-
-- **Ecosystem collaborations** - Cooperation across and within sectors and disciplines.
-
-- **Financial sustainability** - Business models and funding mechanisms.
+- **General overview** - project themes, growth, age and popularity, and general project maturity.
+- **Technology** - preferred programming languages, licence use, and technical challenges facing contributors.
+- **Community** - community composition and participation, and overall activity.
+- **Ecosystem collaborations** - cooperation across and within sectors and disciplines.
+- **Financial sustainability** - business models and funding mechanisms.
 
 ## Quantitative Analysis
 
-From October 2020 until August 2022, ~1300 **actively** developed open source projects were crowdsourced and curated. All entries are selected based on the contribution [guide](https://opensustain.tech/contributing/) of OpenSustain.tech. For a project to be listed, it must:
+From October 2020 until August 2022, ~1300 **actively** developed open source projects were crowdsourced and curated. All entries were selected based on the contribution [guide](https://opensustain.tech/contributing/) of OpenSustain.tech. For a project to be listed, it must:
 
 1. Follow at least one aspect of the {ref}`open-sustainability-principles`.
 2. Be instrumental to the preservation and restoration of natural ecosystems, support climate change mitigation or adaptation, or enable environmental sustainability more broadly, through open technology, methods, data, knowledge, intelligence or tools.
@@ -31,7 +27,7 @@ The project dataset is entirely machine-generated based on data from OpenSustain
 - Crowdsourcing input, and interviewing people working in relevant domains.
 - Browsing stars awarded by developers.
 
-Despite extensive research and a comprehensive use of complementary strategies, this database is only representative of a subset of projects within this domain, and should therefore not be considered complete. We must acknowledge that several technological developments relevant to OSS in environmental sustainability are not directly related to outcomes in environmental sustainability. Instead, they provide the technical foundation that enables this software. The lines here are frequently blurred, and the extent to which a development contributes to environmental sustainability is difficult to predict. For example, a Geoscience development that contributes to the exploitation of oil fields could also contribute to the exploitation of geothermal energy.
+Despite extensive research and a comprehensive use of complementary strategies, this database is only representative of a subset of projects within this domain, and should therefore not be considered exhaustive. We must acknowledge that several technological developments relevant to OSS in environmental sustainability which are not directly related to outcomes in environmental sustainability. Instead, they provide the technical foundation that enables this software. The lines here are frequently blurred, and the extent to which a development contributes to environmental sustainability is difficult to predict. For example, a geoscience development that contributes to the exploitation of oil fields could also contribute to the exploitation of geothermal energy.
 
 Furthermore, some important attributes, such as the number of clones and downloads could not be collected via the GitHub API. Projects on self-hosted Git platforms are also more difficult to find. While not currently supported, future re-analysis will consider other platforms, such as GitLab, more extensively. The number of open projects which reuse an open source software project is another important attribute. We were able to obtain this data for Python projects via GitHub using a web crawler. Other data, such as user permissions, cannot be viewed in individual projects without additional authorisation. For this reason, governance structures in most open source projects are difficult to determine. Individuals who did not contribute code were excluded from our analyses. Even if such contributions are critical, they cannot be obtained through the GitHub API at this time.
 
@@ -54,5 +50,5 @@ In this study, a proxy is developed to quantify the [Bus Factor](https://en.wiki
 ---
 width: 100%
 ---
-<br/>Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualization created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM) <br/>License: [GPL-3.0](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
+<br/>Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualisation created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM) <br/>License: [GPL-3.0](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
  ```
