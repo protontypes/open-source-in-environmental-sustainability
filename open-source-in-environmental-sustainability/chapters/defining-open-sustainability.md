@@ -8,7 +8,7 @@ This study examines the relationship between ‘open’ approaches and environme
 
 **Open Source Sustainability** refers to the ability of an open source project and its community to sustain themselves over a long period of time and to adapt the project to new circumstances and technologies. A strong community and governance structure is central to delivering bug fixes and new features.
 
-# TODO consider moving to the funding chapter
+ <!-- TODO consider moving to the funding chapter -->
 Open source sustainability is widely known and analysed in detail within numerous books and publications.<sup><a href="https://press.stripe.com/working-in-public">7</a></sup>. A whole [ecosystem has emerged](https://github.com/nayafia/lemonade-stand#a-handy-guide-to-financial-support-for-open-source) with the objective to commercialise the support, risk analysis and funding of open source software. Within the Linux Foundation, a new community emerged to determine the health state of an open source project: Community Health Analytics Open Source Software ([CHAOSS](https://chaoss.community/)). Another strong community that has formed in this space is [Sustain](https://sustainoss.org/). This work is important, as large, well-known projects typically receive more donations than small ones. However, small modular projects can be critical to the global digital infrastructure. Even though large companies use these projects, donations are small compared to the development resources that are required<sup><a href="https://staltz.com/software-below-the-poverty-line.html">8</a></sup>.
 
 ```{figure} ../images/dependency.png
