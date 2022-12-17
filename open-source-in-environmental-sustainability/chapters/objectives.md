@@ -8,7 +8,7 @@ For the past two years, Open Sustainable Technology has mapped the OSS ecosystem
 - Give developers, users, communities and contributors an overview of potential risks and opportunities associated with existing projects, highlighting positive trends and building awareness of critical but neglected areas.
 - Identify untapped potential and make recommendations on how funding and resources can be effectively allocated to existing projects and ecosystems, as well as foster growth in emerging fields.
 - Identify which projects are ideal candidates as dependencies for new initiatives.
-- highlight opportunities for more systemic collaboration, including the potential for strengthing disciplines through a shared digital infrastructure.
+- Highlight opportunities for more systemic collaboration, including the potential for strengthing disciplines through a shared digital infrastructure.
 
 ```{figure} ../images/africa_soil_map.png
 ---

@@ -7,7 +7,7 @@ parts:
   - caption: Introduction
     chapters:
     - file: chapters/prelude
-    - file: chapters/defining-open-sustainability
+    - file: chapters/dimensions-of-sustainability
     - file: chapters/open-sustainability-principles  
     - file: chapters/objectives
     - file: chapters/methodology

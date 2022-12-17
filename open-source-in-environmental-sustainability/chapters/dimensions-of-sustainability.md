@@ -1,4 +1,4 @@
-## Defining Open Sustainability
+# Dimensions of Sustainability
 
 This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’ while touching on other areas with similar framing and scope:
 
