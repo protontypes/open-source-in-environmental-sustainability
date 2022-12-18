@@ -34,7 +34,7 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   base_url: "https://report.opensustain.tech/"
-  announcement: "This is a pre-release. We are looking for more people and organisations to support us in this endeavour."
+  announcement: "This is a pre-release. We are looking for more people and organisations to <b><a href=\"https://report.opensustain.tech/index.html#how-to-contribute\" style = \"color: #00e6a7\" >support us</a></b> in this endeavour."
   use_issues_button: true
   use_repository_button: true
   favicon: favicon.png
