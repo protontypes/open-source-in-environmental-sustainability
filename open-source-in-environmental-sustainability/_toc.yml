@@ -8,8 +8,8 @@ parts:
     chapters:
     - file: chapters/prelude
     - file: chapters/dimensions-of-sustainability
-    - file: chapters/open-sustainability-principles  
     - file: chapters/objectives
+    - file: chapters/open-sustainability-principles  
     - file: chapters/methodology
   - caption: Insights
     chapters:
