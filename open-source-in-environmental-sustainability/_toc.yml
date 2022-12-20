@@ -9,8 +9,8 @@ parts:
     - file: chapters/prelude
     - file: chapters/dimensions-of-sustainability
     - file: chapters/objectives
-    - file: chapters/open-sustainability-principles  
     - file: chapters/methodology
+    - file: chapters/open-sustainability-principles  
   - caption: Insights
     chapters:
     - file: chapters/overview
