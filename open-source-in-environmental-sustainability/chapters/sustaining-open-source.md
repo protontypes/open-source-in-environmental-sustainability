@@ -1,6 +1,8 @@
 # Sustaining Open Source
 
-When it comes to sustainability and open source, we can be discussing completely different things depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’. This must be clearly distinguished from the concept of ‘open source sustainability’, which is, however, also of central importance within this study.
+When it comes to sustainability and open source, we can be discussing completely different things depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’. This must be clearly distinguished from the concept of ‘open source sustainability’, which is, however, also of central importance within this study:
+
+---
 
 **Open Sustainability** refers to the use of open technical and cultural approaches towards sustainable outcomes. The field examines how open culture, technology and methods can contribute to environmental, social and economic sustainability. It is concerned with what and how openness as a philosophy is instrumental to sustainability through the acceleration of transparent and collaborative innovation. Within this study, this aspect will be dealt with in detail, with a particular focus on environmental sustainability in open source software.
 
