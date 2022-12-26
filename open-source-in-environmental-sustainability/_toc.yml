@@ -7,10 +7,10 @@ parts:
   - caption: Introduction
     chapters:
     - file: chapters/prelude
-    - file: chapters/dimensions-of-sustainability
+    - file: chapters/sustaining-open-source
     - file: chapters/objectives
     - file: chapters/methodology
-    - file: chapters/open-sustainability-principles  
+    - file: chapters/open-sustainability-principles 
   - caption: Insights
     chapters:
     - file: chapters/overview
@@ -22,6 +22,7 @@ parts:
     - file: chapters/ranking
     - file: chapters/programming-languages
     - file: chapters/licences
+    - file: chapters/users-and-usage
     - file: chapters/community
       sections:
       - file: chapters/development-distribution-score
@@ -29,7 +30,6 @@ parts:
       - file: chapters/organisational-diversity
       - file: chapters/organisation-with-most-projects
       - file: chapters/geography-of-organisations
-    - file: chapters/users-and-usage
     - file: chapters/ecosystem-collaborations
     - file: chapters/funding-models.md
     - file: chapters/data-wishlist
