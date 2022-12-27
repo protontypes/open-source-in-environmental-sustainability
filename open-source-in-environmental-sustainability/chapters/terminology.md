@@ -1,4 +1,4 @@
-# Sustaining Open Source
+# Terminology
 
 When it comes to sustainability and open source, we can be discussing completely different things depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’. This must be clearly distinguished from the concept of ‘open source sustainability’, which is, however, also of central importance within this study:
 

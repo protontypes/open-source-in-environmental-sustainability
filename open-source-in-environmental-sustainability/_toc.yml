@@ -7,10 +7,11 @@ parts:
   - caption: Introduction
     chapters:
     - file: chapters/prelude
-    - file: chapters/sustaining-open-source
+    - file: chapters/terminology
     - file: chapters/objectives
     - file: chapters/methodology
-    - file: chapters/open-sustainability-principles 
+    - file: chapters/principles
+      title: Principles
   - caption: Insights
     chapters:
     - file: chapters/overview
