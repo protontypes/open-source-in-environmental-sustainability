@@ -5,10 +5,10 @@ OSS is a public good, yet no one is responsible for stewarding and funding it. W
 For the past two years, Open Sustainable Technology has mapped the OSS ecosystem in sustainability and climate technology. An OSS ecosystem is defined as a collection of related software projects that co-evolve within the same environment. This study examines the health and state of this emerging ecosystem and evaluates the impact of open source culture on environmental sustainability. **The key objective is to create a vision and develop strategies to accelerate the use of open source in environmental sustainability.** To achieve this, the following objectives are pursued:
 
 - Identify common principles based on shared values within the ecosystem.
-- Provide evidence about dynamics and the relationships between software projects, technology, communities, and organisations in the open source ecosystem for environmental sustainability. This also includes identifying projects that are suitable as building blocks for new projects.
-- Give developers, users, communities and contributors an overview of potential risks and opportunities associated with existing projects, highlighting positive trends and building awareness of critical but neglected areas.
-- Identify untapped potential and make recommendations on how funding and resources can be effectively allocated to existing projects and ecosystems, as well as foster growth in emerging fields.
-- Highlight opportunities for more systemic collaboration, through a shared digital infrastructure, standards and interfaces.
+- Provide evidence about dynamics and the relationships between projects, technologies, communities, and organisations in the open source ecosystem for environmental sustainability.
+- Give developers, communities and users an overview of potential risks and opportunities associated with existing projects, highlighting positive trends and building awareness of critical but neglected areas. Furthermore, help identify projects suitable as building blocks for new initiatives.
+- Identify untapped potential and make recommendations on how funding and resources can be effectively allocated to existing projects and ecosystems while fostering growth in emerging fields.
+- Highlight opportunities for more systemic collaboration through shared digital infrastructure, standards and interfaces.
 
 ```{figure} ../images/africa_soil_map.png
 ---
