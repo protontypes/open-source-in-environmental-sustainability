@@ -18,7 +18,7 @@ parts:
     - file: chapters/topics
     - file: chapters/fields
     - file: chapters/popularity
-    - file: chapters/age-and-maturity
+    - file: chapters/age
     - file: chapters/growth
     - file: chapters/ranking
     - file: chapters/programming-languages
