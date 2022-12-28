@@ -55,7 +55,7 @@ Thanks to the contributions and support of:<br />
 This report would have not been possible without people from all around the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
 <br />
 <a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
-  <img width="100%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
+  <img width="80%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
 </a>
 <br />
 
