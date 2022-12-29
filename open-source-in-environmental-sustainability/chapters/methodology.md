@@ -43,7 +43,7 @@ In this study, a proxy is developed to quantify the [Bus Factor](https://en.wiki
 - **Technology & support** - *What open datasets and tools are you missing? What do you need to maintain your project in the near term?*
 - **Community** - *How many users does your project have, and how is this metric tracked? What efforts are made to build a diverse developer base? What is the developer model? How are developers retained?*
 - **Collaboration** - *In which field would you like to see more collaboration?*
-- **Financial Sustainability** - *What efforts are being made to reach your definition of sustainability? What are your sources of funding or sponsorship?*
+- **Financial sustainability** - *What efforts are being made to reach your definition of sustainability? What are your sources of funding or sponsorship?*
 - **Future outlook** - *Do you see your project being widely used by your community in the future? What are the top 5 open sustainable projects on your radar?*
 
  ```{figure} ../images/yukon.png
