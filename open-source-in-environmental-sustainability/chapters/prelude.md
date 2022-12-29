@@ -44,7 +44,7 @@ Without open data, rigorous science and open software, it is impossible to make 
 
 ## A Brief History of Open Source Culture in Sustainability
 
-Open environmental data has a very long but not well-known history. Without the exchange of measurement data between meteorologists, it would have been impossible to achieve accurate weather forecasting in the early days of this scientific field. The origin of the World Meteorological Organization (WMO) stretches back almost 150 years, and international collaboration and data sharing have been central to its activities from the very beginning.
+Open environmental data has a very long but not well-known history. Without the exchange of measurement data between meteorologists, it would have been impossible to achieve accurate weather forecasting in the early days of this scientific field. The origin of the World Meteorological Organization stretches back almost 150 years, and international collaboration and data sharing have been central to its activities from the very beginning.
 
 With the advent of the space age, the small number of weather satellites forced nations around the world to share data between different observatories in order to understand the state of the atmosphere and other Earth systems as a whole. The weather forecasts that became possible as a result of this innovation added significant value to all sectors of society. This open planetary-scale computation project increased our awareness of anthropogenic climate change and our ability to act in this environment.
 
@@ -64,7 +64,7 @@ align: center
 width: 100%
 name: open-satellite
 ---
-<br/>With the disclosure of the Landsat archives, the use of these satellite data increased noticeably Source: [Landsat Archive Dashboard](https://landsat.usgs.gov/landsat-archive-dashboard)
+<br/>With the disclosure of the Landsat archives, the use of these satellite data increased noticeably. Source: [Landsat Archive Dashboard](https://landsat.usgs.gov/landsat-archive-dashboard)
 ```
 
 
