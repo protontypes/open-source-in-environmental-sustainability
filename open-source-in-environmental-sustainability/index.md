@@ -15,7 +15,7 @@
 ## Executive Summary
 
 
-The transition to a more sustainable future requires not only technological innovation, but also new opportunities for society to participate in the development and adoption of technologies. Open source culture has demonstrated how transparent and collaborative innovation can support modern digital services, data and infrastructure. Open source software accelerates the transition to a sustainable economy by supporting traceable decision-making, building capacity for localisation and customisation of climate technologies, and most importantly, helping to prevent greenwashing. Yet, despite the transformative impact of open source culture and its use within an estimated 97%<sup><a href="https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report/">1</a></sup> of digital products, its potential for developing environmentally sustainable technologies is not well understood.
+The transition to a more sustainable future requires not only technological innovation, but also new opportunities for society to involve in the development and adoption of technologies. Open source culture has demonstrated how transparent and collaborative innovation can support modern digital services, data and infrastructure. Open source software accelerates the transition to a sustainable economy by supporting traceable decision-making, building capacity for localisation and customisation of climate technologies, and most importantly, helping to prevent greenwashing. Yet, despite the transformative impact of open source culture and its use within an estimated 97%<sup><a href="https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report/">1</a></sup> of digital products, its potential for developing environmentally sustainable technologies is not well understood.
 
 This study provides the first analysis of the open source software ecosystem in sustainability and climate technology. More than one thousand actively developed open source projects and organisations were collected and systematically analysed using qualitative and quantitative methods as part of the [Open Sustainable Technology](https://opensustain.tech/) project and the [associated database](https://airtable.com/shr9we419r2TkpLkc). The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision-makers as well as opportunities for more systemic collaboration. Based on these unique insights, we were also able to define four key {ref}`open-sustainability-principles`.
 
@@ -38,7 +38,7 @@ This report presents the first-of-its-kind analysis of open source technology in
 <!-- - Including open source contributions within Sustainable Development Goals (SDGs), more broadly. -->
 <!-- - Building knowledge and capacity for both open source and sustainability through primary, secondary and tertiary curricula. -->
 
-Digital and sustainable transformation must converge as a digital public good if we are to achieve agreed environmental goals and create a safe and equitable corridor for people and the planet. Open sustainability principles can help governments, research institutes, nongovernmental organizations, and businesses move quickly toward science-based decarbonization and conservation of natural resources and ecosystems by providing critical transparency, traceable decision-making, and collaboration on innovation.
+Digital and sustainable transformation must converge as a digital public good if we are to achieve agreed environmental goals and create a safe and equitable corridor for people and the planet. Open sustainability principles can help governments, research institutes, nongovernmental organisations, and businesses move quickly toward science-based decarbonization and conservation of natural resources and ecosystems by providing critical transparency, traceable decision-making, and collaboration on innovation.
 
 ---
 
@@ -59,7 +59,7 @@ This report would have not been possible without people from all around the worl
 </a>
 <br />
 
-OpenSustain.tech is a community-driven, non-profit project. However, we would like to thank the organizations that provided us with financial and consulting support.
+OpenSustain.tech is a community-driven, non-profit project. However, we would like to thank the organisations that provided us with financial and consulting support.
 
 ::::{grid}
 :gutter: 3
