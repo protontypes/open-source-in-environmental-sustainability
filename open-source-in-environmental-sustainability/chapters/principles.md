@@ -28,7 +28,7 @@ The cross-domain quantitative analyses, discussions, and research in this study 
 ---
 width: 100%
 ---
-<br/>The [the openmod manifesto](https://openmod-initiative.org/manifesto.html) illustrates how traceable decition making is possible in the decarbonization of the energy sector. The openness of data, models and dicussions enables traceable knowledge creation for science and society. The openmod manifesto illustrates how comprehensible decision making is possible in the decarbonization of the energy sector. The openness of data, models and discussions enables traceable knowledge creation for science and society.
+<br/>The [the openmod manifesto](https://openmod-initiative.org/manifesto.html) illustrates how traceable decition making is possible in the decarbonization of the energy sector. The openness of data, models and dicussions enables traceable knowledge creation for science and society.
 ```
 
 ## Collaborative Innovation
