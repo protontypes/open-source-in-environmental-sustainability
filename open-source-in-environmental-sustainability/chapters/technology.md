@@ -26,5 +26,3 @@ width: 100%
 ---
 <br/>[Asset-level Transition Risk in the Global Coal, Oil, and Gas Supply Chains](https://github.com/Lkruitwagen/global-fossil-fuel-supply-chain)<br/> License: [MIT](https://github.com/Lkruitwagen/global-fossil-fuel-supply-chain/blob/master/LICENSE)
 ```
-
----
