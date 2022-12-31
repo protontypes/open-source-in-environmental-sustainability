@@ -11,7 +11,7 @@ The developers and organisations in this field are supported by a diverse set
 >  _"It's a little bit bizarre that there are no government grants available for open source software for public transit."_ 
 </br> Developer of popular transportation planning and traffic simulation software
 
-Non-profit and think tank OSS projects face a similar challenge, whereby funding for a new project is relatively easy to obtain, while virtually impossible to raise funding for maintaining software and data infrastructure. Very few funders focus on the use and maintenance phase of the project development lifecycle. One of the few exceptions here is the [Shuttleworth Foundation](https://shuttleworthfoundation.org/).
+Non-profit and think tank OSS projects face a similar challenge, whereby funding for a new project is relatively easy to obtain, while virtually impossible to raise funding for maintaining software and data infrastructure. Very few funders focus on the use and maintenance phase of the project development lifecycle.
 
 **Projects with larger user bases (e.g.** [**openFAST**](https://github.com/OpenFAST/openfast)**) have a mix of investments, grants and income from industry**. This type of project, however, is more likely to incur technical debt, which will increase the costs of both ongoing maintenance and future development. These more mature projects require more significant funding from industry and governments. In many cases, however, a different business structure and legal entity would be required if a lab-led project wanted to accept donations or seek alternative grant funding. This is currently not feasible in government-funded labs, research councils, and academic labs.
 
@@ -27,6 +27,6 @@ Non-profit and think tank OSS projects face a similar challenge, whereby funding
 align: center
 width: 100%
 ---
-<br/> [Hydrogen Infrastructure Model](https://github.com/FZJ-IEK3-VSA/HIM) offers the functionality to calculate predefined hydrogen supply chain architectures with respect to spatial resolution for the analysis of explicit nationwide infrastructures.
-License [MIT](https://github.com/FZJ-IEK3-VSA/HIM/blob/master/LICENSE.txt)
+<br/> [Hydrogen Infrastructure Model](https://github.com/FZJ-IEK3-VSA/HIM) offers the functionality to calculate predefined hydrogen supply chain architectures with respect to spatial resolution for the analysis of explicit nationwide infrastructures. <br/>
+License: [MIT](https://github.com/FZJ-IEK3-VSA/HIM/blob/master/LICENSE.txt)
 ```

@@ -1,7 +1,7 @@
 (collaboration)=
 # Collaboration
 
-- **Connect OSS projects to local use cases.** Cities and towns can play an important role in translating environmental datasets and models into action on the ground. However, they frequently lack the necessary skills and knowledge to use OSS. Therefore , OSS project developers must incorporate such OSS products into more user-friendly interfaces. Simultaneously, the integration of datasets from different sites can contribute to the generalisation of models and tools. Working directly with city governments to apply data science can also help bridge the gap between urban application and research. Partnerships can benefit both parties considerably by providing researchers with local data from multiple sites, while cities can support their application and integration.
+- **Connect OSS projects to local use cases.** Cities and towns can play an important role in translating environmental datasets and models into action on the ground. However, they frequently lack the necessary skills and knowledge to use OSS. Therefore, OSS project developers must incorporate such OSS products into more user-friendly interfaces. Simultaneously, the integration of datasets from different sites can contribute to the generalisation of models and tools. Working directly with city governments to apply data science can also help bridge the gap between urban application and research. Partnerships can benefit both parties considerably by providing researchers with local data from multiple sites, while cities can support their application and integration.
 
 ---
 
@@ -9,7 +9,7 @@
 
 ---
 
-- **Train maintainers to preserve open source projects for the long run.** Maintainers must be trained in both software development as well as community and project management. Many lead developers are experts in their fields but don't know how to build and maintain a community around their projects, while marketing and other entrepreneurial activities are overlooked. It is also frequently assumed that a high-quality project will quickly find its users and contributors, which is often not the case in practice. Unfortunately, there is a scarcity of training materials and opportunities tailored to the unique characteristics of OSS projects in environment and climate. Open source business models based on potentially irregular donations are not viable for many large projects, and a more consistent income stream is required. Despite the increased adoption of new business models, documented approaches and training opportunities are still lacking.
+- **Train maintainers to preserve open source projects for the long run.** Maintainers must be trained in both software development as well as community and project management. Many lead developers are experts in their fields but don't know how to build and maintain a community around their projects, while marketing and other entrepreneurial activities are overlooked. It is also frequently assumed that a high-quality project will quickly find its users and contributors, which is often not the case in practice. Unfortunately, there is a scarcity of training materials and opportunities tailored to the unique characteristics of OSS projects. Open source business models based on potentially irregular donations are not viable for many large projects, and a more consistent income stream is required. Despite the increased adoption of new business models, documented approaches and training opportunities are still lacking.
 
 
 ---
