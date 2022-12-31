@@ -21,6 +21,6 @@
 ---
 width: 100%
 ---
-[PyPSA-Earth](https://pypsa-earth.readthedocs.io/) is the first open source global energy system model with data in high spatial and temporal resolution. It enables large-scale collaboration by providing a tool that can model the world energy system or any subset of it.
+<br/>[PyPSA-Earth](https://pypsa-earth.readthedocs.io/) is the first open source global energy system model with data in high spatial and temporal resolution. It enables large-scale collaboration by providing a tool that can model the world energy system or any subset of it.
 License: [GPL-3.0](https://github.com/pypsa-meets-earth/pypsa-earth/blob/main/LICENSE)
 ```
