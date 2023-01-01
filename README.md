@@ -40,7 +40,7 @@ More than ever, free and open source projects are enabling citizens, scientists,
 ```
 @book{augspurger-malliaraki-hopkins,     
     Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
-    Date-Added =  {2022-11-28},    
+    Date-Added =  {2023-01-03},    
     Title      =  {Open Source in Environmental Sustainability},    
-    Year       =  {2022}}   
+    Year       =  {2023}}   
 ```
