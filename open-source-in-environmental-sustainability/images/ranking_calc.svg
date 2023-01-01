@@ -164,9 +164,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="745.38243"
-     inkscape:cy="258.4437"
+     inkscape:zoom="0.7"
+     inkscape:cx="827.48909"
+     inkscape:cy="143.08607"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -211,7 +211,7 @@
            x="16.162441"
            y="84.08287" /></flowRegion><flowPara
          id="flowPara82-5"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">Dimensions </flowPara></flowRoot>    <flowRoot
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;text-anchor:middle">Dimensions </flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-11.230045,29.868657)"
        xml:space="preserve"
        id="flowRoot76-3-0"
@@ -225,7 +225,7 @@
            x="16.162441"
            y="84.08287" /></flowRegion><flowPara
          id="flowPara82-5-6"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">Indicators</flowPara></flowRoot>    <flowRoot
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;text-anchor:middle">Indicators</flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-10.175177,83.849971)"
        xml:space="preserve"
        id="flowRoot76-3-1"
@@ -239,7 +239,7 @@
            x="16.162441"
            y="84.08287" /></flowRegion><flowPara
          id="flowPara82-5-9"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">Dimension Index</flowPara></flowRoot>    <g
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic';text-align:center;text-anchor:middle">Dimension Index</flowPara></flowRoot>    <g
        id="g4142"
        transform="translate(12.75039,-0.42348727)"
        inkscape:export-xdpi="230"
@@ -255,7 +255,8 @@
              height="50.507641"
              width="254.55846"
              id="rect80-7-6" /></flowRegion><flowPara
-           id="flowPara82-5-2">Community y</flowPara></flowRoot>      <path
+           id="flowPara82-5-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Community</flowPara></flowRoot>      <path
          inkscape:connector-curvature="0"
          id="path3931"
          d="m 80.492899,27.057777 c 55.592061,0 56.393871,0 56.393871,0"
@@ -277,7 +278,8 @@
              height="45.456875"
              width="220.21327"
              id="rect80-7-6-2" /></flowRegion><flowPara
-           id="flowPara82-5-2-7">Size</flowPara></flowRoot>      <path
+           id="flowPara82-5-2-7"
+           style="-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Size</flowPara></flowRoot>      <path
          inkscape:connector-curvature="0"
          id="path3931-2"
          d="m 162.09897,27.057777 c 55.59207,0 56.39387,0 56.39387,0"
@@ -299,7 +301,8 @@
              height="45.456875"
              width="220.21327"
              id="rect80-7-6-2-3" /></flowRegion><flowPara
-           id="flowPara82-5-2-7-6">Activity</flowPara></flowRoot>      <path
+           id="flowPara82-5-2-7-6"
+           style="-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Activity</flowPara></flowRoot>      <path
          inkscape:connector-curvature="0"
          id="path3931-2-0"
          d="m 313.37352,26.790508 c 55.59207,0 56.39387,0 56.39387,0"
@@ -319,21 +322,21 @@
            x="914.18805"
            y="134.5905" /></flowRegion><flowPara
          id="flowPara3979"
-         style="font-size:32px;text-align:center;text-anchor:middle">Total commits last year </flowPara><flowPara
+         style="font-size:32px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Total commits last year </flowPara><flowPara
          id="flowPara3985"
-         style="font-size:32px;text-align:center;text-anchor:middle">Issues closed last year</flowPara><flowPara
+         style="font-size:32px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Issues closed last year</flowPara><flowPara
          id="flowPara3981"
-         style="font-size:32px;text-align:center;text-anchor:middle">Days until last issue closed</flowPara><flowPara
+         style="font-size:32px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Days until last issue closed</flowPara><flowPara
          id="flowPara3987"
-         style="font-size:32px;text-align:center;text-anchor:middle">Last release date</flowPara><flowPara
+         style="font-size:32px;text-align:center;text-anchor:middle;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Last release date</flowPara><flowPara
          id="flowPara3971"
-         style="font-size:32px" /><flowPara
+         style="font-size:32px;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /><flowPara
          id="flowPara3973"
-         style="font-size:32px" /><flowPara
+         style="font-size:32px;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /><flowPara
          id="flowPara3975"
-         style="font-size:32px" /><flowPara
+         style="font-size:32px;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /><flowPara
          id="flowPara3977"
-         style="font-size:32px" /></flowRoot>    <flowRoot
+         style="font-size:32px;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3963-2"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -369,17 +372,17 @@
          sodipodi:role="line"
          x="121.25005"
          y="46.043076"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4101">Contributors</tspan><tspan
          sodipodi:role="line"
          x="121.25005"
          y="59.272243"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4103">Development Distribution Score</tspan><tspan
          sodipodi:role="line"
          x="121.25005"
          y="72.501411"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4105">Reviews per pull request</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -397,21 +400,21 @@
            y="496.2251"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara4119"
-         style="font-size:32px">Total Number of Commits </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Total number of commits </flowPara><flowPara
          id="flowPara4131"
-         style="font-size:32px">Contributors </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Contributors </flowPara><flowPara
          id="flowPara4133"
-         style="font-size:32px">Closed issues </flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Closed issues </flowPara><flowPara
          id="flowPara4135"
-         style="font-size:32px">Closed pull requests</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Closed pull requests</flowPara><flowPara
          id="flowPara4121"
-         style="font-size:32px" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'" /><flowPara
          id="flowPara4123"
-         style="font-size:32px" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'" /><flowPara
          id="flowPara4125"
-         style="font-size:32px" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'" /><flowPara
          id="flowPara4127"
-         style="font-size:32px" /></flowRoot>    <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="121.41747"
@@ -422,7 +425,7 @@
          sodipodi:role="line"
          x="121.41747"
          y="121.2544"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4105-8">Community score</tspan></text>
     <text
        xml:space="preserve"
@@ -435,7 +438,7 @@
          sodipodi:role="line"
          x="234.3712"
          y="122.07503"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4105-8-5">Size score</tspan></text>
     <text
        xml:space="preserve"
@@ -448,7 +451,7 @@
          sodipodi:role="line"
          x="340.71494"
          y="121.2544"
-         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-size:8.46666622px;text-align:center;text-anchor:middle;stroke-width:0.26458332;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan4105-8-5-3">Activity score</tspan></text>
     <text
        xml:space="preserve"
@@ -461,7 +464,7 @@
          sodipodi:role="line"
          x="234.34164"
          y="158.77081"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan4105-8-5-1">Total Score</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.88949955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0, 0.88949957, 1.77899915, 2.66849873, 3.55799831, 4.44749788, 5.33699746, 6.22649704, 7.11599661, 8.00549619, 8.89499577, 9.78449534, 10.67399491, 11.56349449, 12.45299407;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#EmptyTriangleOutL-0)"
@@ -518,6 +521,16 @@
          id="tspan10491"
          x="225.53438"
          y="93.686295"
-         style="stroke-width:0.26458332"></tspan></text>
-  </g>
+         style="stroke-width:0.26458332" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot151"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion153"><rect
+           id="rect155"
+           width="1464.2858"
+           height="664.28571"
+           x="22.857143"
+           y="32.749737" /></flowRegion><flowPara
+         id="flowPara157"></flowPara></flowRoot>  </g>
 </svg>
