@@ -10,7 +10,7 @@
   - Improve the design and user experience of technology
   - Establish or adopt technical standards
 
-The insights, methods and tools developed within the framework of this study can contribute significantly to making such investments transparent and targeted.
+  The insights, methods and tools developed within the framework of this study can contribute significantly to making such investments transparent and targeted.
 
 ---
 
