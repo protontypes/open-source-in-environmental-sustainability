@@ -7,21 +7,23 @@ parts:
   - caption: Introduction
     chapters:
     - file: chapters/prelude
-    - file: chapters/dimensions-of-sustainability
+    - file: chapters/terminology
     - file: chapters/objectives
     - file: chapters/methodology
-    - file: chapters/open-sustainability-principles  
+    - file: chapters/principles
+      title: Principles
   - caption: Insights
     chapters:
     - file: chapters/overview
     - file: chapters/topics
     - file: chapters/fields
     - file: chapters/popularity
-    - file: chapters/age-and-maturity
+    - file: chapters/age
     - file: chapters/growth
     - file: chapters/ranking
     - file: chapters/programming-languages
     - file: chapters/licences
+    - file: chapters/users-and-usage
     - file: chapters/community
       sections:
       - file: chapters/development-distribution-score
@@ -29,7 +31,6 @@ parts:
       - file: chapters/organisational-diversity
       - file: chapters/organisation-with-most-projects
       - file: chapters/geography-of-organisations
-    - file: chapters/users-and-usage
     - file: chapters/ecosystem-collaborations
     - file: chapters/funding-models.md
     - file: chapters/data-wishlist
