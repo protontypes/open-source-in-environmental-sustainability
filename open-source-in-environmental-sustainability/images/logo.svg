@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Ebene_1"
+   data-name="Ebene 1"
+   viewBox="-46 -47 197.751 222.50334"
+   version="1.1"
+   sodipodi:docname="logo.svg"
+   width="110.81"
+   height="124.68"
+   inkscape:export-filename="/home/cy0/Downloads/logo.png"
+   inkscape:export-xdpi="230.99133"
+   inkscape:export-ydpi="230.99133"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Protontypes</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     id="namedview45"
+     showgrid="false"
+     fit-margin-top="25"
+     fit-margin-left="25"
+     fit-margin-right="25"
+     fit-margin-bottom="25"
+     inkscape:zoom="4.4864435"
+     inkscape:cx="80.576074"
+     inkscape:cy="79.015818"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Ebene_1"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#3b52ff;}.cls-2{fill:#00e6a7;}.cls-3{fill:#fb7363;}</style>
+  </defs>
+  <title
+     id="title6">Protontypes</title>
+  <path
+     class="cls-1"
+     d="M 25.69,60 H 0 A 60,60 0 0 1 60,0 V 25.72 A 34.32,34.32 0 0 0 25.69,60 Z"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="fill:#3b52ff" />
+  <path
+     class="cls-2"
+     d="m 110.81,124.68 a 60,60 0 0 1 -60,-60 H 76.56 A 34.32,34.32 0 0 0 110.81,99 Z"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:#00e6a7" />
+</svg>
