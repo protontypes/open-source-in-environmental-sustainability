@@ -1,6 +1,4 @@
 # Prelude
-
-> _"The greatest threat to our planet is the belief that someone else will save it."_ – Robert Swan
 ## Gathering
 
 In 2019, Eirini Malliaraki curated a collection of open data in the field of environmental information. [Data for Environmental Intelligence](https://github.com/rockita/Environmental_Intelligence) gives an overview of open and freely available resources on the state of our natural environment. It was created with the aim of helping developers, journalists, scientists – ultimately, anyone with access to an internet connection – to find information on how our planet’s natural systems are changing.
@@ -31,9 +29,10 @@ Besides core information technology infrastructure, open source software is beco
 ```{figure} ../images/turbine.png
 ---
 align: center
-width: 60%
+width: 70%
 ---
-The International Energy Agency is working with the National Renewable Energy Laboratory, Technical University of Denmark and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://github.com/IEAWindTask37/IEA-15-240-RWT#iea-15-240-rwt-v11-revised-february-2022) with open simulation and development tools.
+<br/>The International Energy Agency is working with the National Renewable Energy Laboratory, Technical University of Denmark and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://github.com/IEAWindTask37/IEA-15-240-RWT#iea-15-240-rwt-v11-revised-february-2022) with open simulation and development tools.<br/>
+License: [Apache License 2.0](https://github.com/IEAWindTask37/IEA-15-240-RWT/blob/master/LICENSE)
 ```
 
 Without observing and simulating vital natural systems, it is impossible to understand their interrelationships, or indicate how humans can preserve this unique, life-protecting world that has emerged in a completely hostile space. Mathematical models, technologies and measurement tools can provide us with independent reporting on the state of the planet, and the extent of human impacts. The knowledge accumulated over decades ensures that people around the world can understand how to preserve vital resources such as fresh water, fertile soil, clean air, and a stable climate. The in-depth understanding of the Earth and its natural, economic and social systems subsequently allows us to ask critical questions and make accurate predictions about human actions and associated impacts such as:
