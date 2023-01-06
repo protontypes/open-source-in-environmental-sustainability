@@ -1,11 +1,15 @@
 # Prelude
+
+> _"The greatest threat to our planet is the belief that someone else will save it."_ – Robert Swan
 ## Gathering
 
+In 2019, Eirini Malliaraki curated a collection of open data in the field of environmental information. [Data for Environmental Intelligence](https://github.com/rockita/Environmental_Intelligence) gives an overview of open and freely available resources on the state of our natural environment. It was created with the aim of helping developers, journalists, scientists – ultimately, anyone with access to an internet connection – to find information on how our planet’s natural systems are changing.
 
 In the same year, Tobias Augspurger curated a list of open source robotic tools for professional robotic development with the Robotic Operation System (ROS). Based on his experience leading the development of a [complete robotic software stack at DHL](https://rosindustrial.org/news/2020/5/11/guest-article-on-the-story-of-the-autonomous-logistics), primarily based on open source tools, he became convinced that *open source will play an increasingly important role in the co-evolution of technology and society*.
 
 Together with the online community *protontypes*, they launched the [Open Sustainable Technology](https://opensustain.tech/) project to map all open source software repositories in the field of environmental sustainability. Their goal was to capture a complete picture of this emerging open source ecosystem. It quickly became clear that a wealth of information could be derived from this database that warranted further investigation.
 
+In September 2021, Eirini and Tobias joined forces towards a common goal: to explore and understand the intersection of open source, environmental sustainability, and technology, and to share their findings and insights with the public. Further collaborations were agreed upon to build a global picture of the open source ecosystem. In 2022, Josh Hopkins joined to investigate open source projects in the context of digital public goods for communities and decision-makers, led by sustainability intelligence non-profit organisation [Open Corridor](https://www.opencorridor.org).
 
 ```{figure} ../images/city_forest_wildlife_stream_utopia.png
 ---
@@ -16,10 +20,13 @@ width: 80%
 ```
 ## The Role of Open Source Software
 
-Open source software (OSS) has transformed industries by accelerating the development of cloud computing, operating systems, application development, data science and artificial intelligence. Open source approaches allowed for the rapid development of many of the advanced systems which our economies and societies rely upon. Linux is by far the most widely used operating system in supercomputers, embedded systems and internet infrastructure. While there is no central authority by design, the open source movement is guided by common principles, such as the [Fundamental Principles](https://opensource.org/osd), defined by the Open Source Initiative. At the same time, the Open Science movement and [FAIR Principles](https://www.go-fair.org/fair-principles/) have been instrumental in making scientific work transparent and collaborative. 
+Open source relies on the openness of source code, the ability to modify it, and the freedom to distribute it. Open source software (OSS) is developed through the collaborative efforts of distributed communities, who work together to improve software solutions and share their modifications with others, resulting in an efficient allocation of resources and more robust and reliable products. It is foundational in establishing a digital commons, supporting open innovation communities, managing software development lifecycles, and informing social practices for managing shared resources.
 
-Besides core information technology infrastructure, open source software is becoming increasingly critical in environmental science<sup><a href="https://centaur.reading.ac.uk/86473/1/OpenResearchCaseStudy-2019-Blower.pdf">1</a></sup>, disaster impact assessment<sup><a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1094&context=foss4g">2</a></sup>, energy efficiency<sup><a href="https://dl.acm.org/doi/10.1145/3337773">3</a></sup>, and sustainability<sup><a href="https://link.springer.com/book/10.1007/978-981-13-7099-1">4</a></sup> in general. While technological advances are critical to addressing climate change and environmental sustainability, OSS used in the design, operation, and maintenance of human-engineered systems is rarely considered in its own right. This applies to renewables, batteries, and software that simulates and predicts complex natural systems like the atmosphere, biosphere, and water bodies.
+While there is no central authority by design, the open source movement is guided by common principles, such as the [Fundamental Principles](https://opensource.org/osd), defined by the Open Source Initiative. At the same time, the Open Science movement and [FAIR Principles](https://www.go-fair.org/fair-principles/) have been instrumental in making scientific work transparent and collaborative.
 
+Open source software has transformed industries, allowing for the rapid development of many of the advanced systems which our economies and societies rely upon. Today open source is dominant in 90% of cloud computing<sup><a href="https://www.rackspace.com/en-gb/blog/realising-the-value-of-cloud-computing-with-linux">1</a></sup>, 82% of smartphones<sup><a href="https://www.idc.com/promo/smartphone-market-share">2</a></sup>, 97% application development<sup><a href="https://www.gartner.com/en/documents/3891628">3</a>,<a href="https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report">4</a></sup> and most artificial intelligence and data science<sup><a href="https://spectrum.ieee.org/open-source-ai">5</a></sup>. Linux is by far the most widely used operating system in supercomputers, embedded systems and internet infrastructure, with all of the top 500 most powerful supercomputers in the world running a Linux distribution<sup><a href="https://www.top500.org">6</a></sup>. Not surprisingly, 90% of the Fortune Global 500 leverage OSS<sup><a href="https://fortune.com/2013/05/06/how-linux-conquered-the-fortune-500">6</a></sup>.
+
+Besides core information technology infrastructure, open source software is becoming increasingly critical in environmental science<sup><a href="https://centaur.reading.ac.uk/86473/1/OpenResearchCaseStudy-2019-Blower.pdf">7</a></sup>, disaster impact assessment<sup><a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1094&context=foss4g">8</a></sup>, energy efficiency<sup><a href="https://dl.acm.org/doi/10.1145/3337773">9</a></sup>, and sustainability<sup><a href="https://link.springer.com/book/10.1007/978-981-13-7099-1">10</a></sup> in general. While technological advances are critical to addressing climate change and environmental sustainability, OSS used in the design, operation, and maintenance of human-engineered systems is rarely considered in its own right. This applies to technologies such as energy production and storage, as well as software that simulates and predicts complex natural systems including the atmosphere, biosphere, and hydrosphere.
 
 ```{figure} ../images/turbine.png
 ---
@@ -64,4 +71,5 @@ align: center
 width: 100%
 name: open-satellite
 ---
-<br/>With the disclosure of the Landsat archives, the use of these satellite data increased noticeably Source: [Landsat Archive Dashboard](https://landsat.usgs.gov/landsat-archive-dashboard)```
+<br/>With the disclosure of the Landsat archives, the use of these satellite data increased noticeably Source: [Landsat Archive Dashboard](https://landsat.usgs.gov/landsat-archive-dashboard)
+```
