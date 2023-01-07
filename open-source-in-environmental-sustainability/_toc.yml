@@ -23,14 +23,14 @@ parts:
     - file: chapters/ranking
     - file: chapters/programming-languages
     - file: chapters/licences
-    - file: chapters/users-and-usage
     - file: chapters/community
       sections:
       - file: chapters/development-distribution-score
       - file: chapters/contributors
       - file: chapters/organisational-diversity
-      - file: chapters/organisation-with-most-projects
+      - file: chapters/most-listed-projects
       - file: chapters/geography-of-organisations
+    - file: chapters/users-and-usage
     - file: chapters/ecosystem-collaborations
     - file: chapters/funding-models.md
     - file: chapters/data-wishlist
