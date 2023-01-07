@@ -42,6 +42,13 @@ Digital and sustainable transformation needs converge as a digital public good t
 
 ---
 
+## Table of Contents
+
+```{tableofcontents}
+```
+
+---
+
 ## Acknowledgements
 
 Thanks for all the valuable insights and interviews: <br/> 
