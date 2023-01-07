@@ -1,4 +1,4 @@
-# Open Source Sustainability
+# Terminology
 
 When it comes to the terms sustainability and open source, different perspectives may be meant depending on the context. This study examines the relationship between ‘open’ approaches and environmental sustainability from the perspective of ‘open sustainability’. This must be clearly distinguished from the concept of ‘open source sustainability’, which is, however, also of central importance within this study:
 
@@ -22,5 +22,3 @@ width: 60%
 <br/>A meme illustrating the dependency structures within software shows how even small projects can be of central importance for an entire software ecosystem. 
 Source: [xkcd](https://xkcd.com/2347/)
 ```
-
-## Open Source Ecosystems
