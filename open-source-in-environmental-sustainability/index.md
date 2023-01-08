@@ -15,13 +15,13 @@
 
 ## Executive Summary
 
-Open source is everywhere. Its culture has demonstrated how transparent and collaborative innovation can transform modern society, with over 97% of critical digital infrastructure and services depending on it.<sup><a href="https://www.synopsys.com/content/dam/synopsys/sig-assets/reports/rep-ossra-2022.pdf#page=8">1</a></sup> Open source software (OSS) accelerates the transition to a sustainable economy by supporting traceable decision-making, building capacity for localisation and customisation, providing new opportunities for participation, and preventing greenwashing by ensuring transparency and trust. Yet, despite the transformative impact of open source culture, its potential within environmental sustainability is not well understood.
+Open source is everywhere. Its culture has demonstrated how transparent and collaborative innovation can transform modern society, with over 97% of critical digital infrastructure and services depending on it.<sup><a href="https://www.synopsys.com/content/dam/synopsys/sig-assets/reports/rep-ossra-2022.pdf#page=8">1</a></sup> Open source software accelerates the transition to a sustainable economy by supporting traceable decision-making, building capacity for localisation and customisation, providing new opportunities for participation, and preventing greenwashing by ensuring transparency and trust. Yet, despite the transformative impact of open source culture, its potential within environmental sustainability is not well understood.
 
 This report provides the first analysis of the open source software ecosystem in the field of sustainability and climate technology. More than one thousand actively developed open source projects and organisations were collected and systematically analysed using qualitative and quantitative methods as part of the [Open Sustainable Technology](https://opensustain.tech/) project and the [associated database](https://airtable.com/shr9we419r2TkpLkc). The analysis covers multiple dimensions – including the technical, social, and organisational, providing an empirical backbone for guiding community building, policy development and future investment. It highlights key risks and challenges for users, developers, and decision-makers, as well as opportunities for more systemic collaboration. Based on these unique insights, four guiding principles we define as {ref}`open-sustainability-principles` have been identified.
 
 Our findings indicate that open source still plays a minor role as a transformation strategy within sustainability compared to other domains. Half of all identified projects are in data-rich fields such as climate science, biosphere, energy system modelling, transportation and buildings. Other topics, such as carbon offsets, battery technology, sustainable investment, emission observation and integrated assessment modelling, show few notable developments. Newly emerging topics, such as green software, were identified based on popularity growth. Most identified projects are relatively young, with a median age of 4.45 years. The programming languages Python and R dominate the ecosystem, while developers favour permissive licences such as MIT, followed by the copyleft licence GPLv3.
 
-Analysis of the distribution of knowledge, work, and project governance reveals that small, open source communities lead most of the development. On average, open source software projects rely heavily on a single programmer responsible for ~70% of the contributions to a project. In addition, academia and several government agencies contribute significantly to open source in environmental sustainability, while the lack of for-profit organisations and start-ups with open source business models is remarkable. Finally, most OSS projects within the ecosystem are largely based in Europe and North America, with a small number of projects from the Global South. Larger development efforts by organisations based in India and China are underrepresented or nonexistent.
+Analysis of the distribution of knowledge, work, and project governance reveals that small, open source communities lead most of the development. On average, open source software projects rely heavily on a single programmer responsible for ~70% of the contributions to a project. In addition, academia and several government agencies contribute significantly to open source in environmental sustainability, while the lack of for-profit organisations and start-ups with open source business models is remarkable. Finally, most open source software projects within the ecosystem are largely based in Europe and North America, with a small number of projects from the Global South. Larger development efforts by organisations based in India and China are underrepresented or nonexistent.
 
 Based on the results, we identify several action areas for those interested in supporting open source software in environmental sustainability more effectively:
 
@@ -117,6 +117,14 @@ For these and any other enquiry please reach out via email to [Tobias](mailto:to
 ## Stay Informed
 To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
 
+## BibTeX Citation
+```
+@book{augspurger-malliaraki-hopkins,     
+    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
+    Date-Added =  {2023-01-10},    
+    Title      =  {Open Source in Environmental Sustainability},    
+    Year       =  {2023}}   
+```
 
 ## Table of Contents
 
