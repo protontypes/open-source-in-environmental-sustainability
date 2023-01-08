@@ -1,4 +1,31 @@
+<<<<<<< HEAD
 <script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
+||||||| constructed merge base
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+=======
+<script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+>>>>>>> Test webtraffic tool
 
 # Open Source in Environmental Sustainability
 **<center>Preserving climate and natural resources with openness</center>**
