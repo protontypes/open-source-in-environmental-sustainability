@@ -56,5 +56,3 @@ sphinx:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     html_show_copyright: false
     execution_show_tb: true
-    html_theme_options:
-      show_navbar_depth: 1
