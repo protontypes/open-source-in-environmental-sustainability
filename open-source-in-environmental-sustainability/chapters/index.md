@@ -1,3 +1,4 @@
+<script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
 ---
 jupytext:
   formats: md:myst
