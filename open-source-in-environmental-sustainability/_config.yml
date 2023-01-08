@@ -37,6 +37,7 @@ html:
   announcement: "We are looking for more people and organisations to <b><a href=\"https://report.opensustain.tech/index.html#how-to-contribute\" style = \"color: #00e6a7\" >support us</a></b> in this endeavour."
   use_issues_button: true
   use_repository_button: true
+  home_page_in_navbar: false
   favicon: favicon.png
   extra_footer: |
     <p>
