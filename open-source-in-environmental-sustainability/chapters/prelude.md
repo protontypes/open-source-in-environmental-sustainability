@@ -25,6 +25,18 @@ While there is no central authority by design, the open source movement is guide
 Open source software has transformed industries, allowing for the rapid development of many of the advanced systems which our economies and societies rely upon. Today open source is dominant in 90% of cloud computing,<sup><a href="https://www.rackspace.com/en-gb/blog/realising-the-value-of-cloud-computing-with-linux">1</a></sup> 82% of smartphones,<sup><a href="https://www.idc.com/promo/smartphone-market-share">2</a></sup> 97% of application development,<sup><a href="https://www.gartner.com/en/documents/3891628">3</a>,<a href="https://www.synopsys.com/blogs/software-security/open-source-trends-ossra-report">4</a></sup> and most artificial intelligence and data science.<sup><a href="https://spectrum.ieee.org/open-source-ai">5</a></sup> Linux is by far the most widely used operating system in embedded systems, internet infrastructure, and supercomputers, with all of the top 500 most powerful supercomputers in the world running a Linux distribution.<sup><a href="https://www.top500.org">6</a></sup> Not surprisingly, 90% of the Fortune Global 500 leverage OSS.<sup><a href="https://fortune.com/2013/05/06/how-linux-conquered-the-fortune-500">7</a></sup>. This trend is also evident in venture capital investments in commercial open source software with a total investment of \$24B between 2020 and 2022.<sup><a href="https://www.coss.community/cossc/global-vc-funding-into-coss-24b-raised-from-jan-2020-to-august-2022-3pc6">8</a></sup> Several larger companies with annual revenues of more than \$100M are on the rise.<sup><a href="https://docs.google.com/spreadsheets/d/17nKMpi_Dh5slCqzLSFBoWMxNvWiwt2R-t4e_l7LPLhU/edit#gid=0">9</a></sup> The total market for open source services is expected to reach \$66.84B by 2026.<sup><a href="https://www.businesswire.com/news/home/20201113005374/en/66.84-Billion-Open-Source-Services-Market-by-Industry-Service-Type-and-Geography---Global-Forecast-to-2026---ResearchAndMarkets.com
 ">10</a></sup>
 
+`````{admonition} Tip
+:class: tip
+Click the image to zoom into the dependency tree.
+`````
+
+```{figure} ../images/dependency.png
+---
+align: center
+width: 100%
+---
+<br/>The dependency tree of [PyBaMM](https://www.pybamm.org/), solving physics-based electrochemical DAE models by using state-of-the-art automatic differentiation and numerical solvers. The plot is created with [pipdeptree](https://github.com/tox-dev/pipdeptree)<br/>
+```
 
 Without the high modularity made possible by open source, software development as we know it today would not be possible. Package managers and indices like PyPA and pip for Python made it possible to distribute software components easily and securely. This process of knowledge generation, adaption and transformation known from mathematics and natural sciences for centuries and now finds its application in software development. The approach is often described with the metaphor of "[standing on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)", which will be discussed further in the chapter {ref}`open-sustainability-principles`. Modern software development is based on the developments of thousands of small projects that have been released as open source over the last decades.
 
