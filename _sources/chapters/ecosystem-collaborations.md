@@ -49,3 +49,12 @@ width: 100%
 - Guide stakeholders towards science-based decision-making
 
 By doing so, state and non-state alliances are strengthened through a shared digital infrastructure, all while supporting the OSS ecosystem.
+
+```{figure} ../images/africa_soil_map.png
+---
+width: 70%
+---
+<br/>[iSDA](https://www.isda-africa.com/isdasoil/) built the first field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent. 
+License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+```
+

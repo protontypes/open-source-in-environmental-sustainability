@@ -78,7 +78,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint">We are looking for more people and organisations to <b><a href="https://report.opensustain.tech/index.html#how-to-contribute" style = "color: #00e6a7" >support us</a></b> in this endeavour.</div>
+<div class="announcement header-item noprint"></div>
 <div class="header header-item noprint"></div>
 
     
@@ -107,7 +107,7 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
 </div><form class="bd-search d-flex align-items-center" action="#" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
@@ -193,11 +193,6 @@ const thebe_selector_output = ".output, .cell_output"
    Licences
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="chapters/users-and-usage.html">
-   Users and Usage
-  </a>
- </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/community.html">
    Community
@@ -224,8 +219,8 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="chapters/organisation-with-most-projects.html">
-     Organisations With Most Listed Repositories
+    <a class="reference internal" href="chapters/most-listed-projects.html">
+     Most Listed Projects
     </a>
    </li>
    <li class="toctree-l2">
@@ -234,6 +229,11 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/users-and-usage.html">
+   Users and Usage
+  </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="chapters/ecosystem-collaborations.html">
@@ -285,7 +285,7 @@ const thebe_selector_output = ".output, .cell_output"
              <!-- To handle the deprecated key -->
             
             <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
             </div>
             
         </div>
@@ -341,51 +341,6 @@ title="Fullscreen mode"
   </span>
 
 </button>
-
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="https://github.com/protontypes/open-source-in-environmental-sustainability/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
     </div>
 </div>
@@ -457,12 +412,6 @@ title="Open an issue"
   
     By Tobias Augspurger, Eirini Malliaraki and Josh Hopkins<br/>
   
-    <div class="extra_footer">
-      <p>
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
-</p>
-
-    </div>
 </p>
         </footer>
     </div>
