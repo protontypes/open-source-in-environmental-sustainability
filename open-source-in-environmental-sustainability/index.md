@@ -113,8 +113,8 @@ More than ever, free and open source projects are enabling citizens, scientists,
 For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](mailto:eirinimalliaraki@gmail.com) or [Josh](mailto:josh@opencorridor.org):
 
 ## Stay Informed
+To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
 
-To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), Follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
 
 ## Table of Contents
 
