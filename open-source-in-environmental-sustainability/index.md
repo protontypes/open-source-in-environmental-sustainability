@@ -115,6 +115,14 @@ For these and any other enquiry please reach out via email to [Tobias](mailto:to
 ## Stay Informed
 To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
 
+## BibTeX Citation
+```
+@book{augspurger-malliaraki-hopkins,     
+    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
+    Date-Added =  {2023-01-10},    
+    Title      =  {Open Source in Environmental Sustainability},    
+    Year       =  {2023}}   
+```
 
 ## Table of Contents
 
