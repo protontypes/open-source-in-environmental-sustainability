@@ -5,7 +5,7 @@ When it comes to complex (socio-technical-ecological) systems, many different pe
 ```{figure} ../images/open_sustainability_dimensions.svg
 ---
 align: center
-width: 100%
+width: 80%
 ---
 <br/>Dimensions of open sustainability.
 ```
@@ -24,7 +24,7 @@ Previous definitions of open sustainability are broadly focused on [open innovat
 
 ---
 
-**Sustainable technology** is a broad term most commonly used to refer to clean energy sources and systems that minimise environmental impact. For example, so-called "green software", which is concerned with lowering the energy consumption and carbon intensity of cloud computing, would be considered a sustainable technology. Whereas an energy-intensive climate model may not be sustainable in its operation, it can provide critical insights that inform sustainable decision-making with vast implications.
+**Sustainable technology** is a broad term most commonly used to refer to clean energy sources and systems that minimise environmental impact. For example, so-called "green software", which is concerned with lowering the energy consumption and carbon intensity of cloud computing, would be considered a sustainable technology. Whereas an energy-intensive climate model may not be sustainable in its operation, it can provide critical insight that informs sustainable decision-making with vast implications.
 
 ---
 
