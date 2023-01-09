@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: index
+root: chapters/index
 parts:
   - caption: Introduction
     chapters:
@@ -16,7 +16,6 @@ parts:
     chapters:
     - file: chapters/overview
     - file: chapters/topics
-    - file: chapters/fields
     - file: chapters/popularity
     - file: chapters/age
     - file: chapters/growth

@@ -50,5 +50,5 @@ In this study, a proxy is developed to quantify the [Bus Factor](https://en.wiki
 ---
 width: 100%
 ---
-<br/>Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualisation created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM) <br/>License: [GPL-3.0](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
+<br/>Beaver Creek, a tributary to the Yukon River, Alaska, USA. Visualisation created with the open source Python package [RiverREM](https://github.com/OpenTopography/RiverREM). License: [GPL-3.0](https://github.com/OpenTopography/RiverREM/blob/main/LICENSE)
  ```

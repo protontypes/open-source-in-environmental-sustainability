@@ -10,7 +10,7 @@ width: 80%
 <br/>The progressing of science and knowledge is phrased with the metaphor "standing on the shoulders of giants". The giant represents information and knowledge – accumulated and scrutinised over many years – that enables the person on its shoulder to see further than what would otherwise be possible. Blind Orion Searching for the Rising Sun by Nicolas Poussin, 1658. <img src="https://licensebuttons.net/p/mark/1.0/88x31.png" width="50"/>
 ```
 
-The cross-domain quantitative analyses, discussions, and research in this study have made it possible to define the following essential Open Sustainability Principles:
+The cross-domain quantitative analyses, discussions, and research in this study have made it possible to identify the following guiding principles, referred to as Open Sustainability Principles:
 
 ## Transparency and Trust
 
@@ -52,5 +52,5 @@ width: 100%
 ---
 width: 100%
 ---
-<br/>[CropHarvest](https://github.com/nasaharvest/cropharvest) is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products.<br/>License: [CC-BY-4.0](https://github.com/nasaharvest/cropharvest/blob/main/LICENSE.txt)
+<br/>[CropHarvest](https://github.com/nasaharvest/cropharvest) is an open source remote sensing dataset for agriculture with benchmarks. It collects data from a variety of agricultural land use datasets and remote sensing products. License: [CC-BY-4.0](https://github.com/nasaharvest/cropharvest/blob/main/LICENSE.txt)
 ```
