@@ -35,17 +35,9 @@ width: 100%
 
 **There is a reasonable level of industry-academia collaboration in domains dominated by the private sector**, such as energy modelling and optimisation, battery modelling, wind turbine modelling, PVs, and transportation. Collaboration, however, does not occur at a sectoral or systematic level. In particular, sector-wide coordination in data collection and analysis lags behind. Opening up data requires global collaboration between industry and academia, and new incentives must be created for companies to open up relevant data safely and effectively. Similarly, in sustainable investment and ESG, there is a lack of open data and open source frameworks to evaluate corporate sustainability in a scientific and verifiable way.
 
-<!-- TODO: consider partly moving to collaboration recommendation -->
-**Collaboration between state and non-state actors is lacking in many places**. Very few multi-sector and cross-sector OSS collaborations can be identified. State and regional governments can accelerate their digital and sustainability transformations by collaborating more closely with industry, academia and NGOs towards shared objectives. This requires transition brokers to guide and facilitate multi-stakeholder alliances from a politically neutral standpoint, and help create the necessary preconditions for change to emerge across scales and system boundaries. Open sustainability principles can be applied here to:
-- Generate advocacy and support
-- Support cross-agency coordination
-- Promote and guide innovation funding
-- Bridge knowledge and information gaps between municipal, regional and state governments
-- Identify challenges and opportunities for effective action
-- Build capacity for local community groups to take effective action
-- Guide stakeholders towards science-based decision-making
+**Collaboration between state and non-state actors is lacking in many places**. State and non-state actors can accelerate their digital and sustainability transformations by collaborating more closely towards shared objectives. This often requires transition brokers to guide and facilitate multi-stakeholder alliances – which bring together governments, industry, academia and civic society – from a politically neutral standpoint, and help create the necessary preconditions for change to emerge across scales and system boundaries. Using open source approach, multi-sector and cross-sector alliances are strengthened through shared knowledge and resources, further strengthing the OSS ecosystem. Very few OSS collaborations of this kind can be identified outside of Europe.
 
-By doing so, state and non-state alliances are strengthened through a shared digital infrastructure, all while supporting the OSS ecosystem.
+**Collaboration between government agencies**. While several governments are promoting the sharing and reuse of OSS solutions between agencies,<sup><a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/informatics/open-source-software-strategy_en">2</a>,<a href="https://www.cio.gov/2016/08/11/peoples-code.html">2</a></sup> very few OSS efforts within environmental sustainability can be identified as a result of multi-agency collaboration efforts; neither horizontally across multiple governments nor vertically between many levels of government. The interoperability of open knowledge and information is critical to navigating increasingly complex environmental and societal challenges. Given the importance of multi-level governance in tackling climate change, the lack of open collaboration and innovation here is concerning.
 
 ```{figure} ../images/africa_soil_map.png
 ---
@@ -54,4 +46,3 @@ width: 70%
 <br/>[iSDA](https://www.isda-africa.com/isdasoil/) built the first field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent. 
 License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 ```
-
