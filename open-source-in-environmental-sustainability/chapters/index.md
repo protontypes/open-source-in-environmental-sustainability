@@ -75,69 +75,7 @@ Digital and sustainable transformation must converge as a digital public good if
 
 ---
 
-
-## Acknowledgements
-
-Thanks for all the valuable insights and interviews: <br/> 
-[**Jackson Hoffart**](https://github.com/jdhoffa) ([Rocky Mountain Institute](https://rmi.org/)), [**Daniel Huppmann**](https://github.com/danielhuppmann/) ([International Institute for Applied Systems Analysis](https://iiasa.ac.at/)), [**Benoit Petit**](https://github.com/bpetit) ([Hubblo](https://hubblo.org/)), [**Ryan Abernathey**](https://github.com/rabernat) ([Earthmover](https://earthmover.io/)), [**Tom Brown**](https://github.com/nworbmot) ([PyPSA](https://pypsa.readthedocs.io/)), [**Clifford Hansen**](https://github.com/cwhanse) ([pvlib](https://pvlib-python.readthedocs.io/)), [**Valentin Sulzer**](https://github.com/tinosulzer) ([PyBaMM](https://github.com/pybamm-team/)), [**Jenni Rinker**](https://github.com/jennirinker) ([DTU Wind and Energy Systems](https://wind.dtu.dk/)), [**Julia Wagemann**](https://github.com/jwagemann) (Independent), [**Dustin Carlino**](https://github.com/dabreegster) ([A/B Street](https://github.com/a-b-street/abstreet)), [**Shuli Goodman**](https://www.linkedin.com/in/shuligoodman) ([Linux Foundation Energy](https://www.lfenergy.org/)), [**Rafael Mudafort**](https://github.com/rafmudaf) ([US National Renewable Energy Laboratory](http://www.nrel.gov/)), [**Joe Hamman**](https://github.com/jhamman) ([CarbonPlan](https://carbonplan.org/)), [**Sylwester Arabas**](https://github.com/slayoo) ([PySDM](https://github.com/atmos-cloud-sim-uj/PySDM)),  [**Trystan Lea**](https://github.com/TrystanLea) ([Open Energy Monitor](https://openenergymonitor.org/))
-
-Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation.
-
-Thanks to the contributions and support of:<br />
-[Tjark Döring](https://github.com/tjarkdoering), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6),  [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/), Lars Oliver Zlotos and [Nick Fiege](https://linkedin.com/in/nickfiege).
-
-This report would have not been possible without people from all around the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
-<br />
-<a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
-  <img width="80%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
-</a>
-<br />
-
-OpenSustain.tech is a community-driven, non-profit project. However, we would like to thank the organisations that provided us with financial and consulting support.
-
-::::{grid}
-:gutter: 3
-
-:::{grid-item-card} 
-[![](../images/subak.png)](https://subak.org/)
-:::
-
-:::{grid-item-card} 
-[![](../images/protontypes_text_only.png)](https://github.com/protontypes)
-:::
-
-:::{grid-item-card} 
-[![](../images/open_corridor.png)](https://www.opencorridor.org/)
-:::
-::::
-
-(support-us)=
-## How to Contribute 
-
-More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. We want to hear from you if you:
-
-- Like to participate in future studies of this form. 
-- Have experience developing, supporting or systematically using open source software for sustainability applications.
-- Want to [contribute](https://opensustain.tech/contributing/) to OpenSustain.tech by identifying new and missing projects.
-- Have experience visualising or processing data with Python and know how to integrate such data into a new website.
-- Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
-- Want to help us build any of the recommendations and future directions of OpenSustain.tech.
-
-For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](mailto:eirinimalliaraki@gmail.com) or [Josh](mailto:josh@opencorridor.org):
-
-## Stay Informed
-To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
-
-## BibTeX Citation
-```
-@book{augspurger-malliaraki-hopkins,     
-    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
-    Date-Added =  {2023-01-10},    
-    Title      =  {Open Source in Environmental Sustainability},    
-    Year       =  {2023}}   
-```
-
-## Sun Burst
+## Project Data
 
 `````{admonition} Tip
 :class: tip
@@ -199,6 +137,68 @@ fig.update_traces(
 fig.show()
 ```
 
+---
+
+## Acknowledgements
+
+Thanks for all the valuable insights and interviews: <br/> 
+[**Jackson Hoffart**](https://github.com/jdhoffa) ([Rocky Mountain Institute](https://rmi.org/)), [**Daniel Huppmann**](https://github.com/danielhuppmann/) ([International Institute for Applied Systems Analysis](https://iiasa.ac.at/)), [**Benoit Petit**](https://github.com/bpetit) ([Hubblo](https://hubblo.org/)), [**Ryan Abernathey**](https://github.com/rabernat) ([Earthmover](https://earthmover.io/)), [**Tom Brown**](https://github.com/nworbmot) ([PyPSA](https://pypsa.readthedocs.io/)), [**Clifford Hansen**](https://github.com/cwhanse) ([pvlib](https://pvlib-python.readthedocs.io/)), [**Valentin Sulzer**](https://github.com/tinosulzer) ([PyBaMM](https://github.com/pybamm-team/)), [**Jenni Rinker**](https://github.com/jennirinker) ([DTU Wind and Energy Systems](https://wind.dtu.dk/)), [**Julia Wagemann**](https://github.com/jwagemann) (Independent), [**Dustin Carlino**](https://github.com/dabreegster) ([A/B Street](https://github.com/a-b-street/abstreet)), [**Shuli Goodman**](https://www.linkedin.com/in/shuligoodman) ([Linux Foundation Energy](https://www.lfenergy.org/)), [**Rafael Mudafort**](https://github.com/rafmudaf) ([US National Renewable Energy Laboratory](http://www.nrel.gov/)), [**Joe Hamman**](https://github.com/jhamman) ([CarbonPlan](https://carbonplan.org/)), [**Sylwester Arabas**](https://github.com/slayoo) ([PySDM](https://github.com/atmos-cloud-sim-uj/PySDM)),  [**Trystan Lea**](https://github.com/TrystanLea) ([Open Energy Monitor](https://openenergymonitor.org/))
+
+Special thanks to [**Katarzyna Kulma**](https://github.com/kkulma) for reviewing and contributing to the data analysis and visualisation.
+
+Thanks to the contributions and support of:<br />
+[Tjark Döring](https://github.com/tjarkdoering), [Alejandro Aristi](https://linkedin.com/in/alejandro-aristi), [Victoria Lo](https://www.linkedin.com/in/victoria-lo), [Nithiya Streethran](https://linkedin.com/in/nmstreethran), [Felix Dietze](https://github.com/fdietze), [Johannes Karoff](https://fr.linkedin.com/in/johannes-karoff-3110011b6),  [Joe Torreggiani](https://www.linkedin.com/in/joetorreggiani), [Malgorzata Augspurger](https://de.linkedin.com/in/malgorzata-augspurger-9a28987b), [Miriam Winter](https://linkedin.com/in/miriam-winter-11b763225/), Lars Oliver Zlotos and [Nick Fiege](https://linkedin.com/in/nickfiege).
+
+This report would have not been possible without people from all around the world contributing to [OpenSustain.tech](https://opensustain.tech/):<br />
+<br />
+<a href="https://github.com/protontypes/open-sustainable-technology/graphs/contributors">
+  <img width="80%" src="https://contrib.rocks/image?repo=protontypes/open-sustainable-technology" />
+</a>
+<br />
+
+OpenSustain.tech is a community-driven, non-profit project. However, we would like to thank the organisations that provided us with financial and consulting support.
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} 
+[![](../images/subak.png)](https://subak.org/)
+:::
+
+:::{grid-item-card} 
+[![](../images/protontypes_text_only.png)](https://github.com/protontypes)
+:::
+
+:::{grid-item-card} 
+[![](../images/open_corridor.png)](https://www.opencorridor.org/)
+:::
+::::
+
+(support-us)=
+## How to Contribute 
+
+More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. We want to hear from you if you:
+
+- Like to participate in future studies of this form. 
+- Have experience developing, supporting or systematically using open source software for sustainability applications.
+- Want to [contribute](https://opensustain.tech/contributing/) to OpenSustain.tech by identifying new and missing projects.
+- Have experience visualising or processing data with Python and know how to integrate such data into a new website.
+- Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
+- Want to help us build any of the recommendations and future directions of OpenSustain.tech.
+
+For these and any other enquiry please reach out via email to [Tobias](mailto:tobias.augspurger@protontypes.eu), [Eirini](mailto:eirinimalliaraki@gmail.com) or [Josh](mailto:josh@opencorridor.org):
+
+## Stay Informed
+To stay informed about this projects or to connect with the community please join our [Gitter Chat](https://gitter.im/protontypes/community), follow us on [Twitter](https://twitter.com/protontypes), [GitHub](https://github.com/protontypes) or [LinkedIn](https://de.linkedin.com/company/protontypes). 
+
+## BibTeX Citation
+```
+@book{augspurger-malliaraki-hopkins,     
+    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
+    Date-Added =  {2023-01-10},    
+    Title      =  {Open Source in Environmental Sustainability},    
+    Year       =  {2023}}   
+```
 
 ---
 

@@ -16,7 +16,6 @@ parts:
     chapters:
     - file: chapters/overview
     - file: chapters/topics
-    - file: chapters/fields
     - file: chapters/popularity
     - file: chapters/age
     - file: chapters/growth

@@ -45,6 +45,5 @@ Based on the insights, we propose recommendations for effectively supporting and
 ---
 width: 100%
 ---
-<br/> [Electricity Maps](https://app.electricitymaps.com/) provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globe. Energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project. <br/>
-License: [MIT](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/LICENSE.txt)
+<br/> [Electricity Maps](https://app.electricitymaps.com/) provides time-resolved historical data and forecasts about the amount of renewable energy in the electrical grid for countries all around the globe. Energy consumption can be adjusted in such a way that as few emissions as possible are produced. It provides both a solid business model and an open source community behind the project. License: [MIT](https://github.com/electricitymaps/electricitymaps-contrib/blob/master/LICENSE.txt)
  ```

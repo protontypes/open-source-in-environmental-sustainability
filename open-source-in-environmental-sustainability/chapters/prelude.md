@@ -30,7 +30,7 @@ Open source software has transformed industries, allowing for the rapid developm
 Click the image to zoom into the dependency tree.
 `````
 
-```{figure} ../images/dependency.png
+```{figure} ../images/dependency_tree.png
 ---
 align: center
 width: 100%
@@ -48,8 +48,7 @@ Besides core information technology infrastructure, open source software is beco
 align: center
 width: 70%
 ---
-<br/>The International Energy Agency is working with the National Renewable Energy Laboratory, Technical University of Denmark and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://github.com/IEAWindTask37/IEA-15-240-RWT#iea-15-240-rwt-v11-revised-february-2022) with open simulation and development tools.<br/>
-License: [Apache License 2.0](https://github.com/IEAWindTask37/IEA-15-240-RWT/blob/master/LICENSE)
+<br/>The International Energy Agency is working with the National Renewable Energy Laboratory, Technical University of Denmark and the University of Maine to develop an open source 15-megawatt offshore [reference wind turbine design](https://github.com/IEAWindTask37/IEA-15-240-RWT#iea-15-240-rwt-v11-revised-february-2022) with open simulation and development tools. License: [Apache License 2.0](https://github.com/IEAWindTask37/IEA-15-240-RWT/blob/master/LICENSE)
 ```
 
 Without observing and simulating vital natural systems, it is impossible to understand their interrelationships, or indicate how humans can preserve this unique, life-protecting world that has emerged in a completely hostile space. Mathematical models, technologies and measurement tools can provide us with independent reporting on the state of the planet, and the extent of human impacts. The knowledge accumulated over decades ensures that people around the world can understand how to preserve vital resources such as fresh water, fertile soil, clean air, and a stable climate. The in-depth understanding of the Earth and its natural, economic and social systems subsequently allows us to ask critical questions and make accurate predictions about human actions and associated impacts such as:
