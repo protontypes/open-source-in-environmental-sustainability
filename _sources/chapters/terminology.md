@@ -7,7 +7,7 @@ When it comes to complex (socio-technical-ecological) systems, many different pe
 align: center
 width: 80%
 ---
-<br/>Dimensions of open sustainability.
+\- Dimensions of open sustainability.
 ```
 
 ---
@@ -37,6 +37,6 @@ Open source sustainability is widely known and analysed in detail within numerou
 align: center
 width: 60%
 ---
-<br/>A meme illustrating the dependency structures within software shows how even small projects can be of central importance for an entire software ecosystem. 
+\- A meme illustrating the dependency structures within software shows how even small projects can be of central importance for an entire software ecosystem. 
 Source: [xkcd](https://xkcd.com/2347/)
 ```

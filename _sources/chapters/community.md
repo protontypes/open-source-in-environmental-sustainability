@@ -16,6 +16,6 @@ The analysis of the communities is divided into several chapters:
 align: center
 width: 70%
 ---
-<br/>[NoiseModelling](https://noise-planet.org/noisemodelling.html) is a free, open-source tool designed to produce environmental noise maps for very large urban areas. [GPL-3.0 license](https://github.com/Universite-Gustave-Eiffel/NoiseModelling/blob/master/LICENSE)
+\- [NoiseModelling](https://noise-planet.org/noisemodelling.html) is a free, open-source tool designed to produce environmental noise maps for very large urban areas. [GPL-3.0 license](https://github.com/Universite-Gustave-Eiffel/NoiseModelling/blob/master/LICENSE)
 ```
 
