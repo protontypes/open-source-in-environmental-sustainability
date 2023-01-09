@@ -1,14 +1,3 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
 <script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
 
 # Open Source in Environmental Sustainability
