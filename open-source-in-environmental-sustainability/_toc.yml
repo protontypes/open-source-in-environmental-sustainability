@@ -7,7 +7,6 @@ parts:
   - caption: Introduction
     chapters:
     - file: chapters/prelude
-    - file: chapters/terminology
     - file: chapters/objectives
     - file: chapters/methodology
     - file: chapters/principles
