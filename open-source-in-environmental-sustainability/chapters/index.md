@@ -1,5 +1,5 @@
 <script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
-<h1 align="center" >Open Source in Environmental Sustainability</h1>
+# Open Source in Environmental Sustainability
 
 **<center>Preserving climate and natural resources with openness</center>**
 <center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="https://www.linkedin.com/in/eirinimalliaraki/">Eirini Malliaraki</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
