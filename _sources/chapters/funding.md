@@ -26,5 +26,5 @@
 align: center
 width: 100%
 ---
-\- [HYDRAFloods](https://github.com/Servir-Mekong/hydra-floods) is an open source Python application for downloading, processing, and delivering flood maps derived from remote sensing data. License: [GPL-3.0](https://github.com/Servir-Mekong/hydra-floods/blob/master/LICENSE)
+<br/>[HYDRAFloods](https://github.com/Servir-Mekong/hydra-floods) is an open source Python application for downloading, processing, and delivering flood maps derived from remote sensing data. License: [GPL-3.0](https://github.com/Servir-Mekong/hydra-floods/blob/master/LICENSE)
 ```
