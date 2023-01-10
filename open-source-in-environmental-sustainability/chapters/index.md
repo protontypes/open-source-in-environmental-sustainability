@@ -1,15 +1,4 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
+<script defer data-domain="report.opensustain.tech" src="https://plausible.io/js/script.js"></script>
 # Open Source in Environmental Sustainability
 **<center>Preserving climate and natural resources with openness</center>**
 <center> <a href="https://www.linkedin.com/in/tobias-augspurger-5116b6191/">Tobias Augspurger</a>, <a href="https://www.linkedin.com/in/eirinimalliaraki/">Eirini Malliaraki</a> and <a href="https://www.linkedin.com/in/hopkins-josh/">Josh Hopkins</a> </center>
@@ -72,70 +61,6 @@ Based on the results, we identify several action areas for those interested in s
 -->
 
 Digital and sustainable transformation must converge as a digital public good if we are to achieve agreed environmental goals and create a safe and equitable corridor for people and the planet. **Openness provides the basis for collaborative sense-making, enables meaningful consensus – based on an accurate, shared understanding of the state of our planet – provides direction on how to best coordinate our choice-making, and builds capacity for effective action**. Open sustainability principles can help governments, research institutes, nongovernmental organisations, and businesses move quickly toward science-based decarbonisation and the conservation of natural resources and ecosystems by providing critical transparency, traceable decision-making, and collaboration on innovation.
-
----
-
-## Project Data
-
-`````{admonition} Tip
-:class: tip
-The plot is fully interactive. Drill into fields, topics, and projects via hovering your mouse! Click on the project names to jump to the repositories.
-`````
-
-```{code-cell} ipython3
-:tags: [remove-input]
-
-
-import numpy as np
-import pandas as pd
-import plotly.io as pio
-import plotly.graph_objects as go
-import plotly.express as px
-
-color_continuous_scale = px.colors.sequential.Aggrnyl[::-1]
-
-df_active = pd.read_csv("../csv/project_analysis.csv")
-# color_divergent_scale = [[0, '#dffe4b'], [0.5, '#f1f1f1'],[1, '#1a566a']]
-fig = px.sunburst(
-    df_active.assign(
-        hole='<a href="https://opensustain.tech/" style = "color: black >Open Sustainable Technology</a>'
-    ),
-    path=["hole", "field", "topic", "project_name"],
-    maxdepth=3,
-    color="development_distribution_score",
-    custom_data=["oneliner", "topic", "git_url"],
-    # Diverging colors
-    color_continuous_scale=color_continuous_scale,
-    # color_continuous_midpoint=df_active['development_distribution_score'].median(),
-)
-
-fig.update_layout(
-    coloraxis_colorbar=dict(title="Development Distribution Score",
-    orientation='h',
-    y=-0.15,
-    x=0.5
-    ),
-    height=1000,
-    width=850,
-    title_font_size=22,
-    font_size=12,
-    dragmode=False,
-)
-# animated transitions are currently not implemented when uniformtext is used
-fig.update_traces(
-    insidetextorientation="radial",
-    textinfo="label",
-    marker=dict(line=dict(color="#000000", width=1)),
-    hovertemplate="<br>".join(
-        [
-            "Project Info: <b>%{customdata[0]}</b>",
-            "Topic: <b>%{customdata[1]}</b>",
-            "Git URL: <b>%{customdata[2]}</b>",
-        ]
-    ),
-)
-fig.show()
-```
 
 ---
 
