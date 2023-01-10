@@ -36,7 +36,7 @@ align: center
 width: 100%
 name: dependency
 ---
-\- The dependency tree of [PyBaMM](https://www.pybamm.org/), solving physics-based electrochemical DAE models by using state-of-the-art automatic differentiation and numerical solvers. The plot is created with [pipdeptree](https://github.com/tox-dev/pipdeptree)<br/>
+\- The dependency tree of [PyBaMM](https://www.pybamm.org/), solving physics-based electrochemical DAE models by using state-of-the-art automatic differentiation and numerical solvers. The plot is created with [pipdeptree](https://github.com/tox-dev/pipdeptree).
 ```
 
 Without the high modularity made possible by open source, software development as we know it today would not exist. Package managers and indices such as PyPA and pip for Python enabled the simple and secure distribution of software components. This process of knowledge generation, adaptation and transformation has been known in mathematics and the natural sciences for centuries. Now it finds its application in open source software development. This approach is often described with the metaphor of "[standing on the shoulders of giants](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)", which is explained in more detail in the chapter {ref}`open-sustainability-principles`. Modern software development is based on the developments of thousands of small projects that have been released as open source over the last decades. {numref}`dependency` illustrates the connection of a typical open source project with several other releases within the ecosystem.
