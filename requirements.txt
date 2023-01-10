@@ -1,9 +1,9 @@
-jupyter-book==0.13.1
+jupyter-book
 matplotlib
 numpy
 ghp-import
 numpy
-plotly==5.11.0
+plotly
 pandas
 dateparser
 pycountry
