@@ -1,7 +1,7 @@
 (collaboration)=
 # Collaboration
 
-- **Further strengthen the interconnectivity of communities.** A flourishing ecosystem of knowledge sharing and exchange between communities relies on networks and platforms where projects, ideas and news can be openly distributed. Prior to the formation of OpenSustain.Tech, many organisations, users and developers found it difficult to navigate active projects in and across topics in OSS for sustainability. Strengthening the interconnectivity of communities can alleviate contributor risk, provide opportunities for greater participation, and build capacity for more effective collaboration. The emergence and convergence of diverse groups play a vital role in consolidating and further developing shared values, visions, mindsets and ideas embodied within Open Sustainability Principles.
+- **Further strengthen the interconnectivity of communities.** A flourishing ecosystem of knowledge sharing and exchange between communities relies on networks and platforms where projects, ideas and news can be openly distributed. Prior to the formation of OpenSustain.Tech, many organisations, users and developers found it difficult to navigate active projects in and across topics in OSS for sustainability. Strengthening the interconnectivity of communities can alleviate contributor risk, provide opportunities for greater participation, and build capacity for more effective collaboration. The emergence and convergence of diverse groups play a vital role in consolidating and further developing shared values, visions, mindsets and ideas embodied within open sustainability principles.
 
 ---
 
@@ -27,5 +27,5 @@
 ---
 width: 100%
 ---
-<br/>The [forestatrisk](https://ecology.ghislainv.fr/forestatrisk/) Python package can be used to model the tropical deforestation spatially, predict the spatial risk of deforestation, and forecast the future forest cover in the tropics. License: [GPL-3.0](https://github.com/ghislainv/forestatrisk/blob/master/LICENSE)
+The [forestatrisk](https://ecology.ghislainv.fr/forestatrisk/) Python package can be used to model the tropical deforestation spatially, predict the spatial risk of deforestation, and forecast the future forest cover in the tropics. License: [GPL-3.0](https://github.com/ghislainv/forestatrisk/blob/master/LICENSE)
  ```
