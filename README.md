@@ -36,10 +36,10 @@ More than ever, free and open source projects are enabling citizens, scientists,
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
 - Want to help us build any of the recommendations and future directions of OpenSustain.tech.
 
-## BibTeX Citation
+
 ```
 @book{augspurger-malliaraki-hopkins,     
-    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
+    Author     =  {Augspurger, Tobias and Malliaraki, Eirini and Hopkins, Josh},    
     Date-Added =  {2023-01-10},    
     Title      =  {Open Source in Environmental Sustainability},    
     Year       =  {2023}}   
