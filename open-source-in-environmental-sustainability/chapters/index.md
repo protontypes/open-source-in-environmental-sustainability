@@ -120,7 +120,7 @@ To stay informed about this projects or to connect with the community please joi
 ## BibTeX Citation
 ```
 @book{augspurger-malliaraki-hopkins,     
-    Author     =  {Augspurger T., Malliaraki E., Hopkins J.},    
+    Author     =  {Augspurger, Tobias and Malliaraki, Eirini and Hopkins, Josh},   
     Date-Added =  {2023-01-10},    
     Title      =  {Open Source in Environmental Sustainability},    
     Year       =  {2023}}   
