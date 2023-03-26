@@ -26,7 +26,7 @@ If you'd like to develop and/or build the Open Source in Environmental Sustainab
 
 All plots are based on the CSV files in the `open-source-in-environmental-sustainability/csv/` folder. The [AwesomeCure](https://github.com/protontypes/AwesomeCure) projects is used to update and recreate the raw data of this study. Just place the new `projects.csv` and `github_organizations.csv` files into the CSV folder. The only data that is not automatically generated are the `form_of_organization` and `location_country`.
 
-## How to Contribute
+## How to contribute
 
 More than ever, free and open source projects are enabling citizens, scientists, developers, civil society, industry and government to mitigate climate change. Funders have the opportunity to play an active role in promoting a larger, more systematic shift towards open, community-driven infrastructure at the institutional level. We want to hear from you if you:
 
@@ -36,6 +36,9 @@ More than ever, free and open source projects are enabling citizens, scientists,
 - Are a funder and want to support these developer communities via open infrastructure funds, consortia-based support or other collaborative models across institutions and regions.
 - Want to help us build any of the recommendations and future directions of OpenSustain.tech.
 
+## Cite this project
+
+[![DOI](https://zenodo.org/badge/555793831.svg)](https://zenodo.org/badge/latestdoi/555793831)
 
 ```
 @book{augspurger-malliaraki-hopkins,     
