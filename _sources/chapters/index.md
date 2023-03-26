@@ -13,6 +13,8 @@
 
 > _"The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context."_<br/>[Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
 
+[![DOI](https://zenodo.org/badge/555793831.svg)](https://zenodo.org/badge/latestdoi/555793831)
+
 ## Executive Summary
 
 Open source is everywhere. Its culture of transparent and collaborative innovation has transformed modern society, with over 97% of critical digital infrastructure and services depending on it. The role of open source has become increasingly important in addressing environmental challenges. Mathematical models, data and measurement tools, accumulated and shared over decades, have empowered communities worldwide with the understanding needed to preserve Earth’s vital resources – fresh water, fertile soil, clean air, and a stable climate. Open cultural and technical approaches are essential for supporting traceable decision-making, building capacity for localisation and customisation, providing new opportunities for participation, and preventing greenwashing by ensuring transparency and trust. Yet, despite the transformative impact of open source, its potential within environmental sustainability is not well understood. This has resulted in a systemic lack of investment, ultimately limiting our collective capacity in addressing society’s most pressing challenges. There is a clear need to accelerate open source efforts to achieve innovation and sustainability at scale. However, a systematic assessment of which projects can be considered critical digital infrastructure or where significant funding and resourcing gaps exist has been lacking.
