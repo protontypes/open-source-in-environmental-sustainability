@@ -1,0 +1,121 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+most_listed_projects = (
+    df_active["organization"]
+    .value_counts(ascending=False)
+    .to_frame()
+    .rename_axis("Namespace")
+    .reset_index()
+    .rename(columns={"organization": "counts"})
+)
+most_listed_projects = most_listed_projects[most_listed_projects["counts"] > 3]
+fig = go.Figure(
+    data=[
+        go.Table(
+            columnwidth=[300, 40],
+            header=dict(
+                values=list(most_listed_projects.columns),
+                line_color="#000000",
+                fill_color="#ffffff",
+                font_size=18,
+            ),
+            cells=dict(
+                line_color="#ffffff",
+                fill_color="#ffffff",
+                font_size=16,
+                height=30,
+                values=[most_listed_projects.Namespace, most_listed_projects.counts],
+            ),
+        )
+    ]
+)
+fig.update_layout(
+    autosize=False,
+    height=900,  # Added parameter
+    width=700,
+    dragmode=False
+)
+fig["layout"].update(margin=dict(l=5, r=5, b=0, t=5))
+
+
+fig.show(responsive=True)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mKeyError[0m                                  Traceback (most recent call last)
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/pandas/core/indexes/base.py:3652[0m, in [0;36mIndex.get_loc[0;34m(self, key)[0m
+[1;32m   3651[0m [38;5;28;01mtry[39;00m:
+[0;32m-> 3652[0m     [38;5;28;01mreturn[39;00m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_engine[49m[38;5;241;43m.[39;49m[43mget_loc[49m[43m([49m[43mcasted_key[49m[43m)[49m
+[1;32m   3653[0m [38;5;28;01mexcept[39;00m [38;5;167;01mKeyError[39;00m [38;5;28;01mas[39;00m err:
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/pandas/_libs/index.pyx:147[0m, in [0;36mpandas._libs.index.IndexEngine.get_loc[0;34m()[0m
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/pandas/_libs/index.pyx:176[0m, in [0;36mpandas._libs.index.IndexEngine.get_loc[0;34m()[0m
+
+File [0;32mpandas/_libs/hashtable_class_helper.pxi:7080[0m, in [0;36mpandas._libs.hashtable.PyObjectHashTable.get_item[0;34m()[0m
+
+File [0;32mpandas/_libs/hashtable_class_helper.pxi:7088[0m, in [0;36mpandas._libs.hashtable.PyObjectHashTable.get_item[0;34m()[0m
+
+[0;31mKeyError[0m: 'counts'
+
+The above exception was the direct cause of the following exception:
+
+[0;31mKeyError[0m                                  Traceback (most recent call last)
+Cell [0;32mIn[3], line 9[0m
+[1;32m      1[0m most_listed_projects [38;5;241m=[39m (
+[1;32m      2[0m     df_active[[38;5;124m"[39m[38;5;124morganization[39m[38;5;124m"[39m]
+[1;32m      3[0m     [38;5;241m.[39mvalue_counts(ascending[38;5;241m=[39m[38;5;28;01mFalse[39;00m)
+[0;32m   (...)[0m
+[1;32m      7[0m     [38;5;241m.[39mrename(columns[38;5;241m=[39m{[38;5;124m"[39m[38;5;124morganization[39m[38;5;124m"[39m: [38;5;124m"[39m[38;5;124mcounts[39m[38;5;124m"[39m})
+[1;32m      8[0m )
+[0;32m----> 9[0m most_listed_projects [38;5;241m=[39m most_listed_projects[[43mmost_listed_projects[49m[43m[[49m[38;5;124;43m"[39;49m[38;5;124;43mcounts[39;49m[38;5;124;43m"[39;49m[43m][49m [38;5;241m>[39m [38;5;241m3[39m]
+[1;32m     10[0m fig [38;5;241m=[39m go[38;5;241m.[39mFigure(
+[1;32m     11[0m     data[38;5;241m=[39m[
+[1;32m     12[0m         go[38;5;241m.[39mTable(
+[0;32m   (...)[0m
+[1;32m     28[0m     ]
+[1;32m     29[0m )
+[1;32m     30[0m fig[38;5;241m.[39mupdate_layout(
+[1;32m     31[0m     autosize[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m     32[0m     height[38;5;241m=[39m[38;5;241m900[39m,  [38;5;66;03m# Added parameter[39;00m
+[1;32m     33[0m     width[38;5;241m=[39m[38;5;241m700[39m,
+[1;32m     34[0m     dragmode[38;5;241m=[39m[38;5;28;01mFalse[39;00m
+[1;32m     35[0m )
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/pandas/core/frame.py:3760[0m, in [0;36mDataFrame.__getitem__[0;34m(self, key)[0m
+[1;32m   3758[0m [38;5;28;01mif[39;00m [38;5;28mself[39m[38;5;241m.[39mcolumns[38;5;241m.[39mnlevels [38;5;241m>[39m [38;5;241m1[39m:
+[1;32m   3759[0m     [38;5;28;01mreturn[39;00m [38;5;28mself[39m[38;5;241m.[39m_getitem_multilevel(key)
+[0;32m-> 3760[0m indexer [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mcolumns[49m[38;5;241;43m.[39;49m[43mget_loc[49m[43m([49m[43mkey[49m[43m)[49m
+[1;32m   3761[0m [38;5;28;01mif[39;00m is_integer(indexer):
+[1;32m   3762[0m     indexer [38;5;241m=[39m [indexer]
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/pandas/core/indexes/base.py:3654[0m, in [0;36mIndex.get_loc[0;34m(self, key)[0m
+[1;32m   3652[0m     [38;5;28;01mreturn[39;00m [38;5;28mself[39m[38;5;241m.[39m_engine[38;5;241m.[39mget_loc(casted_key)
+[1;32m   3653[0m [38;5;28;01mexcept[39;00m [38;5;167;01mKeyError[39;00m [38;5;28;01mas[39;00m err:
+[0;32m-> 3654[0m     [38;5;28;01mraise[39;00m [38;5;167;01mKeyError[39;00m(key) [38;5;28;01mfrom[39;00m [38;5;21;01merr[39;00m
+[1;32m   3655[0m [38;5;28;01mexcept[39;00m [38;5;167;01mTypeError[39;00m:
+[1;32m   3656[0m     [38;5;66;03m# If we have a listlike key, _check_indexing_error will raise[39;00m
+[1;32m   3657[0m     [38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise[39;00m
+[1;32m   3658[0m     [38;5;66;03m#  the TypeError.[39;00m
+[1;32m   3659[0m     [38;5;28mself[39m[38;5;241m.[39m_check_indexing_error(key)
+
+[0;31mKeyError[0m: 'counts'
+KeyError: 'counts'
+

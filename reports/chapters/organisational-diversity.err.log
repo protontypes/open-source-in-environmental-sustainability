@@ -1,0 +1,121 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+organization_his = (
+    df_organizations["form_of_organization"]
+    .value_counts()
+    .to_frame()
+    .rename_axis("organization")
+    .reset_index()
+)
+
+organization_his["organization"] = organization_his["organization"].apply(upper_string)
+fig = px.pie(
+    organization_his,
+    values="form_of_organization",
+    names="organization",
+    color_discrete_sequence=color_discrete_sequence,
+    hole=0.2,
+)
+
+fig.update_layout(
+    font_size=16,
+    showlegend=False,
+    hovermode=False,
+)
+fig.update_traces(
+    textposition="auto",
+    textinfo="percent+label",
+    marker=dict(line=dict(color=boarder_color, width=1)),
+)
+fig["layout"].update(margin=dict(l=0, r=0, b=0, t=0))
+fig.show()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+Cell [0;32mIn[4], line 10[0m
+[1;32m      1[0m organization_his [38;5;241m=[39m (
+[1;32m      2[0m     df_organizations[[38;5;124m"[39m[38;5;124mform_of_organization[39m[38;5;124m"[39m]
+[1;32m      3[0m     [38;5;241m.[39mvalue_counts()
+[0;32m   (...)[0m
+[1;32m      6[0m     [38;5;241m.[39mreset_index()
+[1;32m      7[0m )
+[1;32m      9[0m organization_his[[38;5;124m"[39m[38;5;124morganization[39m[38;5;124m"[39m] [38;5;241m=[39m organization_his[[38;5;124m"[39m[38;5;124morganization[39m[38;5;124m"[39m][38;5;241m.[39mapply(upper_string)
+[0;32m---> 10[0m fig [38;5;241m=[39m [43mpx[49m[38;5;241;43m.[39;49m[43mpie[49m[43m([49m
+[1;32m     11[0m [43m    [49m[43morganization_his[49m[43m,[49m
+[1;32m     12[0m [43m    [49m[43mvalues[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mform_of_organization[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m     13[0m [43m    [49m[43mnames[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43morganization[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m     14[0m [43m    [49m[43mcolor_discrete_sequence[49m[38;5;241;43m=[39;49m[43mcolor_discrete_sequence[49m[43m,[49m
+[1;32m     15[0m [43m    [49m[43mhole[49m[38;5;241;43m=[39;49m[38;5;241;43m0.2[39;49m[43m,[49m
+[1;32m     16[0m [43m)[49m
+[1;32m     18[0m fig[38;5;241m.[39mupdate_layout(
+[1;32m     19[0m     font_size[38;5;241m=[39m[38;5;241m16[39m,
+[1;32m     20[0m     showlegend[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m     21[0m     hovermode[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m     22[0m )
+[1;32m     23[0m fig[38;5;241m.[39mupdate_traces(
+[1;32m     24[0m     textposition[38;5;241m=[39m[38;5;124m"[39m[38;5;124mauto[39m[38;5;124m"[39m,
+[1;32m     25[0m     textinfo[38;5;241m=[39m[38;5;124m"[39m[38;5;124mpercent+label[39m[38;5;124m"[39m,
+[1;32m     26[0m     marker[38;5;241m=[39m[38;5;28mdict[39m(line[38;5;241m=[39m[38;5;28mdict[39m(color[38;5;241m=[39mboarder_color, width[38;5;241m=[39m[38;5;241m1[39m)),
+[1;32m     27[0m )
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/plotly/express/_chart_types.py:1482[0m, in [0;36mpie[0;34m(data_frame, names, values, color, facet_row, facet_col, facet_col_wrap, facet_row_spacing, facet_col_spacing, color_discrete_sequence, color_discrete_map, hover_name, hover_data, custom_data, category_orders, labels, title, template, width, height, opacity, hole)[0m
+[1;32m   1480[0m [38;5;28;01melse[39;00m:
+[1;32m   1481[0m     layout_patch [38;5;241m=[39m {}
+[0;32m-> 1482[0m [38;5;28;01mreturn[39;00m [43mmake_figure[49m[43m([49m
+[1;32m   1483[0m [43m    [49m[43margs[49m[38;5;241;43m=[39;49m[38;5;28;43mlocals[39;49m[43m([49m[43m)[49m[43m,[49m
+[1;32m   1484[0m [43m    [49m[43mconstructor[49m[38;5;241;43m=[39;49m[43mgo[49m[38;5;241;43m.[39;49m[43mPie[49m[43m,[49m
+[1;32m   1485[0m [43m    [49m[43mtrace_patch[49m[38;5;241;43m=[39;49m[38;5;28;43mdict[39;49m[43m([49m[43mshowlegend[49m[38;5;241;43m=[39;49m[43m([49m[43mnames[49m[43m [49m[38;5;129;43;01mis[39;49;00m[43m [49m[38;5;129;43;01mnot[39;49;00m[43m [49m[38;5;28;43;01mNone[39;49;00m[43m)[49m[43m,[49m[43m [49m[43mhole[49m[38;5;241;43m=[39;49m[43mhole[49m[43m)[49m[43m,[49m
+[1;32m   1486[0m [43m    [49m[43mlayout_patch[49m[38;5;241;43m=[39;49m[43mlayout_patch[49m[43m,[49m
+[1;32m   1487[0m [43m[49m[43m)[49m
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/plotly/express/_core.py:1996[0m, in [0;36mmake_figure[0;34m(args, constructor, trace_patch, layout_patch)[0m
+[1;32m   1993[0m layout_patch [38;5;241m=[39m layout_patch [38;5;129;01mor[39;00m {}
+[1;32m   1994[0m apply_default_cascade(args)
+[0;32m-> 1996[0m args [38;5;241m=[39m [43mbuild_dataframe[49m[43m([49m[43margs[49m[43m,[49m[43m [49m[43mconstructor[49m[43m)[49m
+[1;32m   1997[0m [38;5;28;01mif[39;00m constructor [38;5;129;01min[39;00m [go[38;5;241m.[39mTreemap, go[38;5;241m.[39mSunburst, go[38;5;241m.[39mIcicle] [38;5;129;01mand[39;00m args[[38;5;124m"[39m[38;5;124mpath[39m[38;5;124m"[39m] [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+[1;32m   1998[0m     args [38;5;241m=[39m process_dataframe_hierarchy(args)
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/plotly/express/_core.py:1409[0m, in [0;36mbuild_dataframe[0;34m(args, constructor)[0m
+[1;32m   1406[0m     args[[38;5;124m"[39m[38;5;124mcolor[39m[38;5;124m"[39m] [38;5;241m=[39m [38;5;28;01mNone[39;00m
+[1;32m   1407[0m [38;5;66;03m# now that things have been prepped, we do the systematic rewriting of `args`[39;00m
+[0;32m-> 1409[0m df_output, wide_id_vars [38;5;241m=[39m [43mprocess_args_into_dataframe[49m[43m([49m
+[1;32m   1410[0m [43m    [49m[43margs[49m[43m,[49m[43m [49m[43mwide_mode[49m[43m,[49m[43m [49m[43mvar_name[49m[43m,[49m[43m [49m[43mvalue_name[49m
+[1;32m   1411[0m [43m[49m[43m)[49m
+[1;32m   1413[0m [38;5;66;03m# now that `df_output` exists and `args` contains only references, we complete[39;00m
+[1;32m   1414[0m [38;5;66;03m# the special-case and wide-mode handling by further rewriting args and/or mutating[39;00m
+[1;32m   1415[0m [38;5;66;03m# df_output[39;00m
+[1;32m   1417[0m count_name [38;5;241m=[39m _escape_col_name(df_output, [38;5;124m"[39m[38;5;124mcount[39m[38;5;124m"[39m, [var_name, value_name])
+
+File [0;32m/opt/hostedtoolcache/Python/3.8.16/x64/lib/python3.8/site-packages/plotly/express/_core.py:1208[0m, in [0;36mprocess_args_into_dataframe[0;34m(args, wide_mode, var_name, value_name)[0m
+[1;32m   1206[0m         [38;5;28;01mif[39;00m argument [38;5;241m==[39m [38;5;124m"[39m[38;5;124mindex[39m[38;5;124m"[39m:
+[1;32m   1207[0m             err_msg [38;5;241m+[39m[38;5;241m=[39m [38;5;124m"[39m[38;5;130;01m\n[39;00m[38;5;124m To use the index, pass it in directly as `df.index`.[39m[38;5;124m"[39m
+[0;32m-> 1208[0m         [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m(err_msg)
+[1;32m   1209[0m [38;5;28;01melif[39;00m length [38;5;129;01mand[39;00m [38;5;28mlen[39m(df_input[argument]) [38;5;241m!=[39m length:
+[1;32m   1210[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m(
+[1;32m   1211[0m         [38;5;124m"[39m[38;5;124mAll arguments should have the same length. [39m[38;5;124m"[39m
+[1;32m   1212[0m         [38;5;124m"[39m[38;5;124mThe length of column argument `df[[39m[38;5;132;01m%s[39;00m[38;5;124m]` is [39m[38;5;132;01m%d[39;00m[38;5;124m, whereas the [39m[38;5;124m"[39m
+[0;32m   (...)[0m
+[1;32m   1219[0m         )
+[1;32m   1220[0m     )
+
+[0;31mValueError[0m: Value of 'values' is not the name of a column in 'data_frame'. Expected one of ['organization', 'count'] but received: form_of_organization
+ValueError: Value of 'values' is not the name of a column in 'data_frame'. Expected one of ['organization', 'count'] but received: form_of_organization
+
