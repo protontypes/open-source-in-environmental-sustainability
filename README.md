@@ -7,13 +7,17 @@ This study provides the first analysis of the open source software ecosystem in 
 The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision-makers as well as opportunities for more systemic collaboration. The data acquisition and generation of the plots is almost completely automated. Thus, the study can be repeated in the future. 
 
 ## Usage
+### Read the republished version as a PDF
+The book was republished in a second PDF version after the initial publication together with the Linux Foundation Energy.
 
-### Reading the book
+[![](https://badgen.net/badge/Download/Report%202023/009485?scale=1.4)](https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/OpenSourceSustainabilityEcosystem_080423.pdf) 
+
+### Read the extended version as website
 To help you navigate and to give you a better overview of the ecosystem, all plots are interactive. Project and organisation names are linked within the plots. The book can be read on the following URL: 
 
 [https://report.opensustain.tech/](https://report.opensustain.tech/)
 
-### Building the book
+### Build the book
 
 If you'd like to develop and/or build the Open Source in Environmental Sustainability book, you should:
 
