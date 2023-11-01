@@ -2,7 +2,7 @@
 **Preserving climate and natural resources with openness.**
 <img src="./open-source-in-environmental-sustainability/images/mycelium_sustainability.png" align="right" width="300">
 
-This study provides the first analysis of the open source software ecosystem in sustainability and climate technology. Thousands of actively developed open source projects and organisations have been collected through the [Open Sustainable Technology](https://opensustain.tech/) project and systematically analysed using qualitative and quantitative methods. The collected raw data can be browsed [here](https://airtable.com/shr9we419r2TkpLkc). 
+This study provides the first analysis of the open source software ecosystem in sustainability and climate technology. Thousands of actively developed open source projects and organisations have been collected through the [Open Sustainable Technology](https://opensustain.tech/) project and systematically analysed using qualitative and quantitative methods. The collected raw data can be browsed [here](https://docs.getgrist.com/gSscJkc5Rb1R/OpenSustaintech). 
 
 The analysis covers multiple dimensions – including the technical, the social, and the organisational. It highlights key risks and challenges for users, developers, and decision-makers as well as opportunities for more systemic collaboration. The data acquisition and generation of the plots is almost completely automated. Thus, the study can be repeated in the future. 
 
