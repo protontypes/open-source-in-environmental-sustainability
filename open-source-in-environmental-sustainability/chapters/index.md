@@ -13,7 +13,8 @@
 
 > _"The struggle to understand and steer the interaction between the bitsphere and the biosphere is the struggle for community in the broadest ecological context."_<br/>[Ursula M. Franklin](https://en.wikipedia.org/wiki/Ursula_Franklin), The Real World of Technology (1989)
 
-[![](https://badgen.net/badge/Download%20as/PDF/009485?scale=1.5)](https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/OpenSourceSustainabilityEcosystem_080423.pdf)
+[![](https://badgen.net/badge/Download/PDF/009485?scale=1.6)](https://raw.githubusercontent.com/protontypes/open-source-in-environmental-sustainability/main/OpenSourceSustainabilityEcosystem_080423.pdf) 
+[![](https://badgen.net/badge/View/Dataset/009485?scale=1.6)](https://docs.getgrist.com/gSscJkc5Rb1R/OpenSustaintech)
 
 [![DOI](https://zenodo.org/badge/555793831.svg)](https://zenodo.org/badge/latestdoi/555793831)
 
